@@ -3,7 +3,6 @@ import { Button } from "@/components/Button";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ProofBar } from "@/components/ProofBar";
 import { Waveform } from "@/components/Waveform";
-import { GridBackdrop } from "@/components/GridBackdrop";
 import { JsonLd, personJsonLd } from "@/lib/schema";
 import { pageMetadata } from "@/lib/meta";
 import { CALLSY_URL } from "@/lib/site";
@@ -36,7 +35,6 @@ export default function HomeLt() {
       {/* Hero */}
       <Container className="pt-8 sm:pt-12">
         <section className="avb relative overflow-hidden bg-yellow px-7 py-12 sm:px-12 sm:py-16">
-          <GridBackdrop />
           <a
             href={CALLSY_URL}
             target="_blank"
@@ -46,7 +44,6 @@ export default function HomeLt() {
           >
             callsy.ai ↗
           </a>
-          <div className="relative">
           <p className="avtag inline-block rounded-lg bg-ink px-3 py-1.5 text-yellow">
             Callsy įkūrėjas · AI agentai · Pranešėjas
           </p>
@@ -78,7 +75,6 @@ export default function HomeLt() {
           </div>
           <div className="mt-10">
             <Waveform />
-          </div>
           </div>
         </section>
 
