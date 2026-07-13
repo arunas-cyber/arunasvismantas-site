@@ -3,6 +3,7 @@ import { Button } from "@/components/Button";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ProofBar } from "@/components/ProofBar";
 import { Waveform } from "@/components/Waveform";
+import { HeroPhoto } from "@/components/HeroPhoto";
 import { JsonLd, personJsonLd } from "@/lib/schema";
 import { pageMetadata } from "@/lib/meta";
 import { CALLSY_URL } from "@/lib/site";
@@ -44,6 +45,8 @@ export default function Home() {
           >
             callsy.ai ↗
           </a>
+          <div className="grid gap-10 lg:grid-cols-[1.25fr_1fr]">
+          <div>
           <p className="avtag inline-block rounded-lg bg-ink px-3 py-1.5 text-yellow">
             Founder of Callsy · AI agents · Speaker
           </p>
@@ -75,6 +78,12 @@ export default function Home() {
           </div>
           <div className="mt-10">
             <Waveform />
+          </div>
+          </div>
+          <HeroPhoto
+            label="On stage"
+            alt="Arunas Vismantas speaking on stage at a tech conference"
+          />
           </div>
         </section>
 
