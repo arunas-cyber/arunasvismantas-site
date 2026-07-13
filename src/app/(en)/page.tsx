@@ -55,7 +55,7 @@ export default function Home() {
             <span className="text-coral">And founders.</span>
           </h1>
           <p className="mt-8 max-w-[52ch] text-[19px] font-medium leading-normal">
-            A three-time founder from Vilnius. I co-founded{" "}
+            A five-time founder from Vilnius. I co-founded{" "}
             <strong>Callsy</strong>, an EU AI voice platform for ecommerce.
             This is where I share how I build with AI, the companies I start,
             and the ideas I{" "}
@@ -95,26 +95,25 @@ export default function Home() {
           <div className="grid gap-10 lg:grid-cols-[1fr_1.4fr]">
             <SectionHeading
               eyebrow="The short version"
-              title="Three companies in, one obsession"
+              title="Five companies in, one instinct"
             />
             <div className="max-w-[54ch] space-y-5 text-lg leading-relaxed text-muted">
               <p>
-                I have started three companies, all circling the same idea:
-                software should talk to people the way people do. Today that is{" "}
-                <strong className="text-ink">Callsy</strong>, an EU platform
-                where AI voice, SMS, and email agents handle the conversations
-                ecommerce brands do not have time for.
+                Here is the honest version: I am a lazy person, and I have
+                built a career out of it. If a task is repetitive, my instinct
+                is to automate it. Five companies later, that instinct is the
+                through-line in all of them.
               </p>
               <p>
-                I am not an engineer. I build with AI: the agents themselves,
-                the integrations, entire products, this site included. That
-                constraint turned into the thing I am most useful for. If a
-                non-technical founder can run a production AI platform, the
-                playbook is worth sharing.
+                Today it is <strong className="text-ink">Callsy</strong>, an EU
+                platform where AI voice, SMS, and email agents handle the
+                conversations ecommerce brands do not have time for. Before it
+                came Podbase, Smart Vision, AdKings, and BrandBoosters.
               </p>
               <p>
-                So this is where I share it. My work, my thinking, and the ways
-                we can build something together.
+                I am obsessed with trying new technology, and just as obsessed
+                with sharing what I learn from it. This site is where I put my
+                work, my know-how, and the ways we can build something together.
               </p>
               <div className="pt-1">
                 <Button href="/about" variant="ghost">

@@ -23,7 +23,7 @@ export const personJsonLd = {
     name: "Vilnius, Lithuania",
   },
   description:
-    "Arunas Vismantas is a three-time founder based in Vilnius, Lithuania, and co-founder and CEO of Callsy, an EU platform for AI voice, SMS, and email agents for ecommerce. He builds AI agents with no formal engineering background and speaks about AI agents and startup building.",
+    "Arunas Vismantas is a five-time founder based in Vilnius, Lithuania, and co-founder and CEO of Callsy, an EU platform for AI voice, SMS, and email agents for ecommerce. He has co-founded and led Podbase, Smart Vision, AdKings, BrandBoosters, and Callsy. He builds AI agents with no formal engineering background and speaks about AI agents, automation, and startup building.",
   knowsAbout: [
     "AI agents",
     "artificial intelligence",

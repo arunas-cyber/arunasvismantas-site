@@ -14,11 +14,11 @@ const milestones = [
   },
   {
     year: "2018",
-    text: "Įkūriau Smart Vision, el. prekybos aptarnavimo paslaugų įmonę.",
+    text: "Kartu su komanda įkūriau Smart Vision, el. prekybos aptarnavimo paslaugų įmonę.",
   },
   {
     year: "2020",
-    text: "Ketveri metai el. prekybos augimo darbo: AdKings Agency ir BrandBoosters.io.",
+    text: "Bendraįkūriau ir vadovavau AdKings Agency ir BrandBoosters.io, efektyvaus marketingo ir augimo agentūroms el. prekybos prekės ženklams. Taip pat bendraįkūriau Podbase.",
   },
   {
     year: "2025",
@@ -46,9 +46,9 @@ const sections = [
   {
     h: "Kelias",
     body: [
-      "Daugiau nei dešimtmetį sukuosi el. prekyboje, ir trys verslai vėliau vis dar vejuosi tą pačią mintį: programinė įranga turi kalbėtis su žmonėmis taip, kaip kalbasi žmonės.",
-      "Prasidėjo 2018-aisiais su Smart Vision, el. prekybos aptarnavimo paslaugų įmone. Vėliau keleri metai augimo darbo internetinėms parduotuvėms, AdKings ir BrandBoosters, kur išmokau tiksliai matyti, kur ir kodėl parduotuvės praranda pajamas. 2025-aisiais tai virto Callsy.",
-      "Callsy yra europinė platforma, kurioje AI balso, SMS ir el. pašto agentai veda tikrus pokalbius su klientais: susigrąžina apleistus krepšelius, kvalifikuoja potencialius klientus, priima rezervacijas, primena apie mokėjimus, grąžina pasitraukusius pirkėjus. Įkūriau ją kartu su Laimonu Sutkumi, pamatęs, kiek pardavimų parduotuvės praranda kiekvieną naktį vien todėl, kad niekas nepakelia ragelio.",
+      "Atvirai: esu tinginys, ir iš to susikūriau karjerą. Jei užduotis kartojasi, mano instinktas ją automatizuoti. Penki verslai vėliau tas instinktas yra bendras jų visų vardiklis.",
+      "Prasidėjo 2018-aisiais su Smart Vision, el. prekybos aptarnavimo paslaugų įmone, ir tęsėsi per kelerius efektyvaus marketingo bei augimo metus internetiniams prekės ženklams su AdKings ir BrandBoosters, o pakeliui atsirado ir Podbase. Kiekvienas jų iš kito kampo pamokė to paties: nuobodus, pasikartojantis darbas kaip tik ir yra tai, ką turėtų atlikti programinė įranga.",
+      "Šiandien tai Callsy, europinė platforma, kurioje AI balso, SMS ir el. pašto agentai veda tikrus pokalbius su klientais: susigrąžina apleistus krepšelius, kvalifikuoja potencialius klientus, priima rezervacijas, primena apie mokėjimus, grąžina pasitraukusius pirkėjus. Įkūriau ją kartu su Laimonu Sutkumi, pamatęs, kiek pardavimų parduotuvės praranda kiekvieną naktį vien todėl, kad niekas nepakelia ragelio.",
     ],
   },
   {
@@ -57,6 +57,13 @@ const sections = [
       "Nesu diplomuotas programuotojas. Viską, ką paleidžiu, pastatau su dirbtiniu intelektu: pačius agentus, MCP integracijas, ištisas svetaines, įskaitant šią.",
       "Kadaise tai atrodė kaip trūkumas. Pasirodė, kad tai naudingiausia, ko galiu išmokyti. Įrankiai tapo pakankamai geri, kad steigėjas, kuris tikrai supranta problemą, dabar gali pats sukurti sprendimą, be informatikos diplomo ir nelaukdamas komandos. Jei aš taip valdau veikiančią AI platformą, galite ir jūs.",
       "Todėl atvirai kalbu apie technologijas, realias sąnaudas ir klaidas. Jokios paslapties, jokių vartų.",
+    ],
+  },
+  {
+    h: "Kodėl dalinuosi",
+    body: [
+      "Du dalykai lydi mane visą karjerą. Esu apsėstas naujų technologijų, noriu paliesti kiekvieną naudingą įrankį tą pačią savaitę, kai jis pasirodo. Ir mėgstu perduoti tai, ką išmokstu, ar tai būtų steigėjo mokymas pasistatyti pirmąjį agentą, ar tiesiog žmogaus uždegimas tuo, kas dabar įmanoma.",
+      "Ši svetainė yra abiejų dalykų namai: gidai, pranešimai, kūrimo pastabos. Jei tai, ką išsiaiškinau, jums sutaupys mėnesį, būtent to ir siekiu.",
     ],
   },
   {
@@ -82,7 +89,7 @@ export default function AboutLt() {
       <PageHeader
         eyebrow="Apie mane"
         title="Pirmiausia verslininkas. Inžinierius iš reikalo."
-        lede="Esu Arunas Vismantas, Vilniuje gyvenantis trijų verslų įkūrėjas ir Callsy bendraįkūrėjas bei vadovas. Kuriu AI agentus be formalaus inžinerinio išsilavinimo ir dokumentuoju, kas iš tikrųjų veikia, kad tą patį galėtų padaryti ir kiti steigėjai."
+        lede="Esu Arunas Vismantas, Vilniuje gyvenantis verslo kūrėjas. Bendraįkūriau ir vadovavau penkiems verslams, naujausias jų, Callsy. Kuriu AI agentus be formalaus inžinerinio išsilavinimo ir dalinuosi tuo, ką išmokstu, kad tą patį galėtų padaryti ir kiti steigėjai."
       />
 
       <section className="border-b-[3px] border-ink">

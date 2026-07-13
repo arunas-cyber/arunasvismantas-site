@@ -55,7 +55,7 @@ export default function HomeLt() {
             <span className="text-coral">Ir padedu kurti kitiems.</span>
           </h1>
           <p className="mt-8 max-w-[52ch] text-[19px] font-medium leading-normal">
-            Trijų verslų įkūrėjas iš Vilniaus. Kartu su komanda kuriu{" "}
+            Penkių verslų įkūrėjas iš Vilniaus. Kartu su komanda kuriu{" "}
             <strong>Callsy</strong>, europinę AI balso agentų platformą. Čia
             dalinuosi, kaip kuriu su dirbtiniu intelektu, kokius verslus statau
             ir apie ką{" "}
@@ -95,27 +95,24 @@ export default function HomeLt() {
           <div className="grid gap-10 lg:grid-cols-[1fr_1.4fr]">
             <SectionHeading
               eyebrow="Trumpai apie mane"
-              title="Trys verslai, viena idėja"
+              title="Penki verslai, vienas instinktas"
             />
             <div className="max-w-[54ch] space-y-5 text-lg leading-relaxed text-muted">
               <p>
-                Įkūriau tris verslus, ir visi jie sukasi apie tą pačią mintį:
-                programinė įranga turi kalbėtis su žmonėmis taip, kaip kalbasi
-                žmonės. Šiandien tai{" "}
-                <strong className="text-ink">Callsy</strong>, europinė
-                platforma, kurioje AI balso, SMS ir el. pašto agentai perima
-                pokalbius, kuriems el. parduotuvės neturi laiko.
+                Atvirai: esu tinginys, ir iš to susikūriau karjerą. Jei
+                užduotis kartojasi, mano instinktas ją automatizuoti. Penki
+                verslai vėliau tas instinktas yra bendras jų visų vardiklis.
               </p>
               <p>
-                Nesu programuotojas. Kuriu su dirbtiniu intelektu: pačius
-                agentus, integracijas, ištisus produktus, įskaitant šią
-                svetainę. Būtent tas apribojimas tapo tuo, kuo esu naudingiausias.
-                Jei ne technikos žmogus gali valdyti veikiančią AI platformą,
-                verta tuo pasidalinti.
+                Šiandien tai <strong className="text-ink">Callsy</strong>,
+                europinė platforma, kurioje AI balso, SMS ir el. pašto agentai
+                perima pokalbius, kuriems el. parduotuvės neturi laiko. Prieš ją
+                buvo Podbase, Smart Vision, AdKings ir BrandBoosters.
               </p>
               <p>
-                Tad čia ir dalinuosi. Savo darbais, mintimis ir būdais, kaip
-                galime ką nors sukurti kartu.
+                Esu apsėstas naujų technologijų ir lygiai taip pat mėgstu
+                dalintis tuo, ką iš jų išmokstu. Čia dedu savo darbus, žinias ir
+                būdus, kaip galime ką nors sukurti kartu.
               </p>
               <div className="pt-1">
                 <Button href="/lt/apie" variant="ghost">

@@ -14,11 +14,11 @@ const milestones = [
   },
   {
     year: "2018",
-    text: "Founded Smart Vision, an ecommerce support-services company.",
+    text: "Co-founded Smart Vision, an ecommerce support-services company.",
   },
   {
     year: "2020",
-    text: "Four years of growth work for online brands across AdKings Agency and BrandBoosters.io.",
+    text: "Co-founded and led AdKings Agency and BrandBoosters.io, performance marketing and growth for ecommerce brands. Also co-founded Podbase.",
   },
   {
     year: "2025",
@@ -46,9 +46,9 @@ const sections = [
   {
     h: "The arc",
     body: [
-      "I have spent more than a decade around ecommerce, and three companies in, I am still chasing the same idea: software should talk to people the way people do.",
-      "It started in 2018 with Smart Vision, an ecommerce support-services company. Then came years of growth work for online brands, across AdKings and BrandBoosters, learning in detail where stores leak revenue and why. In 2025 that turned into Callsy.",
-      "Callsy is an EU platform where AI voice, SMS, and email agents hold real customer conversations: recovering abandoned carts, qualifying leads, taking bookings, sending payment reminders, running win-backs. I co-founded it with Laimonas Sutkus after watching online stores lose sales every night, simply because nobody picked up the phone.",
+      "Here is the honest version: I am a lazy person, and I have built a career out of it. If a task is repetitive, my instinct is to automate it. Five companies later, that instinct is the through-line in all of them.",
+      "It started in 2018 with Smart Vision, an ecommerce support-services company, and ran through years of performance marketing and growth for online brands with AdKings and BrandBoosters, plus Podbase along the way. Each one taught the same lesson from a different angle: the boring, repeatable work is exactly what software should handle.",
+      "Today it is Callsy, an EU platform where AI voice, SMS, and email agents hold real customer conversations: recovering abandoned carts, qualifying leads, taking bookings, sending payment reminders, running win-backs. I co-founded it with Laimonas Sutkus after watching online stores lose sales every night, simply because nobody picked up the phone.",
     ],
   },
   {
@@ -57,6 +57,13 @@ const sections = [
       "I am not a classically trained engineer. Everything I ship, I ship by building with AI: the agents themselves, the MCP integrations, entire marketing sites, this one included.",
       "That used to feel like a disadvantage. It turned out to be the most useful thing I can teach. The tools got good enough that a founder who truly understands the problem can now build the solution, without a computer science degree and without waiting on a team. If I can run a production AI platform this way, so can you.",
       "So I am honest about the stack, the real costs, and the mistakes. No mystique, no gatekeeping.",
+    ],
+  },
+  {
+    h: "Why I share it",
+    body: [
+      "Two things have stayed constant my whole career. I am obsessed with trying new technology, I want my hands on every useful tool the week it ships. And I love passing on what I learn, whether that is teaching a founder to wire up their first agent or just getting someone genuinely excited about what is now possible.",
+      "This site is the home for both: the guides, the talks, the build notes. If something I worked out saves you a month, that is the whole point.",
     ],
   },
   {
@@ -82,7 +89,7 @@ export default function About() {
       <PageHeader
         eyebrow="About"
         title="Founder first. Engineer by necessity."
-        lede="I'm Arunas Vismantas, a Vilnius-based three-time founder and co-founder and CEO of Callsy. I build AI agents with no formal engineering background, and I document what actually works so other founders can do the same."
+        lede="I'm Arunas Vismantas, a Vilnius-based founder. I have co-founded and led five companies, most recently Callsy. I build AI agents with no formal engineering background, and I share what I learn so other founders can do the same."
       />
 
       <section className="border-b-[3px] border-ink">
