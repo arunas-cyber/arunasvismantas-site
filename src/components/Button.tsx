@@ -4,7 +4,7 @@ import { type ReactNode } from "react";
 type Variant = "primary" | "secondary" | "dark" | "ghost";
 
 const base =
-  "inline-flex min-h-11 cursor-pointer items-center justify-center gap-2 rounded-xl px-6 text-[15px] font-bold transition-[transform,box-shadow] duration-150";
+  "inline-flex min-h-11 cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-xl px-6 text-[15px] font-bold transition-[transform,box-shadow] duration-150";
 
 const boxed =
   "border-[3px] border-ink shadow-brutal-sm hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal";

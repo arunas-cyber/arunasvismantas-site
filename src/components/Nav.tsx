@@ -32,7 +32,7 @@ export function Nav({ locale }: { locale: Locale }) {
             <Link
               key={r.key}
               href={r.path}
-              className="hidden text-[15px] font-semibold text-muted transition-colors duration-150 hover:text-blue sm:block"
+              className="hidden text-[15px] font-semibold text-muted transition-colors duration-150 hover:text-blue lg:block"
             >
               {r.title}
             </Link>

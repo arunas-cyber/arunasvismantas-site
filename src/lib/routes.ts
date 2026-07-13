@@ -58,6 +58,19 @@ export const routes: SiteRoute[] = [
     tier: 1,
     status: "live",
     counterpart: "about-lt",
+    nav: 2,
+  },
+  {
+    key: "insights",
+    locale: "en",
+    path: "/insights",
+    title: "Insights",
+    description:
+      "Guides and build notes on AI agents, building with AI as a non-engineer, and startup lessons from the Baltics. By Arunas Vismantas.",
+    keywords: ["ai agents", "personal ai assistant"],
+    tier: 2,
+    status: "live",
+    counterpart: "insights-lt",
     nav: 1,
   },
   {
@@ -83,7 +96,7 @@ export const routes: SiteRoute[] = [
     tier: 1,
     status: "live",
     counterpart: "newsletter-lt",
-    nav: 3,
+    nav: 4,
   },
   {
     key: "press",
@@ -96,7 +109,7 @@ export const routes: SiteRoute[] = [
     tier: 1,
     status: "live",
     counterpart: "press-lt",
-    nav: 2,
+    nav: 3,
   },
   {
     key: "privacy",
@@ -156,6 +169,19 @@ export const routes: SiteRoute[] = [
     tier: 1,
     status: "live",
     counterpart: "about",
+    nav: 2,
+  },
+  {
+    key: "insights-lt",
+    locale: "lt",
+    path: "/lt/izvalgos",
+    title: "Įžvalgos",
+    description:
+      "Gidai ir praktinės pastabos apie dirbtinį intelektą, AI agentus ir startuolių kūrimą. Autorius Arunas Vismantas.",
+    keywords: ["dirbtinis intelektas", "ai agentai"],
+    tier: 2,
+    status: "live",
+    counterpart: "insights",
     nav: 1,
   },
   {
@@ -181,7 +207,7 @@ export const routes: SiteRoute[] = [
     tier: 1,
     status: "live",
     counterpart: "newsletter",
-    nav: 3,
+    nav: 4,
   },
   {
     key: "press-lt",
@@ -194,7 +220,7 @@ export const routes: SiteRoute[] = [
     tier: 1,
     status: "live",
     counterpart: "press",
-    nav: 2,
+    nav: 3,
   },
   {
     key: "privacy-lt",
