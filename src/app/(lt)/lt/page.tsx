@@ -52,12 +52,7 @@ export default function HomeLt() {
           </p>
           <h1 className="mt-8 max-w-4xl text-[clamp(2.6rem,7vw,5.25rem)] font-extrabold uppercase leading-[0.86] tracking-[-0.035em]">
             Kuriu AI agentus.{" "}
-            <span
-              className="text-coral"
-              style={{ WebkitTextStroke: "3px #141210" }}
-            >
-              Ir padedu kurti kitiems.
-            </span>
+            <span className="text-coral">Ir padedu kurti kitiems.</span>
           </h1>
           <p className="mt-8 max-w-[52ch] text-[19px] font-medium leading-normal">
             Esu <strong>Callsy</strong> įkūrėjas. Callsy AI balso agentai
