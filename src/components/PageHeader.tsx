@@ -10,16 +10,16 @@ export function PageHeader({
   lede?: string;
 }) {
   return (
-    <section className="border-b border-line">
-      <Container className="py-16 sm:py-24">
-        <p className="text-xs font-medium uppercase tracking-[0.2em] text-muted">
+    <section className="border-b-[3px] border-ink">
+      <Container className="py-16 sm:py-20">
+        <p className="avtag inline-block rounded-lg bg-ink px-3 py-1.5 text-yellow">
           {eyebrow}
         </p>
-        <h1 className="mt-4 max-w-3xl font-serif text-4xl font-medium tracking-tight sm:text-5xl">
+        <h1 className="mt-6 max-w-3xl text-4xl font-extrabold tracking-tight sm:text-5xl">
           {title}
         </h1>
         {lede && (
-          <p className="mt-5 max-w-xl text-lg leading-relaxed text-muted">
+          <p className="mt-5 max-w-xl text-lg font-medium leading-relaxed text-muted">
             {lede}
           </p>
         )}

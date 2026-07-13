@@ -9,8 +9,20 @@ export const metadata = pageMetadata("about-lt");
 
 const milestones = [
   {
+    year: "2010",
+    text: "Vadybos lyderystės bakalauras, Oxford Brookes universitetas.",
+  },
+  {
+    year: "2018",
+    text: "Įkūriau Smart Vision, el. prekybos aptarnavimo paslaugų įmonę. Pirmasis verslas.",
+  },
+  {
+    year: "2020",
+    text: "Ketveri metai el. prekybos marketinge: AdKings Agency ir BrandBoosters.io.",
+  },
+  {
     year: "2025",
-    text: "Įkūriau Callsy: AI balso, SMS ir el. pašto agentai, kurie bendrauja su el. parduotuvių klientais visoje Europoje.",
+    text: "Įkūriau Callsy: AI balso, SMS ir el. pašto agentai, kurie bendrauja su el. parduotuvių klientais visoje Europoje. Trečiasis verslas.",
   },
   {
     year: "2025",
@@ -37,7 +49,7 @@ export default function AboutLt() {
       <PageHeader
         eyebrow="Apie mane"
         title="Pirmiausia verslininkas. Inžinierius iš reikalo."
-        lede="Esu Arunas Vismantas, Callsy įkūrėjas. Kuriu AI agentus kasdien ir dokumentuoju, kas iš tikrųjų veikia, kad tą patį galėtų padaryti ir kiti steigėjai."
+        lede="Esu Arunas Vismantas, Vilniuje gyvenantis trijų verslų įkūrėjas ir Callsy vadovas. Kuriu AI agentus kasdien ir dokumentuoju, kas iš tikrųjų veikia, kad tą patį galėtų padaryti ir kiti steigėjai."
       />
 
       <section className="border-b border-line">
@@ -59,7 +71,7 @@ export default function AboutLt() {
                 href={PITCH_VIDEO_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-accent underline underline-offset-4 transition-colors duration-200 hover:text-ink"
+                className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
               >
                 Prezentacija yra YouTube.
               </a>
@@ -82,7 +94,7 @@ export default function AboutLt() {
 
       <section className="border-b border-line">
         <Container className="py-16">
-          <h2 className="font-serif text-3xl font-medium tracking-tight">
+          <h2 className="text-3xl font-extrabold tracking-tight">
             Svarbiausi etapai
           </h2>
           <ol className="mt-8 max-w-2xl divide-y divide-line border-y border-line">
@@ -100,7 +112,7 @@ export default function AboutLt() {
 
       <section>
         <Container className="flex flex-wrap items-center justify-between gap-6 py-16">
-          <p className="max-w-md font-serif text-2xl font-medium tracking-tight">
+          <p className="max-w-md text-2xl font-extrabold tracking-tight">
             Turite idėją, kur AI agentas galėtų padėti?
           </p>
           <Button href="/lt/konsultacija">Rezervuoti pokalbį</Button>

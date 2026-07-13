@@ -54,8 +54,8 @@ export default function CallLt() {
         <Container className="py-16">
           <div className="grid gap-6 sm:grid-cols-3">
             {topics.map((t) => (
-              <div key={t.title} className="rounded border border-line p-6">
-                <h2 className="font-serif text-xl font-medium">{t.title}</h2>
+              <div key={t.title} className="avb bg-white p-7">
+                <h2 className="text-xl font-extrabold tracking-tight">{t.title}</h2>
                 <p className="mt-3 text-sm leading-relaxed text-muted">
                   {t.body}
                 </p>
@@ -72,7 +72,7 @@ export default function CallLt() {
 
       <section>
         <Container className="py-16">
-          <h2 className="font-serif text-3xl font-medium tracking-tight">
+          <h2 className="text-3xl font-extrabold tracking-tight">
             Dažni klausimai
           </h2>
           <div className="mt-8 max-w-2xl">

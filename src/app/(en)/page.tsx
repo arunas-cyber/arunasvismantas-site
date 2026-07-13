@@ -2,8 +2,10 @@ import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ProofBar } from "@/components/ProofBar";
+import { Waveform } from "@/components/Waveform";
 import { JsonLd, personJsonLd } from "@/lib/schema";
 import { pageMetadata } from "@/lib/meta";
+import { CALLSY_URL } from "@/lib/site";
 
 export const metadata = pageMetadata("home");
 
@@ -31,47 +33,71 @@ export default function Home() {
       <JsonLd data={personJsonLd} />
 
       {/* Hero */}
-      <section className="border-b border-line">
-        <Container className="py-24 sm:py-32">
-          <p className="text-xs font-medium uppercase tracking-[0.2em] text-muted">
+      <Container className="pt-8 sm:pt-12">
+        <section className="avb relative overflow-hidden bg-yellow px-7 py-12 sm:px-12 sm:py-16">
+          <a
+            href={CALLSY_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="avtag absolute right-6 top-6 hidden rounded-full border-[3px] border-ink bg-blue px-4 py-2 text-white shadow-brutal-sm sm:inline-block"
+            style={{ "--r": "7deg", animation: "floaty 5s ease-in-out infinite" } as React.CSSProperties}
+          >
+            callsy.ai ↗
+          </a>
+          <p className="avtag inline-block rounded-lg bg-ink px-3 py-1.5 text-yellow">
             Founder of Callsy · AI agents · Speaker
           </p>
-          <h1 className="mt-6 max-w-3xl font-serif text-[clamp(2.75rem,6vw,4.5rem)] font-medium leading-[1.05] tracking-tight">
-            I build AI agents. <em className="text-accent">And founders.</em>
+          <h1 className="mt-8 max-w-4xl text-[clamp(3rem,8vw,6rem)] font-extrabold uppercase leading-[0.86] tracking-[-0.035em]">
+            I build AI agents.{" "}
+            <span
+              className="text-coral"
+              style={{ WebkitTextStroke: "3px #141210" }}
+            >
+              And founders.
+            </span>
           </h1>
-          <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
-            Founder of Callsy, an EU AI voice platform for ecommerce. I teach
-            founders and operators to build their own AI assistants, and I talk
-            about it on stage.
+          <p className="mt-8 max-w-[52ch] text-[19px] font-medium leading-normal">
+            Founder of <strong>Callsy</strong>, an EU AI voice platform for
+            ecommerce. I teach founders and operators to build AI assistants
+            that{" "}
+            <span className="rounded-md bg-blue px-1.5 py-0.5 text-white">
+              actually work
+            </span>
+            , and I talk about it on stage.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
-            <Button href="/call">Book a call</Button>
+            <Button href="/call" variant="dark">
+              Book a call
+            </Button>
             <Button href="/newsletter" variant="secondary">
               Join the newsletter
             </Button>
           </div>
-        </Container>
-      </section>
+          <div className="mt-10">
+            <Waveform />
+          </div>
+        </section>
 
-      {/* Proof bar */}
-      <section className="border-b border-line">
-        <Container className="py-8">
+        {/* Proof marquee */}
+        <div className="mt-6">
           <ProofBar />
-        </Container>
-      </section>
+        </div>
+      </Container>
 
       {/* Offers */}
       <section>
         <Container className="py-20 sm:py-24">
           <SectionHeading eyebrow="Work with me" title="Three ways in" />
-          <div className="mt-12 grid gap-6 sm:grid-cols-3">
+          <div className="mt-12 grid gap-7 sm:grid-cols-3">
             {offers.map((o) => (
               <div
                 key={o.title}
-                className="flex flex-col rounded border border-line p-6 transition-shadow duration-200 hover:shadow-card"
+                className="avb avb-hover flex flex-col bg-white p-7"
               >
-                <h3 className="font-serif text-xl font-medium">{o.title}</h3>
-                <p className="mt-3 flex-1 text-sm leading-relaxed text-muted">
+                <h3 className="text-xl font-extrabold tracking-tight">
+                  {o.title}
+                </h3>
+                <p className="mt-3 flex-1 text-[15px] leading-relaxed text-muted">
                   {o.body}
                 </p>
                 {o.cta ? (
@@ -81,9 +107,7 @@ export default function Home() {
                     </Button>
                   </div>
                 ) : (
-                  <p className="mt-5 text-xs font-medium uppercase tracking-[0.15em] text-muted">
-                    Coming soon
-                  </p>
+                  <p className="avtag mt-5 text-coral">Coming soon</p>
                 )}
               </div>
             ))}
@@ -92,16 +116,16 @@ export default function Home() {
       </section>
 
       {/* CTA band */}
-      <section className="bg-ink text-paper">
-        <Container className="py-20 text-center">
-          <h2 className="mx-auto max-w-2xl font-serif text-3xl font-medium tracking-tight sm:text-4xl">
+      <Container className="pb-20">
+        <section className="avb bg-ink px-8 py-16 text-center text-paper">
+          <h2 className="mx-auto max-w-2xl text-3xl font-extrabold tracking-tight sm:text-4xl">
             Let&apos;s talk about what an AI agent could do in your business
           </h2>
           <div className="mt-8 flex justify-center">
             <Button href="/call">Book a call</Button>
           </div>
-        </Container>
-      </section>
+        </section>
+      </Container>
     </>
   );
 }

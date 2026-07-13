@@ -20,19 +20,19 @@ export function FAQ({ items }: { items: FaqItem[] }) {
   return (
     <div>
       <JsonLd data={jsonLd} />
-      <div className="divide-y divide-line border-y border-line">
+      <div className="avb divide-y-[2.5px] divide-ink/10 bg-white px-6">
         {items.map((i) => (
           <details key={i.q} className="group py-5">
-            <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-medium">
+            <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[17px] font-bold">
               {i.q}
               <span
                 aria-hidden
-                className="text-muted transition-transform duration-200 group-open:rotate-45"
+                className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-yellow text-ink ring-2 ring-ink transition-transform duration-200 group-open:rotate-45"
               >
                 +
               </span>
             </summary>
-            <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">
+            <p className="mt-3 max-w-2xl text-[15px] leading-relaxed text-muted">
               {i.a}
             </p>
           </details>

@@ -63,7 +63,7 @@ export default function Press() {
             {items.map((item) => (
               <article key={item.name} className="py-6">
                 <div className="flex flex-wrap items-baseline justify-between gap-2">
-                  <h2 className="font-serif text-xl font-medium">
+                  <h2 className="text-xl font-extrabold tracking-tight">
                     {item.name}
                   </h2>
                   <span className="text-sm text-muted">{item.year}</span>
@@ -76,7 +76,7 @@ export default function Press() {
                     href={item.link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-3 inline-block text-sm font-medium text-accent transition-colors duration-200 hover:text-ink"
+                    className="mt-3 inline-block text-sm font-bold text-blue transition-colors duration-150 hover:text-coral"
                   >
                     {item.link.label} →
                   </a>
@@ -89,7 +89,7 @@ export default function Press() {
 
       <section>
         <Container className="flex flex-wrap items-center justify-between gap-6 py-16">
-          <p className="max-w-md font-serif text-2xl font-medium tracking-tight">
+          <p className="max-w-md text-2xl font-extrabold tracking-tight">
             Booking a speaker or a guest for your show?
           </p>
           <Button href="/call">Get in touch</Button>

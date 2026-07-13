@@ -14,20 +14,25 @@ export function Nav({ locale }: { locale: Locale }) {
   const callRoute = routeByKey(cta[locale].key);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-line bg-paper/95 backdrop-blur-sm">
-      <Container className="flex h-16 items-center justify-between gap-4">
+    <header className="sticky top-0 z-50 border-b-[3px] border-ink bg-paper/95 backdrop-blur-sm">
+      <Container className="flex h-[68px] items-center justify-between gap-4">
         <Link
           href={locale === "en" ? "/" : "/lt"}
-          className="shrink-0 font-serif text-lg font-medium tracking-tight"
+          className="flex shrink-0 items-center gap-2.5"
         >
-          Arunas Vismantas
+          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-yellow text-[15px] font-extrabold text-ink ring-2 ring-ink">
+            AV
+          </span>
+          <span className="text-lg font-extrabold tracking-tight">
+            Arunas Vismantas
+          </span>
         </Link>
         <nav className="flex items-center gap-5 sm:gap-6">
           {links.map((r) => (
             <Link
               key={r.key}
               href={r.path}
-              className="hidden text-sm font-medium text-muted transition-colors duration-200 hover:text-ink sm:block"
+              className="hidden text-[15px] font-semibold text-muted transition-colors duration-150 hover:text-blue sm:block"
             >
               {r.title}
             </Link>

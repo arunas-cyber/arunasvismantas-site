@@ -1,5 +1,5 @@
 import { SITE_URL } from "./routes";
-import { CALLSY_URL, LINKEDIN_URL } from "./site";
+import { CALLSY_URL, LINKEDIN_URL, THREADS_URL } from "./site";
 
 /**
  * The canonical Person entity. Same @id everywhere so Google and AI engines
@@ -25,7 +25,7 @@ export const personJsonLd = {
     "ecommerce",
     "MCP integrations",
   ],
-  sameAs: [LINKEDIN_URL, CALLSY_URL],
+  sameAs: [LINKEDIN_URL, THREADS_URL, CALLSY_URL],
 };
 
 export function JsonLd({ data }: { data: object }) {

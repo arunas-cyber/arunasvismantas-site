@@ -25,7 +25,7 @@ export function LegalPage({
           <div className="max-w-[68ch] space-y-8">
             {sections.map((s) => (
               <div key={s.h}>
-                <h2 className="font-serif text-2xl font-medium tracking-tight">
+                <h2 className="text-2xl font-extrabold tracking-tight">
                   {s.h}
                 </h2>
                 <p className="mt-3 leading-relaxed text-muted">{s.p}</p>

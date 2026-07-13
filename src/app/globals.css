@@ -1,19 +1,21 @@
 @import "tailwindcss";
 
 @theme {
-  /* INK design system - the only five colors (see BRAND.md) */
-  --color-paper: #faf9f6;
-  --color-ink: #1a1815;
-  --color-muted: #5c564c;
-  --color-accent: #c2410c;
-  --color-line: #e8e4dc;
+  /* AV Brand System v1.0 (see BRAND.md) */
+  --color-paper: #f4efe1;
+  --color-ink: #141210;
+  --color-yellow: #ffe14d;
+  --color-coral: #ff3d6e;
+  --color-blue: #2e4bff;
+  --color-muted: #3a3631;
+  --color-line: rgb(20 18 16 / 0.15);
 
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-serif: var(--font-newsreader), ui-serif, Georgia, serif;
+  --font-sans: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
 
-  --shadow-card: 0 2px 16px rgb(26 24 21 / 0.06);
-
-  --radius-DEFAULT: 4px;
+  --shadow-brutal-sm: 4px 4px 0 var(--color-ink);
+  --shadow-brutal: 7px 7px 0 var(--color-ink);
+  --shadow-brutal-lg: 10px 10px 0 var(--color-ink);
 }
 
 body {
@@ -24,8 +26,58 @@ body {
 }
 
 ::selection {
-  background: var(--color-accent);
-  color: var(--color-paper);
+  background: var(--color-yellow);
+  color: var(--color-ink);
+}
+
+/* Signature card: 3px ink border, hard shadow, lift on hover */
+.avb {
+  border: 3px solid var(--color-ink);
+  border-radius: 20px;
+  box-shadow: var(--shadow-brutal);
+  transition:
+    transform 0.16s ease,
+    box-shadow 0.16s ease;
+}
+.avb-hover:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-brutal-lg);
+}
+
+/* Mono utility label: JetBrains Mono, uppercase, wide tracking */
+.avtag {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: scaleY(0.28);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+@keyframes floaty {
+  0%,
+  100% {
+    transform: translateY(0) rotate(var(--r, 0deg));
+  }
+  50% {
+    transform: translateY(-9px) rotate(var(--r, 0deg));
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -33,6 +85,7 @@ body {
   *::before,
   *::after {
     animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
 }

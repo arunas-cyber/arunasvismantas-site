@@ -1,66 +1,69 @@
-# INK — the arunasvismantas.eu design system
+# AV Brand System v1.0 — arunasvismantas.eu
 
-Editorial, personal-but-premium. Founder-brand, not corporate SaaS. Print-inspired
-restraint: paper, ink, one accent, hairline rules, confident serif headlines.
+Neo-brutalist founder brand, applied from the official brand book
+("Arunas Vismantas — Brandbook v1.0, 2026"). Bold, candid, high energy.
 Every page uses these tokens and components. No ad-hoc colors, ever.
 
 ## Colors (the only five)
 
-| Token | Hex | Use |
-|---|---|---|
-| `paper` | `#FAF9F6` | Page background. Warm off-white, never pure white. |
-| `ink` | `#1A1815` | Headlines, body text, dark sections (footer, CTA bands). |
-| `muted` | `#5C564C` | Secondary text, captions, metadata. AA on paper. |
-| `accent` | `#C2410C` | Links, primary buttons, active states. Rust. Use sparingly: if a screen has more than two accent elements, remove one. |
-| `line` | `#E8E4DC` | Hairline borders, dividers, card outlines. |
+| Token | Name | Hex | Use |
+|---|---|---|---|
+| `paper` | Paper | `#F4EFE1` | Base surface. |
+| `ink` | Ink Black | `#141210` | Text, 3px outlines, dark blocks. |
+| `yellow` | Voltage Yellow | `#FFE14D` | Primary / hero fields, monogram. |
+| `coral` | Hot Coral | `#FF3D6E` | Accent / energy, hover states, marquee. |
+| `blue` | Signal Blue | `#2E4BFF` | Links, info, badges. |
 
-Dark-on-light is the default. Inverted sections (ink background, paper text) are
-allowed for the footer and one CTA band per page, nothing else.
+Support: `muted` `#3A3631` (body text on light), `line` (ink at 15%, subtle
+dividers).
+
+**60 / 30 / 10 rule:** 60% Paper or Ink base, 30% one bold field (Yellow),
+10% Coral + Blue as sharp accents. Never split brights 50/50; pick one hero
+color per surface.
+
+**Contrast rules:** Ink text on Yellow/Paper/White. White text on
+Coral/Blue/Ink. Never yellow text on white, never coral on blue, never drop
+the black outline on bright fields.
 
 ## Typography (the only two fonts)
 
-- **Newsreader** (serif): headlines, pull quotes, the italic accent word in a
-  headline. Weights 400/500/600. Tight tracking on large sizes.
-- **Inter** (sans): body, UI, nav, buttons, captions. Weights 400/500/600.
-- Both loaded via `next/font` with `latin` + `latin-ext` subsets (Lithuanian
-  diacritics: ą č ę ė į š ų ū ž).
-- Scale: hero `clamp(2.75rem, 6vw, 4.5rem)`; section titles `text-3xl/4xl`;
-  body `text-base/lg` with `leading-relaxed`; captions `text-sm text-muted`.
-- Line length for articles: max 68ch.
+- **Bricolage Grotesque**: display and body. ExtraBold 800 for headlines
+  (display uppercase, tracking -0.035em, line-height ~0.86), SemiBold 600 for
+  emphasis, Regular/Medium for body (17px, generous line height).
+- **JetBrains Mono**: labels, tags, data, timestamps. Always UPPERCASE with
+  wide tracking (`.avtag` class: 11px, +14% tracking, bold).
+- Loaded via `next/font` with `latin` + `latin-ext` subsets (Lithuanian
+  diacritics).
+- Scale: Display 96 / H1 40 / H2 26 / Body 17 / Label 11.
 
-## Borders, radius, shadow
+## Signature elements
 
-- Borders: 1px `line`. Rules and dividers do the visual work, not boxes.
-- Radius: `4px` (`rounded`) on cards, buttons, inputs. Nothing pill-shaped
-  except small tags/badges.
-- Shadow: none at rest. On card hover only: `0 2px 16px rgb(26 24 21 / 0.06)`
-  plus border darkening. No glassmorphism, no gradients, no blur.
+- **`.avb` card**: 3px ink border, 20px radius, hard shadow
+  `7px 7px 0 #141210`. Add `.avb-hover` for the lift (translate -2px,
+  shadow grows to 10px). Buttons use the 4px variant.
+- **AV monogram**: yellow rounded square, ink "AV", ExtraBold (nav +
+  favicon `src/app/icon.svg`). Circle variant for social avatars.
+- **Marquee band** (`ProofBar`): coral card, white mono uppercase, ★
+  separators, 22s scroll.
+- **Waveform** (`Waveform`): animated voice bars, ink with coral/blue
+  accents. The voice-agent motif.
+- **Floaty badge**: pill with 3px border, hard shadow, slow float animation
+  (hero callsy.ai link).
+- **Color-blocked sections**: hero on Yellow, CTA bands on Ink, cards on
+  White. Photos (when added): 3px ink outline + hard shadow, candid founder
+  shots, optionally duotone Ink + Yellow. Never generic stock.
 
 ## Motion
 
-- Micro-interactions 150-250ms, `transition-colors` / `opacity` / small
-  `translate-y`. Respect `prefers-reduced-motion`. No parallax, no scale-on-hover
-  that shifts layout.
-
-## Components (build once, reuse everywhere)
-
-- `Container`: `max-w-6xl mx-auto px-5 sm:px-8`. Articles: `max-w-[68ch]`.
-- `Button`: primary (accent bg, paper text), secondary (ink border, ink text),
-  ghost (accent text link with arrow). All ≥44px tall, `cursor-pointer`.
-- `Nav`: wordmark left, links center/right, one primary CTA. Hairline bottom
-  border. Sticky, paper background.
-- `Footer`: inverted (ink bg), name + one-liner, link columns, socials, legal.
-- `SectionHeading`: eyebrow (sans, uppercase, tracked, muted) + serif title.
-- `Card`: line border, 4px radius, hover shadow. Used for offers, articles,
-  courses.
-- `ProofBar`: single muted row of text logos ("Rykliai. Lietuva (TV3)",
-  "Latitude59", "500 Global", "Firstpick", "Founders & Food").
-- `FAQ`: native `<details>`/`<summary>` accordion, hairline separators
-  (pairs with FAQPage JSON-LD).
-- Article layout: serif display title, byline (always Arunas Vismantas + date),
-  68ch measure, drop-cap optional, pull quotes in Newsreader italic.
+Micro-interactions 150-250ms via transform/box-shadow. Keyframes: `wave`,
+`marquee`, `floaty`. All animations respect `prefers-reduced-motion`.
 
 ## Voice
 
-Professional and specific in EN and LT. Real numbers with sources. No hype,
-no fluff, no em-dashes. Byline is always Arunas Vismantas.
+"Talk like a founder to a founder. No fluff, no hype, just what we're
+building and why." Short sentences. Have a point of view. Warm, human,
+occasionally funny. Show progress, not promises. No em-dashes. Byline is
+always Arunas Vismantas.
+
+Say: "We build AI voice agents that actually pick up the phone."
+Not: "Leveraging synergistic AI-driven paradigms to revolutionise..."

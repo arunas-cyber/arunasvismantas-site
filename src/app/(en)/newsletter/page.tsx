@@ -26,7 +26,7 @@ export default function Newsletter() {
           <ul className="max-w-2xl space-y-4">
             {promises.map((p) => (
               <li key={p} className="flex gap-3 text-lg leading-relaxed">
-                <span aria-hidden className="mt-1 text-accent">
+                <span aria-hidden className="mt-1 font-bold text-coral">
                   ¶
                 </span>
                 {p}
@@ -39,7 +39,7 @@ export default function Newsletter() {
                 Subscribe on Substack
               </Button>
             ) : (
-              <div className="max-w-md rounded border border-line p-6">
+              <div className="max-w-md avb bg-white p-7">
                 <p className="text-sm leading-relaxed text-muted">
                   The newsletter launches soon. Until then, I post the same
                   notes on LinkedIn.

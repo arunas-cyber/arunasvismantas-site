@@ -9,8 +9,20 @@ export const metadata = pageMetadata("about");
 
 const milestones = [
   {
+    year: "2010",
+    text: "BA in Leadership in Management, Oxford Brookes University.",
+  },
+  {
+    year: "2018",
+    text: "Founded Smart Vision, an ecommerce support-services company. Venture number one.",
+  },
+  {
+    year: "2020",
+    text: "Growth work across AdKings Agency and BrandBoosters.io, four years deep in ecommerce marketing.",
+  },
+  {
     year: "2025",
-    text: "Founded Callsy, an EU platform where AI voice, SMS, and email agents handle customer conversations for ecommerce brands.",
+    text: "Founded Callsy, an EU platform where AI voice, SMS, and email agents handle customer conversations for ecommerce brands. Venture number three.",
   },
   {
     year: "2025",
@@ -37,7 +49,7 @@ export default function About() {
       <PageHeader
         eyebrow="About"
         title="Founder first. Engineer by necessity."
-        lede="I'm Arunas Vismantas, founder of Callsy. I build AI agents for a living, and I document what actually works for founders who want to do the same."
+        lede="I'm Arunas Vismantas, a Vilnius-based three-time founder and CEO of Callsy. I build AI agents for a living, and I document what actually works for founders who want to do the same."
       />
 
       <section className="border-b border-line">
@@ -59,7 +71,7 @@ export default function About() {
                 href={PITCH_VIDEO_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-accent underline underline-offset-4 transition-colors duration-200 hover:text-ink"
+                className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
               >
                 The pitch is on YouTube.
               </a>
@@ -83,7 +95,7 @@ export default function About() {
 
       <section className="border-b border-line">
         <Container className="py-16">
-          <h2 className="font-serif text-3xl font-medium tracking-tight">
+          <h2 className="text-3xl font-extrabold tracking-tight">
             Milestones
           </h2>
           <ol className="mt-8 max-w-2xl divide-y divide-line border-y border-line">
@@ -101,7 +113,7 @@ export default function About() {
 
       <section>
         <Container className="flex flex-wrap items-center justify-between gap-6 py-16">
-          <p className="max-w-md font-serif text-2xl font-medium tracking-tight">
+          <p className="max-w-md text-2xl font-extrabold tracking-tight">
             Working on something an AI agent could help with?
           </p>
           <Button href="/call">Book a call</Button>

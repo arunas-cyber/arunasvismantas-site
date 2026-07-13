@@ -2,8 +2,10 @@ import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ProofBar } from "@/components/ProofBar";
+import { Waveform } from "@/components/Waveform";
 import { JsonLd, personJsonLd } from "@/lib/schema";
 import { pageMetadata } from "@/lib/meta";
+import { CALLSY_URL } from "@/lib/site";
 
 export const metadata = pageMetadata("home-lt");
 
@@ -31,36 +33,56 @@ export default function HomeLt() {
       <JsonLd data={personJsonLd} />
 
       {/* Hero */}
-      <section className="border-b border-line">
-        <Container className="py-24 sm:py-32">
-          <p className="text-xs font-medium uppercase tracking-[0.2em] text-muted">
+      <Container className="pt-8 sm:pt-12">
+        <section className="avb relative overflow-hidden bg-yellow px-7 py-12 sm:px-12 sm:py-16">
+          <a
+            href={CALLSY_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="avtag absolute right-6 top-6 hidden rounded-full border-[3px] border-ink bg-blue px-4 py-2 text-white shadow-brutal-sm sm:inline-block"
+            style={{ "--r": "7deg", animation: "floaty 5s ease-in-out infinite" } as React.CSSProperties}
+          >
+            callsy.ai ↗
+          </a>
+          <p className="avtag inline-block rounded-lg bg-ink px-3 py-1.5 text-yellow">
             Callsy įkūrėjas · AI agentai · Pranešėjas
           </p>
-          <h1 className="mt-6 max-w-3xl font-serif text-[clamp(2.75rem,6vw,4.5rem)] font-medium leading-[1.05] tracking-tight">
+          <h1 className="mt-8 max-w-4xl text-[clamp(2.6rem,7vw,5.25rem)] font-extrabold uppercase leading-[0.86] tracking-[-0.035em]">
             Kuriu AI agentus.{" "}
-            <em className="text-accent">Ir padedu kurti kitiems.</em>
+            <span
+              className="text-coral"
+              style={{ WebkitTextStroke: "3px #141210" }}
+            >
+              Ir padedu kurti kitiems.
+            </span>
           </h1>
-          <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
-            Esu Callsy įkūrėjas. Callsy AI balso agentai atsiliepia į
-            skambučius už el. parduotuves visoje Europoje. Mokau steigėjus ir
-            komandas susikurti savo AI asistentą, o patirtimi dalinuosi
-            scenoje.
+          <p className="mt-8 max-w-[52ch] text-[19px] font-medium leading-normal">
+            Esu <strong>Callsy</strong> įkūrėjas. Callsy AI balso agentai
+            atsiliepia į skambučius už el. parduotuves visoje Europoje. Mokau
+            steigėjus susikurti AI asistentą, kuris{" "}
+            <span className="rounded-md bg-blue px-1.5 py-0.5 text-white">
+              iš tikrųjų veikia
+            </span>
+            , o patirtimi dalinuosi scenoje.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
-            <Button href="/lt/konsultacija">Rezervuoti pokalbį</Button>
+            <Button href="/lt/konsultacija" variant="dark">
+              Rezervuoti pokalbį
+            </Button>
             <Button href="/lt/naujienlaiskis" variant="secondary">
               Prenumeruoti naujienlaiškį
             </Button>
           </div>
-        </Container>
-      </section>
+          <div className="mt-10">
+            <Waveform />
+          </div>
+        </section>
 
-      {/* Proof bar */}
-      <section className="border-b border-line">
-        <Container className="py-8">
+        {/* Proof marquee */}
+        <div className="mt-6">
           <ProofBar />
-        </Container>
-      </section>
+        </div>
+      </Container>
 
       {/* Offers */}
       <section>
@@ -69,14 +91,16 @@ export default function HomeLt() {
             eyebrow="Dirbkime kartu"
             title="Trys keliai pradėti"
           />
-          <div className="mt-12 grid gap-6 sm:grid-cols-3">
+          <div className="mt-12 grid gap-7 sm:grid-cols-3">
             {offers.map((o) => (
               <div
                 key={o.title}
-                className="flex flex-col rounded border border-line p-6 transition-shadow duration-200 hover:shadow-card"
+                className="avb avb-hover flex flex-col bg-white p-7"
               >
-                <h3 className="font-serif text-xl font-medium">{o.title}</h3>
-                <p className="mt-3 flex-1 text-sm leading-relaxed text-muted">
+                <h3 className="text-xl font-extrabold tracking-tight">
+                  {o.title}
+                </h3>
+                <p className="mt-3 flex-1 text-[15px] leading-relaxed text-muted">
                   {o.body}
                 </p>
                 {o.cta ? (
@@ -86,9 +110,7 @@ export default function HomeLt() {
                     </Button>
                   </div>
                 ) : (
-                  <p className="mt-5 text-xs font-medium uppercase tracking-[0.15em] text-muted">
-                    Jau greitai
-                  </p>
+                  <p className="avtag mt-5 text-coral">Jau greitai</p>
                 )}
               </div>
             ))}
@@ -97,16 +119,16 @@ export default function HomeLt() {
       </section>
 
       {/* CTA band */}
-      <section className="bg-ink text-paper">
-        <Container className="py-20 text-center">
-          <h2 className="mx-auto max-w-2xl font-serif text-3xl font-medium tracking-tight sm:text-4xl">
+      <Container className="pb-20">
+        <section className="avb bg-ink px-8 py-16 text-center text-paper">
+          <h2 className="mx-auto max-w-2xl text-3xl font-extrabold tracking-tight sm:text-4xl">
             Pasikalbėkime, ką AI agentas galėtų nuveikti jūsų versle
           </h2>
           <div className="mt-8 flex justify-center">
             <Button href="/lt/konsultacija">Rezervuoti pokalbį</Button>
           </div>
-        </Container>
-      </section>
+        </section>
+      </Container>
     </>
   );
 }
