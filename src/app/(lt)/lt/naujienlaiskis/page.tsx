@@ -7,7 +7,7 @@ import { LINKEDIN_URL, SUBSTACK_URL } from "@/lib/site";
 export const metadata = pageMetadata("newsletter-lt");
 
 const promises = [
-  "Ką pastačiau ir kiek tai kainavo, su tikrais skaičiais.",
+  "Ką sukūriau ir kiek tai kainavo, su tikrais skaičiais.",
   "AI agentų ir MCP metodai, kurie išgyvena susidūrimą su realybe.",
   "Atviros pastabos apie startuolio auginimą Baltijos šalyse: akseleratoriai, prezentacijos, pardavimai.",
 ];
@@ -17,7 +17,7 @@ export default function NewsletterLt() {
     <>
       <PageHeader
         eyebrow="Naujienlaiškis"
-        title="Statybų užrašai, ne filosofija"
+        title="Kūrimo užrašai, ne filosofija"
         lede="Rašau tada, kai turiu ką naudingo pasakyti: ką paleidau, kiek kainavo, ką daryčiau kitaip. Jokio turinio dėl turinio."
       />
 

@@ -18,7 +18,7 @@ const topics = [
   },
   {
     title: "Investicijos ir akseleratoriai",
-    body: "Kas iš tikrųjų pajudino Callsy: FirstPick, 500 Global, Latitude59 ir prezentacija nacionalinėje televizijoje. Be teorijos, tik patirtis.",
+    body: "Kas iš tikrųjų pajudino Callsy: FirstPick, 500 Global, Latitude59 ir pasirodymas nacionalinėje televizijoje. Be teorijos, tik patirtis.",
   },
 ];
 

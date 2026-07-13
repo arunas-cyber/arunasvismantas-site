@@ -13,12 +13,12 @@ export const metadata = pageMetadata("home-lt");
 const offers = [
   {
     title: "Susikurk savo AI asistentą",
-    body: "Praktiniai mokymai, kaip pasistatyti AI agentą, kuris iš tikrųjų dirba darbą. Jau greitai.",
+    body: "Praktiniai mokymai, kaip susikurti AI agentą, kuris iš tikrųjų atlieka darbą. Jau greitai.",
     cta: null,
   },
   {
     title: "Konsultacija",
-    body: "AI agentai, MCP integracijos, el. prekybos automatizavimas ar investicijų pritraukimas. Patarimai iš žmogaus, kuris prezentavo nacionalinėje televizijoje.",
+    body: "AI agentai, MCP integracijos, el. prekybos automatizavimas ar investicijų pritraukimas. Patarimai iš žmogaus, kuris savo verslą pristatė nacionalinėje televizijoje.",
     cta: { label: "Rezervuoti pokalbį", href: "/lt/konsultacija" },
   },
   {
@@ -100,8 +100,8 @@ export default function HomeLt() {
             <div className="max-w-[54ch] space-y-5 text-lg leading-relaxed text-muted">
               <p>
                 Atvirai: esu tinginys, ir iš to susikūriau karjerą. Jei
-                užduotis kartojasi, mano instinktas ją automatizuoti. Penki
-                verslai vėliau tas instinktas yra bendras jų visų vardiklis.
+                užduotis kartojasi, ją automatizuoju. Tas pats instinktas
+                jungia visus penkis mano verslus.
               </p>
               <p>
                 Šiandien tai <strong className="text-ink">Callsy</strong>,

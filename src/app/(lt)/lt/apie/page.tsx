@@ -18,7 +18,7 @@ const milestones = [
   },
   {
     year: "2020",
-    text: "Bendraįkūriau ir vadovavau AdKings Agency ir BrandBoosters.io, efektyvaus marketingo ir augimo agentūroms el. prekybos prekės ženklams. Taip pat bendraįkūriau Podbase.",
+    text: "Bendraįkūriau ir vadovavau AdKings Agency ir BrandBoosters.io, efektyvaus marketingo agentūroms el. parduotuvėms. Taip pat bendraįkūriau Podbase.",
   },
   {
     year: "2025",
@@ -46,24 +46,24 @@ const sections = [
   {
     h: "Kelias",
     body: [
-      "Atvirai: esu tinginys, ir iš to susikūriau karjerą. Jei užduotis kartojasi, mano instinktas ją automatizuoti. Penki verslai vėliau tas instinktas yra bendras jų visų vardiklis.",
-      "Prasidėjo 2018-aisiais su Smart Vision, el. prekybos aptarnavimo paslaugų įmone, ir tęsėsi per kelerius efektyvaus marketingo bei augimo metus internetiniams prekės ženklams su AdKings ir BrandBoosters, o pakeliui atsirado ir Podbase. Kiekvienas jų iš kito kampo pamokė to paties: nuobodus, pasikartojantis darbas kaip tik ir yra tai, ką turėtų atlikti programinė įranga.",
+      "Atvirai: esu tinginys, ir iš to susikūriau karjerą. Jei užduotis kartojasi, ją automatizuoju. Tas pats instinktas jungia visus penkis mano verslus.",
+      "Prasidėjo 2018-aisiais su Smart Vision, el. prekybos aptarnavimo paslaugų įmone. Vėliau buvo keleri metai efektyvaus marketingo ir augimo darbo el. parduotuvėms su AdKings ir BrandBoosters, o pakeliui atsirado ir Podbase. Kiekvienas šių verslų iš kito kampo pamokė to paties: nuobodų, pasikartojantį darbą kaip tik ir turėtų atlikti programinė įranga.",
       "Šiandien tai Callsy, europinė platforma, kurioje AI balso, SMS ir el. pašto agentai veda tikrus pokalbius su klientais: susigrąžina apleistus krepšelius, kvalifikuoja potencialius klientus, priima rezervacijas, primena apie mokėjimus, grąžina pasitraukusius pirkėjus. Įkūriau ją kartu su Laimonu Sutkumi, pamatęs, kiek pardavimų parduotuvės praranda kiekvieną naktį vien todėl, kad niekas nepakelia ragelio.",
     ],
   },
   {
     h: "Kaip kuriu",
     body: [
-      "Nesu diplomuotas programuotojas. Viską, ką paleidžiu, pastatau su dirbtiniu intelektu: pačius agentus, MCP integracijas, ištisas svetaines, įskaitant šią.",
+      "Nesu diplomuotas programuotojas. Viską, ką paleidžiu, susikuriu su dirbtiniu intelektu: pačius agentus, MCP integracijas, ištisas svetaines, įskaitant šią.",
       "Kadaise tai atrodė kaip trūkumas. Pasirodė, kad tai naudingiausia, ko galiu išmokyti. Įrankiai tapo pakankamai geri, kad steigėjas, kuris tikrai supranta problemą, dabar gali pats sukurti sprendimą, be informatikos diplomo ir nelaukdamas komandos. Jei aš taip valdau veikiančią AI platformą, galite ir jūs.",
-      "Todėl atvirai kalbu apie technologijas, realias sąnaudas ir klaidas. Jokios paslapties, jokių vartų.",
+      "Todėl atvirai kalbu apie technologijas, realias sąnaudas ir klaidas. Nieko neslepiu ir nesureikšminu.",
     ],
   },
   {
     h: "Kodėl dalinuosi",
     body: [
-      "Du dalykai lydi mane visą karjerą. Esu apsėstas naujų technologijų, noriu paliesti kiekvieną naudingą įrankį tą pačią savaitę, kai jis pasirodo. Ir mėgstu perduoti tai, ką išmokstu, ar tai būtų steigėjo mokymas pasistatyti pirmąjį agentą, ar tiesiog žmogaus uždegimas tuo, kas dabar įmanoma.",
-      "Ši svetainė yra abiejų dalykų namai: gidai, pranešimai, kūrimo pastabos. Jei tai, ką išsiaiškinau, jums sutaupys mėnesį, būtent to ir siekiu.",
+      "Du dalykai lydi mane visą karjerą. Esu apsėstas naujų technologijų, noriu išbandyti kiekvieną naudingą įrankį tą pačią savaitę, kai jis pasirodo. Ir mėgstu dalintis tuo, ką išmokstu, ar tai būtų steigėjo mokymas susikurti pirmąjį agentą, ar tiesiog kai pavyksta ką nors uždegti tuo, kas dabar įmanoma.",
+      "Šioje svetainėje telpa abu: gidai, pranešimai, kūrimo užrašai. Jei tai, ką išsiaiškinau, jums sutaupys mėnesį, būtent to ir siekiu.",
     ],
   },
   {
@@ -76,7 +76,7 @@ const sections = [
   {
     h: "Dabar",
     body: [
-      "Šiandien auginu Callsy ir renku investicijas 2026-iesiems, ką tik baigęs 500 Global Eurasia akseleratorių ir FirstPick AI akseleratorių, pirmąjį Baltijos šalyse. Pakeliui Callsy prezentavo laidoje Rykliai. Lietuva, pateko į Latitude59 pitch finalą ir buvo įvertinta kaip #3 AI įmonė F6S platformoje.",
+      "Šiandien auginu Callsy ir renku investicijas 2026-iesiems, ką tik baigęs 500 Global Eurasia akseleratorių ir FirstPick AI akseleratorių, pirmąjį Baltijos šalyse. Pakeliui su Callsy pasirodėme laidoje Rykliai. Lietuva, patekome į Latitude59 finalą ir buvome įvertinti kaip #3 AI įmonė F6S platformoje.",
       "Be įmonės, vedu tinklalaidę Founders & Food, kur lietuviai steigėjai atvirai kalbasi prie vakarienės, ir skaitau pranešimus startuolių bei AI renginiuose lietuviškai ir angliškai.",
     ],
   },
@@ -89,7 +89,7 @@ export default function AboutLt() {
       <PageHeader
         eyebrow="Apie mane"
         title="Pirmiausia verslininkas. Inžinierius iš reikalo."
-        lede="Esu Arunas Vismantas, Vilniuje gyvenantis verslo kūrėjas. Bendraįkūriau ir vadovavau penkiems verslams, naujausias jų, Callsy. Kuriu AI agentus be formalaus inžinerinio išsilavinimo ir dalinuosi tuo, ką išmokstu, kad tą patį galėtų padaryti ir kiti steigėjai."
+        lede="Esu Arunas Vismantas, Vilniuje gyvenantis steigėjas. Bendraįkūriau ir vadovavau penkiems verslams, iš kurių naujausias yra Callsy. Kuriu AI agentus be formalaus inžinerinio išsilavinimo ir dalinuosi tuo, ką išmokstu, kad tą patį galėtų padaryti ir kiti steigėjai."
       />
 
       <section className="border-b-[3px] border-ink">

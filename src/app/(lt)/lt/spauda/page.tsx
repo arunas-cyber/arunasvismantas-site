@@ -10,13 +10,13 @@ const items = [
   {
     name: "Rykliai. Lietuva (TV3)",
     year: "2025",
-    body: "Prezentavau Callsy nacionalinėje televizijoje. Sandorio nebuvo, bet verslą eteryje patvirtino du vienaragių kūrėjai: Tadas Burgaila ir Toma Sabaliauskienė.",
-    link: { label: "Žiūrėti prezentaciją", href: PITCH_VIDEO_URL },
+    body: "Pristačiau Callsy nacionalinėje televizijoje. Sandorio nebuvo, bet verslą eteryje patvirtino du vienaragių kūrėjai: Tadas Burgaila ir Toma Sabaliauskienė.",
+    link: { label: "Žiūrėti įrašą", href: PITCH_VIDEO_URL },
   },
   {
     name: "Latitude59 pitch konkursas",
     year: "2026",
-    body: "Vienas iš 7 finalininkų svarbiausioje Baltijos startuolių konferencijoje. Pristatyta kaip AI darbuotojų agentai, automatizuojantys pardavimus, aktyvaciją ir aptarnavimą.",
+    body: "Vienas iš 7 finalininkų svarbiausioje Baltijos startuolių konferencijoje. Pristatyta kaip AI agentai, automatizuojantys pardavimus, aktyvavimą ir aptarnavimą.",
     link: {
       label: "Pranešimas",
       href: "https://latitude59.ee/startups-from-estonia-finland-lithuania-and-ukraine-reach-the-finals-of-latitude59s-pitch-competition/",
