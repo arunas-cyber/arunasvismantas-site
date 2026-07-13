@@ -12,18 +12,26 @@ export const personJsonLd = {
   "@id": `${SITE_URL}/#person`,
   name: "Arunas Vismantas",
   url: SITE_URL,
-  jobTitle: "Founder",
+  jobTitle: "Co-founder and CEO of Callsy",
   worksFor: {
     "@type": "Organization",
     name: "Callsy",
     url: CALLSY_URL,
   },
+  homeLocation: {
+    "@type": "Place",
+    name: "Vilnius, Lithuania",
+  },
+  description:
+    "Arunas Vismantas is a three-time founder based in Vilnius, Lithuania, and co-founder and CEO of Callsy, an EU platform for AI voice, SMS, and email agents for ecommerce. He builds AI agents with no formal engineering background and speaks about AI agents and startup building.",
   knowsAbout: [
     "AI agents",
     "artificial intelligence",
+    "building with AI",
     "startups",
     "ecommerce",
     "MCP integrations",
+    "startup fundraising",
   ],
   sameAs: [LINKEDIN_URL, THREADS_URL, CALLSY_URL],
 };

@@ -55,13 +55,14 @@ export default function HomeLt() {
             <span className="text-coral">Ir padedu kurti kitiems.</span>
           </h1>
           <p className="mt-8 max-w-[52ch] text-[19px] font-medium leading-normal">
-            Esu <strong>Callsy</strong> įkūrėjas. Callsy AI balso agentai
-            atsiliepia į skambučius už el. parduotuves visoje Europoje. Mokau
-            steigėjus susikurti AI asistentą, kuris{" "}
+            Trijų verslų įkūrėjas iš Vilniaus. Kartu su komanda kuriu{" "}
+            <strong>Callsy</strong>, europinę AI balso agentų platformą. Čia
+            dalinuosi, kaip kuriu su dirbtiniu intelektu, kokius verslus statau
+            ir apie ką{" "}
             <span className="rounded-md bg-blue px-1.5 py-0.5 text-white">
-              iš tikrųjų veikia
+              kalbu scenoje
             </span>
-            , o patirtimi dalinuosi scenoje.
+            .
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <Button href="/lt/konsultacija" variant="dark">
@@ -88,8 +89,46 @@ export default function HomeLt() {
         </div>
       </Container>
 
-      {/* Offers */}
+      {/* Story */}
       <section>
+        <Container className="py-20 sm:py-24">
+          <div className="grid gap-10 lg:grid-cols-[1fr_1.4fr]">
+            <SectionHeading
+              eyebrow="Trumpai apie mane"
+              title="Trys verslai, viena idėja"
+            />
+            <div className="max-w-[54ch] space-y-5 text-lg leading-relaxed text-muted">
+              <p>
+                Įkūriau tris verslus, ir visi jie sukasi apie tą pačią mintį:
+                programinė įranga turi kalbėtis su žmonėmis taip, kaip kalbasi
+                žmonės. Šiandien tai{" "}
+                <strong className="text-ink">Callsy</strong>, europinė
+                platforma, kurioje AI balso, SMS ir el. pašto agentai perima
+                pokalbius, kuriems el. parduotuvės neturi laiko.
+              </p>
+              <p>
+                Nesu programuotojas. Kuriu su dirbtiniu intelektu: pačius
+                agentus, integracijas, ištisus produktus, įskaitant šią
+                svetainę. Būtent tas apribojimas tapo tuo, kuo esu naudingiausias.
+                Jei ne technikos žmogus gali valdyti veikiančią AI platformą,
+                verta tuo pasidalinti.
+              </p>
+              <p>
+                Tad čia ir dalinuosi. Savo darbais, mintimis ir būdais, kaip
+                galime ką nors sukurti kartu.
+              </p>
+              <div className="pt-1">
+                <Button href="/lt/apie" variant="ghost">
+                  Visa istorija →
+                </Button>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* Offers */}
+      <section className="border-t-[3px] border-ink">
         <Container className="py-20 sm:py-24">
           <SectionHeading
             eyebrow="Dirbkime kartu"
@@ -122,8 +161,35 @@ export default function HomeLt() {
         </Container>
       </section>
 
+      {/* Writing teaser */}
+      <section className="border-t-[3px] border-ink bg-white">
+        <Container className="py-20 sm:py-24">
+          <div className="flex flex-wrap items-end justify-between gap-6">
+            <SectionHeading
+              eyebrow="Apie ką rašau"
+              title="Pastabos iš kūrimo, ne teorija"
+            />
+            <Button href="/lt/izvalgos" variant="secondary">
+              Skaityti įžvalgas
+            </Button>
+          </div>
+          <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {[
+              "Kaip susikurti savo AI asistentą",
+              "Produktų kūrimas su AI be programavimo",
+              "AI agentai el. prekybai",
+              "Startuolio kūrimas Baltijos šalyse",
+            ].map((topic) => (
+              <li key={topic} className="avb bg-paper p-5 text-[15px] font-bold">
+                {topic}
+              </li>
+            ))}
+          </ul>
+        </Container>
+      </section>
+
       {/* CTA band */}
-      <Container className="pb-20">
+      <Container className="py-20">
         <section className="avb bg-ink px-8 py-16 text-center text-paper">
           <h2 className="mx-auto max-w-2xl text-3xl font-extrabold tracking-tight sm:text-4xl">
             Pasikalbėkime, ką AI agentas galėtų nuveikti jūsų versle

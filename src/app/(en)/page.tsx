@@ -55,13 +55,14 @@ export default function Home() {
             <span className="text-coral">And founders.</span>
           </h1>
           <p className="mt-8 max-w-[52ch] text-[19px] font-medium leading-normal">
-            Founder of <strong>Callsy</strong>, an EU AI voice platform for
-            ecommerce. I teach founders and operators to build AI assistants
-            that{" "}
+            A three-time founder from Vilnius. I co-founded{" "}
+            <strong>Callsy</strong>, an EU AI voice platform for ecommerce.
+            This is where I share how I build with AI, the companies I start,
+            and the ideas I{" "}
             <span className="rounded-md bg-blue px-1.5 py-0.5 text-white">
-              actually work
+              talk about on stage
             </span>
-            , and I talk about it on stage.
+            .
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <Button href="/call" variant="dark">
@@ -88,8 +89,45 @@ export default function Home() {
         </div>
       </Container>
 
-      {/* Offers */}
+      {/* Story */}
       <section>
+        <Container className="py-20 sm:py-24">
+          <div className="grid gap-10 lg:grid-cols-[1fr_1.4fr]">
+            <SectionHeading
+              eyebrow="The short version"
+              title="Three companies in, one obsession"
+            />
+            <div className="max-w-[54ch] space-y-5 text-lg leading-relaxed text-muted">
+              <p>
+                I have started three companies, all circling the same idea:
+                software should talk to people the way people do. Today that is{" "}
+                <strong className="text-ink">Callsy</strong>, an EU platform
+                where AI voice, SMS, and email agents handle the conversations
+                ecommerce brands do not have time for.
+              </p>
+              <p>
+                I am not an engineer. I build with AI: the agents themselves,
+                the integrations, entire products, this site included. That
+                constraint turned into the thing I am most useful for. If a
+                non-technical founder can run a production AI platform, the
+                playbook is worth sharing.
+              </p>
+              <p>
+                So this is where I share it. My work, my thinking, and the ways
+                we can build something together.
+              </p>
+              <div className="pt-1">
+                <Button href="/about" variant="ghost">
+                  Read the full story →
+                </Button>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* Offers */}
+      <section className="border-t-[3px] border-ink">
         <Container className="py-20 sm:py-24">
           <SectionHeading eyebrow="Work with me" title="Three ways in" />
           <div className="mt-12 grid gap-7 sm:grid-cols-3">
@@ -119,8 +157,35 @@ export default function Home() {
         </Container>
       </section>
 
+      {/* Writing teaser */}
+      <section className="border-t-[3px] border-ink bg-white">
+        <Container className="py-20 sm:py-24">
+          <div className="flex flex-wrap items-end justify-between gap-6">
+            <SectionHeading
+              eyebrow="What I write about"
+              title="Notes from building, not think pieces"
+            />
+            <Button href="/insights" variant="secondary">
+              Read the insights
+            </Button>
+          </div>
+          <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {[
+              "Building your own AI assistant",
+              "Building products with AI as a non-engineer",
+              "AI agents for ecommerce",
+              "Starting up in the Baltics",
+            ].map((topic) => (
+              <li key={topic} className="avb bg-paper p-5 text-[15px] font-bold">
+                {topic}
+              </li>
+            ))}
+          </ul>
+        </Container>
+      </section>
+
       {/* CTA band */}
-      <Container className="pb-20">
+      <Container className="py-20">
         <section className="avb bg-ink px-8 py-16 text-center text-paper">
           <h2 className="mx-auto max-w-2xl text-3xl font-extrabold tracking-tight sm:text-4xl">
             Let&apos;s talk about what an AI agent could do in your business
