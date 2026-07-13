@@ -1,11 +1,11 @@
 import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { PageHeader } from "@/components/PageHeader";
-import { JsonLd, personJsonLd } from "@/lib/schema";
+import { JsonLd, personJsonLd, profilePageJsonLd } from "@/lib/schema";
 import { pageMetadata } from "@/lib/meta";
 import { PITCH_VIDEO_URL } from "@/lib/site";
 
-export const metadata = pageMetadata("about-lt");
+export const metadata = pageMetadata("about-lt", { ogType: "profile" });
 
 const milestones = [
   {
@@ -86,6 +86,7 @@ export default function AboutLt() {
   return (
     <>
       <JsonLd data={personJsonLd} />
+      <JsonLd data={profilePageJsonLd} />
       <PageHeader
         eyebrow="Apie mane"
         title="Pirmiausia verslininkas. Inžinierius iš reikalo."

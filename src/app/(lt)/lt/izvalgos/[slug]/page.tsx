@@ -19,7 +19,12 @@ export async function generateMetadata({
   const { slug } = await params;
   const route = routeByPath(`/lt/izvalgos/${slug}`);
   if (!route) return {};
-  return pageMetadata(route.key);
+  const article = articleByRouteKey(route.key);
+  return pageMetadata(route.key, {
+    ogType: "article",
+    publishedTime: article?.publishedAt,
+    modifiedTime: article?.updatedAt,
+  });
 }
 
 export default async function InsightPageLt({

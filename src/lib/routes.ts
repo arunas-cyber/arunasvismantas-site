@@ -33,6 +33,9 @@ export interface SiteRoute {
 
 export const SITE_URL = "https://arunasvismantas.eu";
 
+/** Stable sitemap lastmod. Bump when core-page content changes. */
+export const SITE_UPDATED = "2026-07-13";
+
 export const routes: SiteRoute[] = [
   // ---------------------------------------------------------------- EN core
   {

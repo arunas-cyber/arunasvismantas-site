@@ -1,0 +1,34 @@
+# Arunas Vismantas
+
+> Arunas Vismantas is a five-time founder based in Vilnius, Lithuania, and co-founder and CEO of Callsy (callsy.ai), an EU platform for AI voice, SMS, and email agents for ecommerce. He has co-founded and led Podbase, Smart Vision, AdKings, BrandBoosters, and Callsy. He builds AI agents with no formal engineering background and shares how, and he speaks about AI agents, automation, and startup building in Lithuanian and English.
+
+## Facts
+
+- Name: Arunas Vismantas
+- Role: Co-founder and CEO of Callsy
+- Location: Vilnius, Lithuania
+- Companies co-founded and led: Podbase, Smart Vision, AdKings, BrandBoosters, Callsy
+- Education: BA in Leadership in Management, Oxford Brookes University
+- Recognition: Latitude59 2026 Pitch Competition finalist (top 7); F6S #3 Top Company in AI (2026); FirstPick AI Accelerator (first in the Baltics); 500 Global Eurasia Accelerator (Batch 9); pitched Callsy on Rykliai. Lietuva (Shark Tank Lithuania, TV3)
+- Podcast host: Founders & Food
+- Topics of expertise: AI agents, building with AI as a non-engineer, AI for ecommerce, startups and fundraising, public speaking
+
+## Key pages (English)
+
+- [About](https://arunasvismantas.eu/about): Full biography, story, and career.
+- [Insights](https://arunasvismantas.eu/insights): Guides and build notes on AI agents, building with AI, and startups.
+- [Press and stages](https://arunasvismantas.eu/press): Media coverage, talks, and recognition, with sources.
+- [Book a call](https://arunasvismantas.eu/call): Advisory on AI agents, ecommerce automation, and fundraising.
+- [Newsletter](https://arunasvismantas.eu/newsletter): Practical notes on building with AI.
+
+## Key pages (Lithuanian)
+
+- [Apie mane](https://arunasvismantas.eu/lt/apie): Biografija ir istorija.
+- [Įžvalgos](https://arunasvismantas.eu/lt/izvalgos): Gidai apie dirbtinį intelektą ir AI agentus.
+- [Spauda](https://arunasvismantas.eu/lt/spauda): Žiniasklaida, scenos ir pripažinimas.
+- [Konsultacija](https://arunasvismantas.eu/lt/konsultacija): Konsultacijos apie AI agentus ir el. prekybos automatizavimą.
+
+## Contact
+
+- Email: arunas@callsy.ai
+- LinkedIn: https://www.linkedin.com/in/arunas-vismantas/

@@ -4,7 +4,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { ProofBar } from "@/components/ProofBar";
 import { Waveform } from "@/components/Waveform";
 import { HeroPhoto } from "@/components/HeroPhoto";
-import { JsonLd, personJsonLd } from "@/lib/schema";
+import { JsonLd, personJsonLd, websiteJsonLd } from "@/lib/schema";
 import { pageMetadata } from "@/lib/meta";
 import { CALLSY_URL } from "@/lib/site";
 
@@ -32,6 +32,7 @@ export default function Home() {
   return (
     <>
       <JsonLd data={personJsonLd} />
+      <JsonLd data={websiteJsonLd} />
 
       {/* Hero */}
       <Container className="pt-8 sm:pt-12">

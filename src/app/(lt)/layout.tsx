@@ -10,6 +10,13 @@ export const metadata: Metadata = {
   },
   description:
     "Callsy įkūrėjas. Kuriu AI agentus, mokau susikurti savo AI asistentą, vedu renginius apie startuolius ir dirbtinį intelektą.",
+  openGraph: {
+    type: "website",
+    siteName: "Arunas Vismantas",
+    locale: "lt_LT",
+    images: [{ url: "/og.jpg", width: 1200, height: 630 }],
+  },
+  twitter: { card: "summary_large_image", images: ["/og.jpg"] },
 };
 
 export default function LtLayout({
