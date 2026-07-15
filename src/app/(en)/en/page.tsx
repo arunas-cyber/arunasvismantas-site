@@ -106,10 +106,27 @@ export default function Home() {
                 through-line in all of them.
               </p>
               <p>
-                Today it is <strong className="text-ink">Callsy</strong>, an EU
-                platform where AI voice, SMS, and email agents handle the
-                conversations ecommerce brands do not have time for. Before it
-                came Podbase, Smart Vision, AdKings, and BrandBoosters.
+                Today it is{" "}
+                <a
+                  href="https://callsy.ai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
+                >
+                  Callsy
+                </a>
+                , an EU platform where AI voice, SMS, and email agents handle
+                the conversations ecommerce brands do not have time for. Before
+                it came Podbase, Smart Vision, AdKings, and{" "}
+                <a
+                  href="https://brandboosters.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
+                >
+                  BrandBoosters
+                </a>
+                .
               </p>
               <p>
                 I am obsessed with trying new technology, and just as obsessed

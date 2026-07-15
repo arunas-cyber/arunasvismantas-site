@@ -105,10 +105,27 @@ export default function HomeLt() {
                 jungia visus penkis mano verslus.
               </p>
               <p>
-                Šiandien tai <strong className="text-ink">Callsy</strong>,
-                europinė platforma, kurioje AI balso, SMS ir el. pašto agentai
+                Šiandien tai{" "}
+                <a
+                  href="https://callsy.ai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
+                >
+                  Callsy
+                </a>
+                , europinė platforma, kurioje AI balso, SMS ir el. pašto agentai
                 perima pokalbius, kuriems el. parduotuvės neturi laiko. Prieš ją
-                buvo Podbase, Smart Vision, AdKings ir BrandBoosters.
+                buvo Podbase, Smart Vision, AdKings ir{" "}
+                <a
+                  href="https://brandboosters.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
+                >
+                  BrandBoosters
+                </a>
+                .
               </p>
               <p>
                 Esu apsėstas naujų technologijų ir lygiai taip pat mėgstu

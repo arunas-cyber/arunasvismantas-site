@@ -1,6 +1,7 @@
 import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { PageHeader } from "@/components/PageHeader";
+import { Inline } from "@/components/Inline";
 import { JsonLd, personJsonLd, profilePageJsonLd } from "@/lib/schema";
 import { pageMetadata } from "@/lib/meta";
 import { PITCH_VIDEO_URL } from "@/lib/site";
@@ -47,8 +48,8 @@ const sections = [
     h: "The arc",
     body: [
       "Here is the honest version: I am a lazy person, and I have built a career out of it. If a task is repetitive, my instinct is to automate it. Five companies later, that instinct is the through-line in all of them.",
-      "It started in 2018 with Smart Vision, an ecommerce support-services company, and ran through years of performance marketing and growth for online brands with AdKings and BrandBoosters, plus Podbase along the way. Each one taught the same lesson from a different angle: the boring, repeatable work is exactly what software should handle.",
-      "Today it is Callsy, an EU platform where AI voice, SMS, and email agents hold real customer conversations: recovering abandoned carts, qualifying leads, taking bookings, sending payment reminders, running win-backs. I co-founded it with Laimonas Sutkus after watching online stores lose sales every night, simply because nobody picked up the phone.",
+      "It started in 2018 with Smart Vision, an ecommerce support-services company, and ran through years of performance marketing and growth for online brands with AdKings and [BrandBoosters](https://brandboosters.io), plus Podbase along the way. Each one taught the same lesson from a different angle: the boring, repeatable work is exactly what software should handle.",
+      "Today it is [Callsy](https://callsy.ai), an EU platform where AI voice, SMS, and email agents hold real customer conversations: recovering abandoned carts, qualifying leads, taking bookings, sending payment reminders, running win-backs. I co-founded it with Laimonas Sutkus after watching online stores lose sales every night, simply because nobody picked up the phone.",
     ],
   },
   {
@@ -103,7 +104,9 @@ export default function About() {
                 </h2>
                 <div className="mt-5 space-y-5 text-lg leading-relaxed text-muted">
                   {s.body.map((p, i) => (
-                    <p key={i}>{p}</p>
+                    <p key={i}>
+                      <Inline text={p} />
+                    </p>
                   ))}
                   {s.h === "The arc" && (
                     <p>

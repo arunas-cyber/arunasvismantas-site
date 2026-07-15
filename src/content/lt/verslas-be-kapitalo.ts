@@ -25,7 +25,7 @@ export const verslasBeKapitalo: Article = {
     },
     {
       type: "p",
-      text: "Trumpai apie kontekstą: esu serijinis kūrėjas, nors save mieliau vadinu serijiniu testuotoju. Pritraukiau daugiau nei 3 mln. eurų rizikos kapitalo technologijų startuoliams, kūriau Podbase ir iDenfy platformas, dvi skaitmeninio marketingo agentūras, o dabar auginu Callsy. Ne viskas pavyko, bet iš kiekvieno karto liko pamoka. Štai svarbiausios.",
+      text: "Trumpai apie kontekstą: esu serijinis kūrėjas, nors save mieliau vadinu serijiniu testuotoju. Pritraukiau daugiau nei 3 mln. eurų rizikos kapitalo technologijų startuoliams, kūriau Podbase ir [iDenfy](https://www.idenfy.com) platformas, dvi skaitmeninio marketingo agentūras, o dabar auginu [Callsy](https://callsy.ai). Ne viskas pavyko, bet iš kiekvieno karto liko pamoka. Štai svarbiausios.",
     },
     {
       type: "h2",
