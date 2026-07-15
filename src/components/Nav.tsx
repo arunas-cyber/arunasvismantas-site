@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Container } from "./Container";
 import { Button } from "./Button";
 import { LocaleSwitcher } from "./LocaleSwitcher";
+import { MobileNav } from "./MobileNav";
 import { navRoutes, routeByKey, type Locale } from "@/lib/routes";
 
 const cta: Record<Locale, { key: string; label: string }> = {
@@ -10,8 +11,9 @@ const cta: Record<Locale, { key: string; label: string }> = {
 };
 
 export function Nav({ locale }: { locale: Locale }) {
-  const links = navRoutes(locale);
+  const links = navRoutes(locale).map((r) => ({ href: r.path, title: r.title }));
   const callRoute = routeByKey(cta[locale].key);
+  const ctaData = { href: callRoute?.path ?? "#", label: cta[locale].label };
 
   return (
     <header className="sticky top-0 z-50 border-b-[3px] border-ink bg-paper/95 backdrop-blur-sm">
@@ -27,21 +29,24 @@ export function Nav({ locale }: { locale: Locale }) {
             Arunas Vismantas
           </span>
         </Link>
-        <nav className="flex items-center gap-5 sm:gap-6">
-          {links.map((r) => (
+
+        {/* Desktop nav */}
+        <nav className="hidden items-center gap-6 lg:flex">
+          {links.map((l) => (
             <Link
-              key={r.key}
-              href={r.path}
-              className="hidden text-[15px] font-semibold text-muted transition-colors duration-150 hover:text-blue lg:block"
+              key={l.href}
+              href={l.href}
+              className="text-[15px] font-semibold text-muted transition-colors duration-150 hover:text-blue"
             >
-              {r.title}
+              {l.title}
             </Link>
           ))}
           <LocaleSwitcher locale={locale} />
-          {callRoute && (
-            <Button href={callRoute.path}>{cta[locale].label}</Button>
-          )}
+          <Button href={ctaData.href}>{ctaData.label}</Button>
         </nav>
+
+        {/* Mobile nav */}
+        <MobileNav links={links} cta={ctaData} locale={locale} />
       </Container>
     </header>
   );
