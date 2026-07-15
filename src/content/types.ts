@@ -17,6 +17,14 @@ export type Block =
   | { type: "ol"; items: string[] }
   | { type: "quote"; text: string }
   | { type: "table"; caption?: string; head: string[]; rows: string[][] }
+  | {
+      type: "video";
+      youtubeId: string;
+      title: string;
+      uploadDate?: string;
+      /** ISO 8601 duration, e.g. "PT29M37S". */
+      duration?: string;
+    }
   | { type: "faq"; title: string; items: FaqItem[] }
   | { type: "cta"; label: string; href: string; text?: string };
 

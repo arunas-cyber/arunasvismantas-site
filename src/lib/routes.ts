@@ -290,6 +290,22 @@ export const routes: SiteRoute[] = [
     tier: 3,
     status: "live",
   },
+  {
+    key: "lt-verslas-be-kapitalo",
+    locale: "lt",
+    path: "/izvalgos/kaip-sukurti-versla-be-kapitalo",
+    title: "Kaip sukurti verslą be didelio kapitalo: 8 pamokos nuo 0 iki 100 000 EUR",
+    description:
+      "Praktiškos verslo kūrimo pamokos iš 20 metų ir penkių verslų: pardavimai prieš produktą, maržos, funelis, grįžtantys klientai ir įrankiai. Įžvalgos iš LOGIN 2025. Autorius Arunas Vismantas.",
+    keywords: [
+      "kaip sukurti versla",
+      "verslas be kapitalo",
+      "verslas nuo nulio",
+      "verslo idejos",
+    ],
+    tier: 2,
+    status: "live",
+  },
 ];
 
 export const liveRoutes = (locale?: Locale) =>

@@ -1,5 +1,5 @@
 import { SITE_URL } from "./routes";
-import { CALLSY_URL, LINKEDIN_URL, THREADS_URL } from "./site";
+import { CALLSY_URL, LINKEDIN_URL, THREADS_URL, YOUTUBE_URL } from "./site";
 
 const PERSON_ID = `${SITE_URL}/#person`;
 const OG_IMAGE = `${SITE_URL}/og.jpg`;
@@ -49,7 +49,7 @@ export const personJsonLd = {
     "startup fundraising",
     "public speaking",
   ],
-  sameAs: [LINKEDIN_URL, THREADS_URL, CALLSY_URL],
+  sameAs: [LINKEDIN_URL, THREADS_URL, YOUTUBE_URL, CALLSY_URL],
 };
 
 /** Site-level entity. Declares the site and its author/publisher. */

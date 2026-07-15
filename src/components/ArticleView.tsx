@@ -145,6 +145,35 @@ function BlockView({ block }: { block: Block }) {
           )}
         </figure>
       );
+    case "video": {
+      const videoJsonLd = {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        name: block.title,
+        description: block.title,
+        thumbnailUrl: `https://i.ytimg.com/vi/${block.youtubeId}/maxresdefault.jpg`,
+        embedUrl: `https://www.youtube.com/embed/${block.youtubeId}`,
+        contentUrl: `https://www.youtube.com/watch?v=${block.youtubeId}`,
+        ...(block.uploadDate ? { uploadDate: block.uploadDate } : {}),
+        ...(block.duration ? { duration: block.duration } : {}),
+        author: { "@id": `${SITE_URL}/#person` },
+      };
+      return (
+        <figure className="my-2">
+          <JsonLd data={videoJsonLd} />
+          <div className="avb aspect-video overflow-hidden bg-ink">
+            <iframe
+              src={`https://www.youtube-nocookie.com/embed/${block.youtubeId}`}
+              title={block.title}
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="h-full w-full"
+            />
+          </div>
+        </figure>
+      );
+    }
     case "faq":
       return (
         <div>
