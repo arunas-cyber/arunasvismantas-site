@@ -5,11 +5,13 @@ import { nemokamasDirbtinisIntelektas } from "./lt/nemokamas-dirbtinis-intelekta
 import { verslasBeKapitalo } from "./lt/verslas-be-kapitalo";
 import { chatgptLietuviskai } from "./lt/chatgpt-lietuviskai";
 import { dirbtinioIntelektoProgramos } from "./lt/dirbtinio-intelekto-programos";
+import { kasYraOpenclaw } from "./lt/kas-yra-openclaw";
 import { artificialIntelligence } from "./en/artificial-intelligence";
 import { freeAiTools } from "./en/free-ai-tools";
 import { buildBusinessNoCapital } from "./en/build-business-no-capital";
 import { chatgptLithuanian } from "./en/chatgpt-lithuanian";
 import { bestAiApps } from "./en/best-ai-apps";
+import { whatIsOpenclaw } from "./en/what-is-openclaw";
 
 /**
  * The article registry. Every published piece is one object here plus one
@@ -27,6 +29,8 @@ export const articles: Article[] = [
   chatgptLithuanian,
   dirbtinioIntelektoProgramos,
   bestAiApps,
+  kasYraOpenclaw,
+  whatIsOpenclaw,
 ];
 
 export const articleByRouteKey = (routeKey: string) =>

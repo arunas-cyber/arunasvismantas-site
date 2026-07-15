@@ -344,6 +344,19 @@ export const routes: SiteRoute[] = [
     counterpart: "en-best-ai-apps",
   },
 
+  {
+    key: "lt-kas-yra-openclaw",
+    locale: "lt",
+    path: "/izvalgos/kas-yra-openclaw",
+    title: "Kas yra OpenClaw ir kas iš tikrųjų pribaigė ažiotažą",
+    description:
+      "OpenClaw tapo greičiausiai augusiu projektu GitHub istorijoje. Kas jis yra iš tikrųjų, kodėl ažiotažą pribaigė ne saugumas, o ekonomika, ir ar verta jį leisti.",
+    keywords: ["openclaw", "kas yra openclaw", "ai asistentas"],
+    tier: 3,
+    status: "live",
+    counterpart: "en-what-is-openclaw",
+  },
+
   // ------------------------------------------------- Insights articles (EN)
   {
     key: "en-artificial-intelligence",
@@ -372,6 +385,18 @@ export const routes: SiteRoute[] = [
     tier: 3,
     status: "live",
     counterpart: "lt-nemokamas-dirbtinis-intelektas",
+  },
+  {
+    key: "en-what-is-openclaw",
+    locale: "en",
+    path: "/en/insights/what-is-openclaw",
+    title: "What Is OpenClaw? And What Really Killed the Hype",
+    description:
+      "OpenClaw became the fastest-growing repo in GitHub history, then the hype collapsed. What it actually is, why economics rather than security killed it, and whether you should run it.",
+    keywords: ["what is openclaw", "openclaw", "openclaw explained"],
+    tier: 3,
+    status: "live",
+    counterpart: "lt-kas-yra-openclaw",
   },
   {
     key: "en-best-ai-apps",
