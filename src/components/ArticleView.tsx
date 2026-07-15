@@ -76,11 +76,74 @@ function BlockView({ block }: { block: Block }) {
           ))}
         </ul>
       );
+    case "ol":
+      return (
+        <ol className="space-y-2.5">
+          {block.items.map((item, i) => (
+            <li
+              key={i}
+              className="flex gap-3 text-[17px] leading-relaxed text-muted"
+            >
+              <span
+                aria-hidden
+                className="mt-0.5 font-mono text-sm font-bold text-coral"
+              >
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              <span>
+                <Inline text={item} />
+              </span>
+            </li>
+          ))}
+        </ol>
+      );
     case "quote":
       return (
         <blockquote className="avb bg-yellow px-7 py-6 text-xl font-bold leading-snug tracking-tight text-ink">
           <Inline text={block.text} />
         </blockquote>
+      );
+    case "table":
+      return (
+        <figure className="my-2">
+          <div className="avb overflow-x-auto bg-white">
+            <table className="w-full border-collapse text-left text-[15px]">
+              <thead>
+                <tr className="border-b-[3px] border-ink">
+                  {block.head.map((h, i) => (
+                    <th
+                      key={i}
+                      className="whitespace-nowrap px-4 py-3 font-extrabold text-ink"
+                    >
+                      {h}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {block.rows.map((row, r) => (
+                  <tr key={r} className="border-b border-line last:border-0">
+                    {row.map((cell, c) => (
+                      <td
+                        key={c}
+                        className={`px-4 py-3 align-top leading-relaxed ${
+                          c === 0 ? "font-bold text-ink" : "text-muted"
+                        }`}
+                      >
+                        <Inline text={cell} />
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          {block.caption && (
+            <figcaption className="mt-2 text-sm text-muted">
+              {block.caption}
+            </figcaption>
+          )}
+        </figure>
       );
     case "faq":
       return (

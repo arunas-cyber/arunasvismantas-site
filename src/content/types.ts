@@ -14,7 +14,9 @@ export type Block =
   | { type: "h2"; id: string; text: string }
   | { type: "h3"; text: string }
   | { type: "ul"; items: string[] }
+  | { type: "ol"; items: string[] }
   | { type: "quote"; text: string }
+  | { type: "table"; caption?: string; head: string[]; rows: string[][] }
   | { type: "faq"; title: string; items: FaqItem[] }
   | { type: "cta"; label: string; href: string; text?: string };
 
