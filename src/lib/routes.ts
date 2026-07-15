@@ -258,6 +258,23 @@ export const routes: SiteRoute[] = [
     status: "live",
     counterpart: "imprint",
   },
+
+  // ------------------------------------------------- Insights articles (LT)
+  {
+    key: "lt-dirbtinis-intelektas",
+    locale: "lt",
+    path: "/izvalgos/dirbtinis-intelektas",
+    title: "Dirbtinis intelektas: išsamus gidas 2026 metams",
+    description:
+      "Kas yra dirbtinis intelektas, kaip jis veikia ir kaip jį naudoti kasdien bei versle. Praktinis gidas lietuviškai, be techninio žargono. Autorius Arunas Vismantas.",
+    keywords: [
+      "dirbtinis intelektas",
+      "kas yra dirbtinis intelektas",
+      "dirbtinis intelektas lietuviskai",
+    ],
+    tier: 2,
+    status: "live",
+  },
 ];
 
 export const liveRoutes = (locale?: Locale) =>

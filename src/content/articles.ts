@@ -1,12 +1,13 @@
 import { type Article } from "./types";
 import { routeByKey, type Locale, type SiteRoute } from "@/lib/routes";
+import { dirbtinisIntelektas } from "./lt/dirbtinis-intelektas";
 
 /**
  * The article registry. Every published piece is one object here plus one
  * route in routes.ts (status "live"). Order does not matter; hubs sort by
  * publishedAt on the index pages.
  */
-export const articles: Article[] = [];
+export const articles: Article[] = [dirbtinisIntelektas];
 
 export const articleByRouteKey = (routeKey: string) =>
   articles.find((a) => a.routeKey === routeKey);
