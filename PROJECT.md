@@ -19,6 +19,22 @@ Who he is (verified, use everywhere): five-time founder based in **Vilnius**; co
 - **Domain:** GoDaddy DNS → Vercel. **Apex is canonical** (`arunasvismantas.eu` serves Production); `www` 308-redirects to apex. Do NOT flip this — all canonicals/sitemap/schema use the apex (`SITE_URL`).
 - **Commit author** must be Arunas (`git config user.email arunas@callsy.ai`).
 
+## 2b. Working on this from a new machine
+
+```bash
+git clone https://github.com/arunas-cyber/arunasvismantas-site.git
+cd arunasvismantas-site
+npm install
+git config user.name "Arunas Vismantas" && git config user.email "arunas@callsy.ai"
+npm run dev          # http://localhost:3000
+claude               # auto-loads CLAUDE.md -> AGENTS.md -> PROJECT.md + BRAND.md
+```
+
+Everything needed to continue is in this repo (code, PROJECT.md, BRAND.md, `docs/` plans). What is **machine-local and does NOT travel**:
+- **MCP servers.** Hero images need the **Fal.ai** MCP; keyword/SERP research needs **DataForSEO**. Reconnect them on the new machine or those steps won't work (writing/publishing still works fine without them).
+- **`photos/`** (gitignored source photos). Only the compressed versions in `public/images/` are committed.
+- Any `~/.claude` memory. That's why this file exists — it is the source of truth, not memory.
+
 ## 3. Architecture (the important part)
 
 **Next.js 16 App Router + Tailwind v4.** ⚠️ Next 16 has breaking changes — read `node_modules/next/dist/docs/` before writing framework code (see AGENTS.md).
@@ -81,7 +97,7 @@ The **business pillar** is built from the transcript of his real **LOGIN 2025 ta
 
 ## 7. Next up (from the keyword research)
 
-Plans live at `~/Desktop/arunasvismantas-seo-plan.md` and `~/Desktop/arunasvismantas-seo-roadmap.md`.
+Plans live in this repo: **`docs/seo-plan.md`** (full Phase 0 keyword research: LT + EN keyword maps with volumes/KD, hub-and-spoke plan) and **`docs/seo-roadmap.md`** (SEO gap audit + prioritised content roadmap).
 - **OpenClaw setup/tutorial** (openclaw setup + tutorial, KD 14–23) — feeds the course. Research already done (see git history / session).
 - **Verslo rykliai** (260/mo, KD 4) — his Shark Tank story, unbeatable E-E-A-T.
 - **Startuolis hub** (480/mo) + **Vienaragiai Lietuvoje** (110/mo, link magnet).
@@ -96,7 +112,7 @@ Plans live at `~/Desktop/arunasvismantas-seo-plan.md` and `~/Desktop/arunasvisma
 - **Missing from `sameAs`:** X/Twitter, Founders & Food podcast, F6S, Crunchbase. Have: LinkedIn, Threads (@arunas_v), YouTube (channel UCvDlDbUdglYaALimIskMXTA), Callsy.
 - **`SUBSTACK_URL` is null** in `lib/site.ts` → newsletter CTAs fall back to LinkedIn. Set it when the Substack exists.
 - **Imprint** needs real company details once the entity for paid services is chosen.
-- **Medium repost:** EN business article drafted at `~/Desktop/medium-how-to-build-a-business.md`. When publishing, set Medium's canonical to the on-site EN URL so we keep ranking credit.
+- **Medium repost:** EN business article drafted at `docs/medium-how-to-build-a-business.md`. When publishing, set Medium's canonical to the on-site EN URL so we keep ranking credit.
 - **21st.dev Magic MCP is broken** — both API keys 401. Needs a fresh key if wanted.
 - **`photos/`** in the repo is gitignored (large originals). Arunas drops source photos there.
 - Verify content in the browser at mobile width (375px) — mobile nav is a hamburger (`MobileNav.tsx`).
