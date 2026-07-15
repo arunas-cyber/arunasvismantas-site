@@ -20,7 +20,9 @@ export const buildBusinessNoCapital: Article = {
       type: "video",
       youtubeId: "dDxAc3GPziU",
       title: "From 0 to 100k: how to build a business without much capital (LOGIN 2025)",
-      uploadDate: "2025-08-29",
+      description:
+        "A talk from the LOGIN 2025 conference. Practical steps to build a business without much starting capital and reach €100K in revenue: sales before product, margins, the funnel, and returning customers.",
+      uploadDate: "2025-08-29T09:29:18+00:00",
       duration: "PT29M37S",
     },
     {

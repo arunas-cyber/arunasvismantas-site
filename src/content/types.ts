@@ -21,6 +21,9 @@ export type Block =
       type: "video";
       youtubeId: string;
       title: string;
+      /** Distinct from title. Falls back to title if omitted. */
+      description?: string;
+      /** Full ISO 8601 with timezone, e.g. "2025-08-29T09:29:18+00:00". */
       uploadDate?: string;
       /** ISO 8601 duration, e.g. "PT29M37S". */
       duration?: string;

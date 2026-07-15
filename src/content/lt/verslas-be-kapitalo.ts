@@ -20,7 +20,9 @@ export const verslasBeKapitalo: Article = {
       type: "video",
       youtubeId: "dDxAc3GPziU",
       title: "Nuo 0 iki 100k: kaip sukurti verslą be didelio kapitalo (LOGIN 2025)",
-      uploadDate: "2025-08-29",
+      description:
+        "Pranešimas iš LOGIN 2025 konferencijos. Praktiški žingsniai, kaip sukurti verslą be didelio pradinio kapitalo ir pasiekti 100 000 eurų pajamų: pardavimai prieš produktą, maržos, funelis ir grįžtantys klientai.",
+      uploadDate: "2025-08-29T09:29:18+00:00",
       duration: "PT29M37S",
     },
     {

@@ -4,7 +4,7 @@ import { Container } from "./Container";
 import { Button } from "./Button";
 import { FAQ } from "./FAQ";
 import { Inline } from "./Inline";
-import { JsonLd } from "@/lib/schema";
+import { JsonLd, personJsonLd } from "@/lib/schema";
 import { routeByKey, SITE_URL, type SiteRoute } from "@/lib/routes";
 import { type Article, type Block } from "@/content/types";
 
@@ -150,7 +150,7 @@ function BlockView({ block }: { block: Block }) {
         "@context": "https://schema.org",
         "@type": "VideoObject",
         name: block.title,
-        description: block.title,
+        description: block.description ?? block.title,
         thumbnailUrl: `https://i.ytimg.com/vi/${block.youtubeId}/maxresdefault.jpg`,
         embedUrl: `https://www.youtube.com/embed/${block.youtubeId}`,
         contentUrl: `https://www.youtube.com/watch?v=${block.youtubeId}`,
@@ -247,6 +247,7 @@ export function ArticleView({
 
   return (
     <>
+      <JsonLd data={personJsonLd} />
       <JsonLd data={articleJsonLd} />
       <JsonLd data={breadcrumbJsonLd} />
 
