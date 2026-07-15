@@ -151,7 +151,7 @@ export default function AboutLt() {
           <p className="max-w-md text-2xl font-extrabold tracking-tight">
             Turite idėją, kur AI agentas galėtų padėti?
           </p>
-          <Button href="/lt/konsultacija" variant="dark">
+          <Button href="/konsultacija" variant="dark">
             Rezervuoti pokalbį
           </Button>
         </section>

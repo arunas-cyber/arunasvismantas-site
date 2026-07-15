@@ -17,7 +17,7 @@ export function Nav({ locale }: { locale: Locale }) {
     <header className="sticky top-0 z-50 border-b-[3px] border-ink bg-paper/95 backdrop-blur-sm">
       <Container className="flex h-[68px] items-center justify-between gap-4">
         <Link
-          href={locale === "en" ? "/" : "/lt"}
+          href={locale === "en" ? "/en" : "/"}
           className="flex shrink-0 items-center gap-2.5"
         >
           <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-yellow text-[15px] font-extrabold text-ink ring-2 ring-ink">

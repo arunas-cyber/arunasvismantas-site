@@ -92,7 +92,7 @@ export default function PressLt() {
           <p className="max-w-md text-2xl font-extrabold tracking-tight">
             Ieškote pranešėjo ar pašnekovo savo laidai?
           </p>
-          <Button href="/lt/konsultacija">Susisiekti</Button>
+          <Button href="/konsultacija">Susisiekti</Button>
         </Container>
       </section>
     </>

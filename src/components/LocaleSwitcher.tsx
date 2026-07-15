@@ -11,7 +11,7 @@ export function LocaleSwitcher({ locale }: { locale: Locale }) {
   const counterpart = current?.counterpart
     ? routeByKey(current.counterpart)
     : undefined;
-  const href = counterpart?.path ?? (locale === "en" ? "/lt" : "/");
+  const href = counterpart?.path ?? (locale === "en" ? "/" : "/en");
   const label = locale === "en" ? "LT" : "EN";
 
   return (

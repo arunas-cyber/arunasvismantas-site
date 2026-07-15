@@ -28,7 +28,8 @@ export function pageMetadata(key: string, opts: MetaOpts = {}): Metadata {
     languages = {
       en: `${SITE_URL}${en.path}`,
       lt: `${SITE_URL}${lt.path}`,
-      "x-default": `${SITE_URL}${en.path}`,
+      // LT is the site default, so x-default resolves to the Lithuanian URL.
+      "x-default": `${SITE_URL}${lt.path}`,
     };
   }
 

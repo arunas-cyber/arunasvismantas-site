@@ -92,7 +92,7 @@ export default function Press() {
           <p className="max-w-md text-2xl font-extrabold tracking-tight">
             Booking a speaker or a guest for your show?
           </p>
-          <Button href="/call">Get in touch</Button>
+          <Button href="/en/call">Get in touch</Button>
         </Container>
       </section>
     </>

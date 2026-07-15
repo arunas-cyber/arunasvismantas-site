@@ -150,7 +150,7 @@ export default function About() {
           <p className="max-w-md text-2xl font-extrabold tracking-tight">
             Working on something an AI agent could help with?
           </p>
-          <Button href="/call" variant="dark">
+          <Button href="/en/call" variant="dark">
             Book a call
           </Button>
         </section>

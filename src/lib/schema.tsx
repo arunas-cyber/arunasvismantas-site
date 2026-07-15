@@ -70,7 +70,7 @@ export const websiteJsonLd = {
 export const profilePageJsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
-  url: `${SITE_URL}/about`,
+  url: `${SITE_URL}/en/about`,
   mainEntity: { "@id": PERSON_ID },
 };
 

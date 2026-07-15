@@ -41,7 +41,7 @@ export const routes: SiteRoute[] = [
   {
     key: "home",
     locale: "en",
-    path: "/",
+    path: "/en",
     title: "Arunas Vismantas | Founder, AI builder, speaker",
     description:
       "Founder of Callsy. I build AI agents, teach founders to build their own AI assistants, and speak about startups, ecommerce, and AI.",
@@ -53,7 +53,7 @@ export const routes: SiteRoute[] = [
   {
     key: "about",
     locale: "en",
-    path: "/about",
+    path: "/en/about",
     title: "About",
     description:
       "Arunas Vismantas: founder of Callsy, Latitude59 pitch finalist, FirstPick and 500 Global accelerator alum, host of the Founders & Food podcast.",
@@ -66,7 +66,7 @@ export const routes: SiteRoute[] = [
   {
     key: "insights",
     locale: "en",
-    path: "/insights",
+    path: "/en/insights",
     title: "Insights",
     description:
       "Guides and build notes on AI agents, building with AI as a non-engineer, and startup lessons from the Baltics. By Arunas Vismantas.",
@@ -79,7 +79,7 @@ export const routes: SiteRoute[] = [
   {
     key: "call",
     locale: "en",
-    path: "/call",
+    path: "/en/call",
     title: "Book a call",
     description:
       "Book an advisory call with Arunas Vismantas: AI agents and MCP integrations, ecommerce automation, or startup fundraising in the Baltics.",
@@ -91,7 +91,7 @@ export const routes: SiteRoute[] = [
   {
     key: "newsletter",
     locale: "en",
-    path: "/newsletter",
+    path: "/en/newsletter",
     title: "Newsletter",
     description:
       "Practical notes on building AI agents and building a startup in public. Real numbers, tools that work, no fluff.",
@@ -104,7 +104,7 @@ export const routes: SiteRoute[] = [
   {
     key: "press",
     locale: "en",
-    path: "/press",
+    path: "/en/press",
     title: "Press and stages",
     description:
       "Arunas Vismantas in the press: Rykliai. Lietuva (Shark Tank Lithuania) pitch, Latitude59 finals, FirstPick AI Accelerator, 500 Global.",
@@ -117,7 +117,7 @@ export const routes: SiteRoute[] = [
   {
     key: "privacy",
     locale: "en",
-    path: "/privacy",
+    path: "/en/privacy",
     title: "Privacy policy",
     description: "Privacy policy for arunasvismantas.eu.",
     keywords: [],
@@ -128,7 +128,7 @@ export const routes: SiteRoute[] = [
   {
     key: "terms",
     locale: "en",
-    path: "/terms",
+    path: "/en/terms",
     title: "Terms",
     description: "Terms of use for arunasvismantas.eu.",
     keywords: [],
@@ -139,7 +139,7 @@ export const routes: SiteRoute[] = [
   {
     key: "imprint",
     locale: "en",
-    path: "/imprint",
+    path: "/en/imprint",
     title: "Imprint",
     description: "Imprint and contact details for arunasvismantas.eu.",
     keywords: [],
@@ -152,7 +152,7 @@ export const routes: SiteRoute[] = [
   {
     key: "home-lt",
     locale: "lt",
-    path: "/lt",
+    path: "/",
     title: "Arunas Vismantas | Startuolio įkūrėjas, AI praktikas",
     description:
       "Callsy įkūrėjas. Kuriu AI agentus, mokau susikurti savo AI asistentą, vedu renginius apie startuolius ir dirbtinį intelektą.",
@@ -164,7 +164,7 @@ export const routes: SiteRoute[] = [
   {
     key: "about-lt",
     locale: "lt",
-    path: "/lt/apie",
+    path: "/apie",
     title: "Apie mane",
     description:
       "Arunas Vismantas: Callsy įkūrėjas, Latitude59 finalininkas, FirstPick ir 500 Global akseleratorių alumnas, tinklalaidės Founders & Food vedėjas.",
@@ -177,7 +177,7 @@ export const routes: SiteRoute[] = [
   {
     key: "insights-lt",
     locale: "lt",
-    path: "/lt/izvalgos",
+    path: "/izvalgos",
     title: "Įžvalgos",
     description:
       "Gidai ir praktinės pastabos apie dirbtinį intelektą, AI agentus ir startuolių kūrimą. Autorius Arunas Vismantas.",
@@ -190,7 +190,7 @@ export const routes: SiteRoute[] = [
   {
     key: "call-lt",
     locale: "lt",
-    path: "/lt/konsultacija",
+    path: "/konsultacija",
     title: "Konsultacija",
     description:
       "Rezervuokite pokalbį su Arunu Vismantu: AI agentai ir MCP integracijos, el. prekybos automatizavimas, startuolio investicijų pritraukimas.",
@@ -202,7 +202,7 @@ export const routes: SiteRoute[] = [
   {
     key: "newsletter-lt",
     locale: "lt",
-    path: "/lt/naujienlaiskis",
+    path: "/naujienlaiskis",
     title: "Naujienlaiškis",
     description:
       "Praktiškos pastabos apie AI agentų kūrimą ir startuolio auginimą. Tikri skaičiai, veikiantys įrankiai, jokio pūtimo.",
@@ -215,7 +215,7 @@ export const routes: SiteRoute[] = [
   {
     key: "press-lt",
     locale: "lt",
-    path: "/lt/spauda",
+    path: "/spauda",
     title: "Spauda ir scenos",
     description:
       "Arunas Vismantas žiniasklaidoje: Rykliai. Lietuva (TV3), Latitude59 finalas, FirstPick AI akseleratorius, 500 Global.",
@@ -228,7 +228,7 @@ export const routes: SiteRoute[] = [
   {
     key: "privacy-lt",
     locale: "lt",
-    path: "/lt/privatumas",
+    path: "/privatumas",
     title: "Privatumo politika",
     description: "arunasvismantas.eu privatumo politika.",
     keywords: [],
@@ -239,7 +239,7 @@ export const routes: SiteRoute[] = [
   {
     key: "terms-lt",
     locale: "lt",
-    path: "/lt/taisykles",
+    path: "/taisykles",
     title: "Naudojimosi taisyklės",
     description: "arunasvismantas.eu naudojimosi taisyklės.",
     keywords: [],
@@ -250,7 +250,7 @@ export const routes: SiteRoute[] = [
   {
     key: "imprint-lt",
     locale: "lt",
-    path: "/lt/rekvizitai",
+    path: "/rekvizitai",
     title: "Rekvizitai",
     description: "arunasvismantas.eu rekvizitai ir kontaktai.",
     keywords: [],

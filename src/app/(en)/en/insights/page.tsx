@@ -5,30 +5,29 @@ import { Button } from "@/components/Button";
 import { pageMetadata } from "@/lib/meta";
 import { articlesForLocale } from "@/content/articles";
 
-export const metadata = pageMetadata("insights-lt");
+export const metadata = pageMetadata("insights");
 
-export default function InsightsLt() {
-  const published = articlesForLocale("lt");
+export default function Insights() {
+  const published = articlesForLocale("en");
 
   return (
     <>
       <PageHeader
-        eyebrow="Įžvalgos"
-        title="Gidai ir praktinės pastabos"
-        lede="Išsamūs gidai apie dirbtinį intelektą ir atviros pastabos iš startuolio virtuvės. Parašyta mano, išbandyta praktikoje, atnaujinama, kai realybė pasikeičia."
+        eyebrow="Insights"
+        title="Guides and build notes"
+        lede="Long-form guides on AI agents and honest notes from building a startup. Written by me, tested in production, updated when reality disagrees."
       />
       <Container className="py-16">
         {published.length === 0 ? (
           <div className="avb max-w-xl bg-white p-8">
-            <p className="text-lg font-bold">Pirmieji gidai jau ruošiami.</p>
+            <p className="text-lg font-bold">The first guides are in the works.</p>
             <p className="mt-2 text-[15px] leading-relaxed text-muted">
-              Pirmiausia: išsamus dirbtinio intelekto gidas ir kaip susikurti
-              savo AI asistentą. Užsiprenumeruokite naujienlaiškį ir
-              nepraleisite.
+              Coming first: building your own AI assistant, and what OpenClaw
+              actually is. Join the newsletter and you will not miss them.
             </p>
             <div className="mt-5">
-              <Button href="/lt/naujienlaiskis" variant="secondary">
-                Prenumeruoti naujienlaiškį
+              <Button href="/en/newsletter" variant="secondary">
+                Join the newsletter
               </Button>
             </div>
           </div>

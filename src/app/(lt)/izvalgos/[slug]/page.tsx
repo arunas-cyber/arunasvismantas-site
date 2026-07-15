@@ -17,7 +17,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const route = routeByPath(`/lt/izvalgos/${slug}`);
+  const route = routeByPath(`/izvalgos/${slug}`);
   if (!route) return {};
   const article = articleByRouteKey(route.key);
   return pageMetadata(route.key, {
@@ -33,7 +33,7 @@ export default async function InsightPageLt({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const route = routeByPath(`/lt/izvalgos/${slug}`);
+  const route = routeByPath(`/izvalgos/${slug}`);
   const article = route ? articleByRouteKey(route.key) : undefined;
   if (!route || !article || route.status !== "live") notFound();
   return <ArticleView article={article} route={route} />;

@@ -15,18 +15,18 @@
 
 ## Key pages (English)
 
-- [About](https://arunasvismantas.eu/about): Full biography, story, and career.
-- [Insights](https://arunasvismantas.eu/insights): Guides and build notes on AI agents, building with AI, and startups.
-- [Press and stages](https://arunasvismantas.eu/press): Media coverage, talks, and recognition, with sources.
-- [Book a call](https://arunasvismantas.eu/call): Advisory on AI agents, ecommerce automation, and fundraising.
-- [Newsletter](https://arunasvismantas.eu/newsletter): Practical notes on building with AI.
+- [About](https://arunasvismantas.eu/en/about): Full biography, story, and career.
+- [Insights](https://arunasvismantas.eu/en/insights): Guides and build notes on AI agents, building with AI, and startups.
+- [Press and stages](https://arunasvismantas.eu/en/press): Media coverage, talks, and recognition, with sources.
+- [Book a call](https://arunasvismantas.eu/en/call): Advisory on AI agents, ecommerce automation, and fundraising.
+- [Newsletter](https://arunasvismantas.eu/en/newsletter): Practical notes on building with AI.
 
 ## Key pages (Lithuanian)
 
-- [Apie mane](https://arunasvismantas.eu/lt/apie): Biografija ir istorija.
-- [Įžvalgos](https://arunasvismantas.eu/lt/izvalgos): Gidai apie dirbtinį intelektą ir AI agentus.
-- [Spauda](https://arunasvismantas.eu/lt/spauda): Žiniasklaida, scenos ir pripažinimas.
-- [Konsultacija](https://arunasvismantas.eu/lt/konsultacija): Konsultacijos apie AI agentus ir el. prekybos automatizavimą.
+- [Apie mane](https://arunasvismantas.eu/apie): Biografija ir istorija.
+- [Įžvalgos](https://arunasvismantas.eu/izvalgos): Gidai apie dirbtinį intelektą ir AI agentus.
+- [Spauda](https://arunasvismantas.eu/spauda): Žiniasklaida, scenos ir pripažinimas.
+- [Konsultacija](https://arunasvismantas.eu/konsultacija): Konsultacijos apie AI agentus ir el. prekybos automatizavimą.
 
 ## Contact
 

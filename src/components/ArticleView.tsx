@@ -110,7 +110,8 @@ export function ArticleView({
   route: SiteRoute;
 }) {
   const t = strings[route.locale];
-  const hubPath = route.locale === "en" ? "/insights" : "/lt/izvalgos";
+  const homePath = route.locale === "en" ? "/en" : "/";
+  const hubPath = route.locale === "en" ? "/en/insights" : "/izvalgos";
   const toc = article.blocks.filter(
     (b): b is Extract<Block, { type: "h2" }> => b.type === "h2",
   );
@@ -134,7 +135,12 @@ export function ArticleView({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: t.home, item: SITE_URL },
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: t.home,
+        item: `${SITE_URL}${homePath}`,
+      },
       {
         "@type": "ListItem",
         position: 2,

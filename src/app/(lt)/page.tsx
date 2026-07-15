@@ -8,27 +8,27 @@ import { JsonLd, personJsonLd, websiteJsonLd } from "@/lib/schema";
 import { pageMetadata } from "@/lib/meta";
 import { CALLSY_URL } from "@/lib/site";
 
-export const metadata = pageMetadata("home");
+export const metadata = pageMetadata("home-lt");
 
 const offers = [
   {
-    title: "Build your own AI assistant",
-    body: "A hands-on course on building an AI agent that actually does the work. Coming soon.",
+    title: "Susikurk savo AI asistentą",
+    body: "Praktiniai mokymai, kaip susikurti AI agentą, kuris iš tikrųjų atlieka darbą. Jau greitai.",
     cta: null,
   },
   {
-    title: "Advisory call",
-    body: "AI agents, MCP integrations, ecommerce automation, or fundraising notes from someone who pitched on national TV.",
-    cta: { label: "Book a call", href: "/call" },
+    title: "Konsultacija",
+    body: "AI agentai, MCP integracijos, el. prekybos automatizavimas ar investicijų pritraukimas. Patarimai iš žmogaus, kuris savo verslą pristatė nacionalinėje televizijoje.",
+    cta: { label: "Rezervuoti pokalbį", href: "/konsultacija" },
   },
   {
-    title: "Speaking and hosting",
-    body: "Keynotes and event hosting on AI agents and startup building, in Lithuanian or English.",
-    cta: { label: "Get in touch", href: "/call" },
+    title: "Pranešimai ir renginiai",
+    body: "Pranešimai ir renginių vedimas apie AI agentus ir startuolių kūrimą. Lietuviškai arba angliškai.",
+    cta: { label: "Susisiekti", href: "/konsultacija" },
   },
 ];
 
-export default function Home() {
+export default function HomeLt() {
   return (
     <>
       <JsonLd data={personJsonLd} />
@@ -49,28 +49,28 @@ export default function Home() {
           <div className="grid gap-10 lg:grid-cols-[1.25fr_1fr]">
           <div>
           <p className="avtag inline-block rounded-lg bg-ink px-3 py-1.5 text-yellow">
-            Founder of Callsy · AI agents · Speaker
+            Callsy įkūrėjas · AI agentai · Pranešėjas
           </p>
-          <h1 className="mt-8 max-w-4xl text-[clamp(3rem,8vw,6rem)] font-extrabold uppercase leading-[0.86] tracking-[-0.035em]">
-            I build AI agents.{" "}
-            <span className="text-coral">And founders.</span>
+          <h1 className="mt-8 max-w-4xl text-[clamp(2.6rem,7vw,5.25rem)] font-extrabold uppercase leading-[0.86] tracking-[-0.035em]">
+            Kuriu AI agentus.{" "}
+            <span className="text-coral">Ir padedu kurti kitiems.</span>
           </h1>
           <p className="mt-8 max-w-[52ch] text-[19px] font-medium leading-normal">
-            A five-time founder from Vilnius. I co-founded{" "}
-            <strong>Callsy</strong>, an EU AI voice platform for ecommerce.
-            This is where I share how I build with AI, the companies I start,
-            and the ideas I{" "}
+            Penkių verslų įkūrėjas iš Vilniaus. Kartu su komanda kuriu{" "}
+            <strong>Callsy</strong>, europinę AI balso agentų platformą. Čia
+            dalinuosi, kaip kuriu su dirbtiniu intelektu, kokius verslus statau
+            ir apie ką{" "}
             <span className="rounded-md bg-blue px-1.5 py-0.5 text-white">
-              talk about on stage
+              kalbu scenoje
             </span>
             .
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
-            <Button href="/call" variant="dark">
-              Book a call
+            <Button href="/konsultacija" variant="dark">
+              Rezervuoti pokalbį
             </Button>
-            <Button href="/newsletter" variant="secondary">
-              Join the newsletter
+            <Button href="/naujienlaiskis" variant="secondary">
+              Prenumeruoti naujienlaiškį
             </Button>
           </div>
           <div className="mt-10">
@@ -78,8 +78,8 @@ export default function Home() {
           </div>
           </div>
           <HeroPhoto
-            label="On stage"
-            alt="Arunas Vismantas speaking on stage at a tech conference"
+            label="Scenoje"
+            alt="Arunas Vismantas skaito pranešimą technologijų konferencijos scenoje"
           />
           </div>
         </section>
@@ -95,30 +95,29 @@ export default function Home() {
         <Container className="py-20 sm:py-24">
           <div className="grid gap-10 lg:grid-cols-[1fr_1.4fr]">
             <SectionHeading
-              eyebrow="The short version"
-              title="Five companies in, one instinct"
+              eyebrow="Trumpai apie mane"
+              title="Penki verslai, vienas instinktas"
             />
             <div className="max-w-[54ch] space-y-5 text-lg leading-relaxed text-muted">
               <p>
-                Here is the honest version: I am a lazy person, and I have
-                built a career out of it. If a task is repetitive, my instinct
-                is to automate it. Five companies later, that instinct is the
-                through-line in all of them.
+                Atvirai: esu tinginys, ir iš to susikūriau karjerą. Jei
+                užduotis kartojasi, ją automatizuoju. Tas pats instinktas
+                jungia visus penkis mano verslus.
               </p>
               <p>
-                Today it is <strong className="text-ink">Callsy</strong>, an EU
-                platform where AI voice, SMS, and email agents handle the
-                conversations ecommerce brands do not have time for. Before it
-                came Podbase, Smart Vision, AdKings, and BrandBoosters.
+                Šiandien tai <strong className="text-ink">Callsy</strong>,
+                europinė platforma, kurioje AI balso, SMS ir el. pašto agentai
+                perima pokalbius, kuriems el. parduotuvės neturi laiko. Prieš ją
+                buvo Podbase, Smart Vision, AdKings ir BrandBoosters.
               </p>
               <p>
-                I am obsessed with trying new technology, and just as obsessed
-                with sharing what I learn from it. This site is where I put my
-                work, my know-how, and the ways we can build something together.
+                Esu apsėstas naujų technologijų ir lygiai taip pat mėgstu
+                dalintis tuo, ką iš jų išmokstu. Čia dedu savo darbus, žinias ir
+                būdus, kaip galime ką nors sukurti kartu.
               </p>
               <div className="pt-1">
-                <Button href="/about" variant="ghost">
-                  Read the full story →
+                <Button href="/apie" variant="ghost">
+                  Visa istorija →
                 </Button>
               </div>
             </div>
@@ -129,7 +128,10 @@ export default function Home() {
       {/* Offers */}
       <section className="border-t-[3px] border-ink">
         <Container className="py-20 sm:py-24">
-          <SectionHeading eyebrow="Work with me" title="Three ways in" />
+          <SectionHeading
+            eyebrow="Dirbkime kartu"
+            title="Trys keliai pradėti"
+          />
           <div className="mt-12 grid gap-7 sm:grid-cols-3">
             {offers.map((o) => (
               <div
@@ -149,7 +151,7 @@ export default function Home() {
                     </Button>
                   </div>
                 ) : (
-                  <p className="avtag mt-5 text-coral">Coming soon</p>
+                  <p className="avtag mt-5 text-coral">Jau greitai</p>
                 )}
               </div>
             ))}
@@ -162,19 +164,19 @@ export default function Home() {
         <Container className="py-20 sm:py-24">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <SectionHeading
-              eyebrow="What I write about"
-              title="Notes from building, not think pieces"
+              eyebrow="Apie ką rašau"
+              title="Pastabos iš kūrimo, ne teorija"
             />
-            <Button href="/insights" variant="secondary">
-              Read the insights
+            <Button href="/izvalgos" variant="secondary">
+              Skaityti įžvalgas
             </Button>
           </div>
           <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {[
-              "Building your own AI assistant",
-              "Building products with AI as a non-engineer",
-              "AI agents for ecommerce",
-              "Starting up in the Baltics",
+              "Kaip susikurti savo AI asistentą",
+              "Produktų kūrimas su AI be programavimo",
+              "AI agentai el. prekybai",
+              "Startuolio kūrimas Baltijos šalyse",
             ].map((topic) => (
               <li key={topic} className="avb bg-paper p-5 text-[15px] font-bold">
                 {topic}
@@ -188,10 +190,10 @@ export default function Home() {
       <Container className="py-20">
         <section className="avb bg-ink px-8 py-16 text-center text-paper">
           <h2 className="mx-auto max-w-2xl text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Let&apos;s talk about what an AI agent could do in your business
+            Pasikalbėkime, ką AI agentas galėtų nuveikti jūsų versle
           </h2>
           <div className="mt-8 flex justify-center">
-            <Button href="/call">Book a call</Button>
+            <Button href="/konsultacija">Rezervuoti pokalbį</Button>
           </div>
         </section>
       </Container>
