@@ -275,6 +275,21 @@ export const routes: SiteRoute[] = [
     tier: 2,
     status: "live",
   },
+  {
+    key: "lt-nemokamas-dirbtinis-intelektas",
+    locale: "lt",
+    path: "/izvalgos/nemokamas-dirbtinis-intelektas",
+    title: "Nemokamas dirbtinis intelektas: 7 geriausi įrankiai 2026 m.",
+    description:
+      "Geriausi nemokami dirbtinio intelekto įrankiai, veikiantys ir lietuviškai. Ką kiekvienas geba, kur riba tarp nemokamo ir mokamo, ir nuo ko pradėti. Autorius Arunas Vismantas.",
+    keywords: [
+      "dirbtinis intelektas nemokamai",
+      "nemokama dirbtinio intelekto programa",
+      "nemokami ai irankiai",
+    ],
+    tier: 3,
+    status: "live",
+  },
 ];
 
 export const liveRoutes = (locale?: Locale) =>

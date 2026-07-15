@@ -85,7 +85,7 @@ export const dirbtinisIntelektas: Article = {
     },
     {
       type: "p",
-      text: "Patarimas: nesirink ilgai, kuris geriausias. Pasirink vieną ir dieną kitą užduok jam realius savo darbo klausimus. Supratimas ateina iš naudojimo, ne iš skaitymo.",
+      text: "Patarimas: nesirink ilgai, kuris geriausias. Pasirink vieną ir dieną kitą užduok jam realius savo darbo klausimus. Supratimas ateina iš naudojimo, ne iš skaitymo. Platesnį sąrašą surinkau atskirai: [geriausi nemokami dirbtinio intelekto įrankiai](/izvalgos/nemokamas-dirbtinis-intelektas).",
     },
     {
       type: "h2",
@@ -173,4 +173,5 @@ export const dirbtinisIntelektas: Article = {
       href: "/konsultacija",
     },
   ],
+  related: ["lt-nemokamas-dirbtinis-intelektas"],
 };
