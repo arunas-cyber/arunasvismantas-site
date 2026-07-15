@@ -53,7 +53,7 @@ export default function Home() {
           </p>
           <h1 className="mt-8 max-w-4xl text-[clamp(3rem,8vw,6rem)] font-extrabold uppercase leading-[0.86] tracking-[-0.035em]">
             I build AI agents.{" "}
-            <span className="text-coral">And founders.</span>
+            <span className="text-coral">And help founders build theirs.</span>
           </h1>
           <p className="mt-8 max-w-[52ch] text-[19px] font-medium leading-normal">
             A five-time founder from Vilnius. I co-founded{" "}
