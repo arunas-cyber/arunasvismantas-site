@@ -25,7 +25,7 @@ export const verslasBeKapitalo: Article = {
     },
     {
       type: "p",
-      text: "Trumpai apie kontekstą: esu serijinis kūrėjas, nors save mieliau vadinu serijiniu testuotoju. Pritraukiau daugiau nei 3 mln. eurų rizikos kapitalo technologijų startuoliams, kūriau Podbase ir Identify platformas, dvi skaitmeninio marketingo agentūras, o dabar auginu Callsy. Ne viskas pavyko, bet iš kiekvieno karto liko pamoka. Štai svarbiausios.",
+      text: "Trumpai apie kontekstą: esu serijinis kūrėjas, nors save mieliau vadinu serijiniu testuotoju. Pritraukiau daugiau nei 3 mln. eurų rizikos kapitalo technologijų startuoliams, kūriau Podbase ir iDenfy platformas, dvi skaitmeninio marketingo agentūras, o dabar auginu Callsy. Ne viskas pavyko, bet iš kiekvieno karto liko pamoka. Štai svarbiausios.",
     },
     {
       type: "h2",
@@ -68,7 +68,7 @@ export const verslasBeKapitalo: Article = {
     },
     {
       type: "p",
-      text: "2018 metais kūrėme Identify, nuotolinio vartotojų identifikavimo (KYC) platformą. Neturėjome nei marketingo žinių, nei go-to-market strategijos, nei didelės pardavimų patirties. Bet turėjome laiko ir ambicijos. Tad tiesiog rašiau įvairiems pasauliniams technologijų portalams: Forrester, Gartner, Markets and Markets.",
+      text: "2018 metais kūrėme [iDenfy](https://www.idenfy.com), nuotolinio vartotojų identifikavimo (KYC) platformą. Neturėjome nei marketingo žinių, nei go-to-market strategijos, nei didelės pardavimų patirties. Bet turėjome laiko ir ambicijos. Tad tiesiog rašiau įvairiems pasauliniams technologijų portalams: Forrester, Gartner, Markets and Markets.",
     },
     {
       type: "p",
