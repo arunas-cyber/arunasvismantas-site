@@ -327,6 +327,23 @@ export const routes: SiteRoute[] = [
     counterpart: "en-chatgpt-lithuanian",
   },
 
+  {
+    key: "lt-dirbtinio-intelekto-programos",
+    locale: "lt",
+    path: "/izvalgos/dirbtinio-intelekto-programos",
+    title: "Geriausios dirbtinio intelekto programos 2026: kuri kuriam darbui",
+    description:
+      "Geriausios dirbtinio intelekto programos pagal darbą, kurį reikia atlikti: rašymui, faktams, vaizdams, garsui. Ką rinktis, kur kiekviena nusileidžia ir kada verta mokėti.",
+    keywords: [
+      "dirbtinio intelekto programos",
+      "geriausia dirbtinio intelekto programa",
+      "ai programos",
+    ],
+    tier: 3,
+    status: "live",
+    counterpart: "en-best-ai-apps",
+  },
+
   // ------------------------------------------------- Insights articles (EN)
   {
     key: "en-artificial-intelligence",
@@ -355,6 +372,18 @@ export const routes: SiteRoute[] = [
     tier: 3,
     status: "live",
     counterpart: "lt-nemokamas-dirbtinis-intelektas",
+  },
+  {
+    key: "en-best-ai-apps",
+    locale: "en",
+    path: "/en/insights/best-ai-apps",
+    title: "The Best AI Apps in 2026: Which One for Which Job",
+    description:
+      "The best AI apps organised by the job you need done: writing, facts, images, audio. What to pick, where each one falls short, and when paying is actually worth it.",
+    keywords: ["best ai apps", "best ai tools", "which ai app"],
+    tier: 3,
+    status: "live",
+    counterpart: "lt-dirbtinio-intelekto-programos",
   },
   {
     key: "en-chatgpt-lithuanian",
