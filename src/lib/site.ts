@@ -13,3 +13,9 @@ export const PITCH_VIDEO_URL = "https://www.youtube.com/watch?v=36HbA4Vy11s";
 
 /** TODO: set once the Substack is created. Null hides subscribe buttons. */
 export const SUBSTACK_URL: string | null = null;
+
+/**
+ * Claude referral link. Rendered as rel="sponsored nofollow" by Inline and
+ * always accompanied by a disclosure line in the article.
+ */
+export const CLAUDE_REFERRAL = "https://claude.ai/referral/5JaLlVfIEg";

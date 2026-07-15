@@ -18,6 +18,10 @@ export const freeAiTools: Article = {
     },
     {
       type: "p",
+      text: "**For transparency:** the Claude link is a referral link. It costs you nothing and gives me a small bonus. It's here because I use Claude every day, not because of the referral.",
+    },
+    {
+      type: "p",
       text: "One tip up front: don't pick all of them. Choose one or two from this list and do real work with them for a week. More than two tools at the start just scatters your attention.",
     },
     {
@@ -29,7 +33,7 @@ export const freeAiTools: Article = {
       type: "ul",
       items: [
         "**ChatGPT** (chat.openai.com). The most popular and versatile. The free tier handles writing, questions, ideas, and translation.",
-        "**Claude** (claude.ai). Especially strong at writing, longer texts, and working with documents. My daily pick for creative work.",
+        "**[Claude](https://claude.ai/referral/5JaLlVfIEg)**. Especially strong at writing, longer texts, and working with documents. My daily pick for creative work.",
         "**Google Gemini** (gemini.google.com). Convenient because it's integrated with Gmail, Docs, and Drive.",
       ],
     },

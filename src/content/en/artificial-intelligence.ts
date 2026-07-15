@@ -78,7 +78,7 @@ export const artificialIntelligence: Article = {
       type: "ul",
       items: [
         "**ChatGPT** (chat.openai.com) — the most popular, most all-round assistant.",
-        "**Claude** (claude.ai) — especially strong at writing and longer tasks.",
+        "**[Claude](https://claude.ai/referral/5JaLlVfIEg)** — especially strong at writing and longer tasks (referral link).",
         "**Google Gemini** — handy because it's built into Google's apps.",
         "**Perplexity** — search with AI answers and cited sources.",
       ],

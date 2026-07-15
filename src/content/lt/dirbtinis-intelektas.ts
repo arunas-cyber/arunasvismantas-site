@@ -78,7 +78,7 @@ export const dirbtinisIntelektas: Article = {
       type: "ul",
       items: [
         "**ChatGPT** (chat.openai.com), populiariausias pokalbių asistentas, veikia ir lietuviškai.",
-        "**Claude** (claude.ai), ypač stiprus rašymui ir ilgesnėms užduotims.",
+        "**[Claude](https://claude.ai/referral/5JaLlVfIEg)**, ypač stiprus rašymui ir ilgesnėms užduotims (rekomendacinė nuoroda).",
         "**Google Gemini**, patogus, nes integruotas su Google paslaugomis.",
         "**Perplexity**, paieška su AI atsakymais ir nurodytais šaltiniais.",
       ],

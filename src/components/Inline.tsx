@@ -2,8 +2,19 @@ import Link from "next/link";
 import { type ReactNode } from "react";
 
 /**
+ * Referral/affiliate links must be marked rel="sponsored" per Google's link
+ * policies, otherwise they count as a link scheme. Any href matching these
+ * gets tagged automatically.
+ */
+const SPONSORED_PATTERNS = ["/referral/", "ref=", "aff="];
+
+const isSponsored = (href: string) =>
+  SPONSORED_PATTERNS.some((p) => href.includes(p));
+
+/**
  * Renders inline **bold** and [label](href) from content strings.
  * Internal hrefs (starting with /) use next/link; external open in new tab.
+ * Referral links are automatically rel="sponsored nofollow".
  */
 export function Inline({ text }: { text: string }) {
   const nodes: ReactNode[] = [];
@@ -15,7 +26,12 @@ export function Inline({ text }: { text: string }) {
   while ((m = pattern.exec(text)) !== null) {
     if (m.index > last) nodes.push(text.slice(last, m.index));
     if (m[1] !== undefined) {
-      nodes.push(<strong key={key++}>{m[1]}</strong>);
+      // Recurse so **[label](href)** renders a bold link, not literal markdown.
+      nodes.push(
+        <strong key={key++}>
+          <Inline text={m[1]} />
+        </strong>,
+      );
     } else {
       const [, , label, href] = m;
       const cls =
@@ -23,7 +39,7 @@ export function Inline({ text }: { text: string }) {
       nodes.push(
         href.startsWith("/") ? (
           <Link key={key++} href={href} className={cls}>
-            {label}
+            <Inline text={label} />
           </Link>
         ) : (
           <a
@@ -31,9 +47,13 @@ export function Inline({ text }: { text: string }) {
             href={href}
             className={cls}
             target="_blank"
-            rel="noopener noreferrer"
+            rel={
+              isSponsored(href)
+                ? "sponsored nofollow noopener noreferrer"
+                : "noopener noreferrer"
+            }
           >
-            {label}
+            <Inline text={label} />
           </a>
         ),
       );

@@ -18,6 +18,10 @@ export const nemokamasDirbtinisIntelektas: Article = {
     },
     {
       type: "p",
+      text: "**Skaidrumo dėlei:** nuoroda į Claude yra rekomendacinė. Tau ji nieko nekainuoja, o man duoda nedidelį bonusą. Įtraukiau jį todėl, kad pats juo naudojuosi kasdien, o ne todėl, kad už tai gaunu.",
+    },
+    {
+      type: "p",
       text: "Trumpas patarimas iš anksto: nesirink visų. Pasirink vieną ar du iš šio sąrašo ir savaitę su jais dirbk realų darbą. Daugiau nei du įrankiai pradžioje tik blaško.",
     },
     {
@@ -29,7 +33,7 @@ export const nemokamasDirbtinisIntelektas: Article = {
       type: "ul",
       items: [
         "**ChatGPT** (chat.openai.com). Populiariausias ir universaliausias. Nemokama versija tinka rašymui, klausimams, idėjoms, vertimams. Veikia lietuviškai.",
-        "**Claude** (claude.ai). Ypač stiprus rašymui, ilgesniems tekstams ir darbui su dokumentais. Mano kasdienis pasirinkimas kūrybai.",
+        "**[Claude](https://claude.ai/referral/5JaLlVfIEg)**. Ypač stiprus rašymui, ilgesniems tekstams ir darbui su dokumentais. Mano kasdienis pasirinkimas kūrybai.",
         "**Google Gemini** (gemini.google.com). Patogus, nes integruotas su Gmail, Docs ir kitomis Google paslaugomis.",
       ],
     },
