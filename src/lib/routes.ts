@@ -310,6 +310,23 @@ export const routes: SiteRoute[] = [
     counterpart: "en-build-business-no-capital",
   },
 
+  {
+    key: "lt-chatgpt-lietuviskai",
+    locale: "lt",
+    path: "/izvalgos/chatgpt-lietuviskai",
+    title: "ChatGPT lietuviškai: kiek gerai iš tikrųjų moka (ir ko niekas nesako)",
+    description:
+      "Ar ChatGPT tikrai gerai moka lietuviškai? Tyrimų skaičiai, o ne nuomonės. Kaip naudotis nemokamai ir be registracijos, kodėl „ChatGPT lietuviškai\" svetainės nėra ChatGPT, ir kaip gauti geresnę lietuvių kalbą.",
+    keywords: [
+      "chatgpt lietuviskai",
+      "chat gpt lietuviskai nemokamai",
+      "chatgpt lietuviskai be registracijos",
+    ],
+    tier: 3,
+    status: "live",
+    counterpart: "en-chatgpt-lithuanian",
+  },
+
   // ------------------------------------------------- Insights articles (EN)
   {
     key: "en-artificial-intelligence",
@@ -338,6 +355,22 @@ export const routes: SiteRoute[] = [
     tier: 3,
     status: "live",
     counterpart: "lt-nemokamas-dirbtinis-intelektas",
+  },
+  {
+    key: "en-chatgpt-lithuanian",
+    locale: "en",
+    path: "/en/insights/chatgpt-in-lithuanian",
+    title: "ChatGPT in Lithuanian: How Good Is It Really?",
+    description:
+      "Does ChatGPT actually handle Lithuanian well? The benchmark numbers, not opinions. How to use it free without signing up, why the \"ChatGPT lietuviškai\" sites are not ChatGPT, and how to get better Lithuanian out of it.",
+    keywords: [
+      "chatgpt lithuanian",
+      "chatgpt in lithuanian",
+      "llm lithuanian language",
+    ],
+    tier: 3,
+    status: "live",
+    counterpart: "lt-chatgpt-lietuviskai",
   },
   {
     key: "en-build-business-no-capital",
