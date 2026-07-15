@@ -7,6 +7,10 @@ export const dirbtinisIntelektas: Article = {
   publishedAt: "2026-07-13",
   kicker: "Dirbtinis intelektas",
   lede: "Kas yra dirbtinis intelektas, kaip jis iš tikrųjų veikia ir kaip pradėti juo naudotis, tiek kasdien, tiek versle. Be techninio žargono, iš praktiko, kuris su AI kuria kiekvieną dieną.",
+  hero: {
+    src: "/images/insights/dirbtinis-intelektas.jpg",
+    alt: "Iliustracija: dirbtinio intelekto robotas, pokalbio burbulas ir neuroninio tinklo mazgai",
+  },
   blocks: [
     {
       type: "p",

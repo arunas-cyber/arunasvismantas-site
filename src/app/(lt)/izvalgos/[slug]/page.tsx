@@ -24,6 +24,7 @@ export async function generateMetadata({
     ogType: "article",
     publishedTime: article?.publishedAt,
     modifiedTime: article?.updatedAt,
+    ogImage: article?.hero?.src,
   });
 }
 

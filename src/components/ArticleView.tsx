@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Container } from "./Container";
 import { Button } from "./Button";
 import { FAQ } from "./FAQ";
@@ -128,6 +129,7 @@ export function ArticleView({
     datePublished: article.publishedAt,
     dateModified: article.updatedAt ?? article.publishedAt,
     author: { "@id": `${SITE_URL}/#person` },
+    ...(article.hero ? { image: `${SITE_URL}${article.hero.src}` } : {}),
     mainEntityOfPage: `${SITE_URL}${route.path}`,
   };
 
@@ -172,6 +174,18 @@ export function ArticleView({
             {article.updatedAt &&
               ` · ${t.updated} ${formatDate(article.updatedAt, route.locale)}`}
           </p>
+          {article.hero && (
+            <div className="avb relative mt-10 aspect-[16/9] overflow-hidden bg-paper">
+              <Image
+                src={article.hero.src}
+                alt={article.hero.alt}
+                fill
+                priority
+                sizes="(min-width: 1152px) 1088px, 100vw"
+                className="object-cover"
+              />
+            </div>
+          )}
         </Container>
       </section>
 

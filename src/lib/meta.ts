@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { routeByKey, SITE_URL } from "./routes";
 
-const OG_IMAGE = "/og.jpg";
+const DEFAULT_OG_IMAGE = "/og.jpg";
 
 interface MetaOpts {
   /** Open Graph type. Defaults to "website"; use "profile" for /about, "article" for posts. */
@@ -9,6 +9,8 @@ interface MetaOpts {
   /** ISO dates for article Open Graph. */
   publishedTime?: string;
   modifiedTime?: string;
+  /** Override the share image (e.g. an article's hero). Root-relative path. */
+  ogImage?: string;
 }
 
 /**
@@ -36,6 +38,7 @@ export function pageMetadata(key: string, opts: MetaOpts = {}): Metadata {
   const isHome = key === "home" || key === "home-lt";
   const ogLocale = r.locale === "en" ? "en_US" : "lt_LT";
   const altLocale = r.locale === "en" ? "lt_LT" : "en_US";
+  const ogImage = opts.ogImage ?? DEFAULT_OG_IMAGE;
 
   return {
     title: isHome ? { absolute: r.title } : r.title,
@@ -53,7 +56,7 @@ export function pageMetadata(key: string, opts: MetaOpts = {}): Metadata {
       siteName: "Arunas Vismantas",
       locale: ogLocale,
       alternateLocale: altLocale,
-      images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: r.title }],
+      images: [{ url: ogImage, width: 1200, height: 630, alt: r.title }],
       ...(opts.publishedTime
         ? {
             publishedTime: opts.publishedTime,
@@ -66,7 +69,7 @@ export function pageMetadata(key: string, opts: MetaOpts = {}): Metadata {
       card: "summary_large_image",
       title: r.title,
       description: r.description,
-      images: [OG_IMAGE],
+      images: [ogImage],
     },
   };
 }
