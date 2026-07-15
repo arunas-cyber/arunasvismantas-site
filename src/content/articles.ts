@@ -3,6 +3,9 @@ import { routeByKey, type Locale, type SiteRoute } from "@/lib/routes";
 import { dirbtinisIntelektas } from "./lt/dirbtinis-intelektas";
 import { nemokamasDirbtinisIntelektas } from "./lt/nemokamas-dirbtinis-intelektas";
 import { verslasBeKapitalo } from "./lt/verslas-be-kapitalo";
+import { artificialIntelligence } from "./en/artificial-intelligence";
+import { freeAiTools } from "./en/free-ai-tools";
+import { buildBusinessNoCapital } from "./en/build-business-no-capital";
 
 /**
  * The article registry. Every published piece is one object here plus one
@@ -13,6 +16,9 @@ export const articles: Article[] = [
   dirbtinisIntelektas,
   nemokamasDirbtinisIntelektas,
   verslasBeKapitalo,
+  artificialIntelligence,
+  freeAiTools,
+  buildBusinessNoCapital,
 ];
 
 export const articleByRouteKey = (routeKey: string) =>

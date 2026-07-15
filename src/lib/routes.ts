@@ -274,6 +274,7 @@ export const routes: SiteRoute[] = [
     ],
     tier: 2,
     status: "live",
+    counterpart: "en-artificial-intelligence",
   },
   {
     key: "lt-nemokamas-dirbtinis-intelektas",
@@ -289,6 +290,7 @@ export const routes: SiteRoute[] = [
     ],
     tier: 3,
     status: "live",
+    counterpart: "en-free-ai-tools",
   },
   {
     key: "lt-verslas-be-kapitalo",
@@ -305,6 +307,53 @@ export const routes: SiteRoute[] = [
     ],
     tier: 2,
     status: "live",
+    counterpart: "en-build-business-no-capital",
+  },
+
+  // ------------------------------------------------- Insights articles (EN)
+  {
+    key: "en-artificial-intelligence",
+    locale: "en",
+    path: "/en/insights/artificial-intelligence",
+    title: "Artificial Intelligence: A Practical Guide for 2026",
+    description:
+      "What artificial intelligence is, how it actually works, and how to use it day to day and in business. No jargon, from a founder who builds with AI every day.",
+    keywords: [
+      "artificial intelligence",
+      "what is artificial intelligence",
+      "how does ai work",
+    ],
+    tier: 2,
+    status: "live",
+    counterpart: "lt-dirbtinis-intelektas",
+  },
+  {
+    key: "en-free-ai-tools",
+    locale: "en",
+    path: "/en/insights/free-ai-tools",
+    title: "Free AI: The 7 Best Tools in 2026 (and Where the Free Tier Ends)",
+    description:
+      "The best free AI tools in 2026: real free-tier limits, what each is genuinely best at, the privacy reality, and where to start. No hype, from a founder who builds with AI.",
+    keywords: ["free ai tools", "free ai", "best free ai"],
+    tier: 3,
+    status: "live",
+    counterpart: "lt-nemokamas-dirbtinis-intelektas",
+  },
+  {
+    key: "en-build-business-no-capital",
+    locale: "en",
+    path: "/en/insights/how-to-build-a-business-without-capital",
+    title: "How to Build a Business Without Much Capital: 8 Lessons From 0 to €100K",
+    description:
+      "Practical business-building lessons from 20 years and five companies: sales before product, margins, the funnel, returning customers, and tools. From my LOGIN 2025 talk.",
+    keywords: [
+      "how to build a business",
+      "business without capital",
+      "how to start a business with no money",
+    ],
+    tier: 2,
+    status: "live",
+    counterpart: "lt-verslas-be-kapitalo",
   },
 ];
 
