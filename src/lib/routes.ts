@@ -455,6 +455,22 @@ export const routes: SiteRoute[] = [
     counterpart: "lt-verslas-be-kapitalo",
   },
   {
+    key: "en-personal-ai-assistant",
+    locale: "en",
+    path: "/en/insights/personal-ai-assistant",
+    title: "Personal AI Assistant: The Complete Guide for 2026",
+    description:
+      "What a personal AI assistant is in 2026, the best options compared, and how to build your own without coding. From a founder who builds and ships AI agents daily.",
+    keywords: [
+      "personal ai assistant",
+      "best ai assistant",
+      "ai assistant 2026",
+      "build your own ai assistant",
+    ],
+    tier: 2,
+    status: "live",
+  },
+  {
     key: "en-claude-code-vs-cursor",
     locale: "en",
     path: "/en/insights/claude-code-vs-cursor",

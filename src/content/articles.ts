@@ -14,6 +14,7 @@ import { chatgptLithuanian } from "./en/chatgpt-lithuanian";
 import { bestAiApps } from "./en/best-ai-apps";
 import { whatIsOpenclaw } from "./en/what-is-openclaw";
 import { claudeCodeVsCursor } from "./en/claude-code-vs-cursor";
+import { personalAiAssistant } from "./en/personal-ai-assistant";
 
 /**
  * The article registry. Every published piece is one object here plus one
@@ -35,6 +36,7 @@ export const articles: Article[] = [
   whatIsOpenclaw,
   versloRykliai,
   claudeCodeVsCursor,
+  personalAiAssistant,
 ];
 
 export const articleByRouteKey = (routeKey: string) =>
