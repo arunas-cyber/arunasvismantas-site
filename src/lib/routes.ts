@@ -454,6 +454,21 @@ export const routes: SiteRoute[] = [
     status: "live",
     counterpart: "lt-verslas-be-kapitalo",
   },
+  {
+    key: "en-claude-code-vs-cursor",
+    locale: "en",
+    path: "/en/insights/claude-code-vs-cursor",
+    title: "Claude Code vs Cursor (2026): A Non-Engineer's Honest Comparison",
+    description:
+      "Claude Code vs Cursor compared by a founder who ships with both daily. Terminal agent vs AI IDE: pricing, workflow, token efficiency, and which to pick if you are not an engineer.",
+    keywords: [
+      "claude code vs cursor",
+      "claude code vs cursor 2026",
+      "best ai coding tool",
+    ],
+    tier: 3,
+    status: "live",
+  },
 ];
 
 export const liveRoutes = (locale?: Locale) =>
