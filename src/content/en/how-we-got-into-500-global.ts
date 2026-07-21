@@ -92,6 +92,8 @@ export const howWeGotInto500Global: Article = {
       title: "Callsy pitch",
       description:
         "The Callsy pitch: AI voice, SMS, and email agents that handle customer conversations for ecommerce brands across Europe.",
+      uploadDate: "2025-12-12T01:54:23-08:00",
+      duration: "PT2M23S",
     },
     {
       type: "p",

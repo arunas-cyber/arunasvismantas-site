@@ -92,6 +92,8 @@ export const kaipPatekomeI500Global: Article = {
       title: "Callsy pitchas",
       description:
         "Callsy pitchas: AI balso, SMS ir el. pašto agentai, bendraujantys su el. parduotuvių klientais visoje Europoje.",
+      uploadDate: "2025-12-12T01:54:23-08:00",
+      duration: "PT2M23S",
     },
     {
       type: "p",
