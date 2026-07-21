@@ -6,6 +6,7 @@ import { verslasBeKapitalo } from "./lt/verslas-be-kapitalo";
 import { chatgptLietuviskai } from "./lt/chatgpt-lietuviskai";
 import { dirbtinioIntelektoProgramos } from "./lt/dirbtinio-intelekto-programos";
 import { kasYraOpenclaw } from "./lt/kas-yra-openclaw";
+import { versloRykliai } from "./lt/verslo-rykliai";
 import { artificialIntelligence } from "./en/artificial-intelligence";
 import { freeAiTools } from "./en/free-ai-tools";
 import { buildBusinessNoCapital } from "./en/build-business-no-capital";
@@ -31,6 +32,7 @@ export const articles: Article[] = [
   bestAiApps,
   kasYraOpenclaw,
   whatIsOpenclaw,
+  versloRykliai,
 ];
 
 export const articleByRouteKey = (routeKey: string) =>

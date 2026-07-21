@@ -357,6 +357,18 @@ export const routes: SiteRoute[] = [
     counterpart: "en-what-is-openclaw",
   },
 
+  {
+    key: "lt-verslo-rykliai",
+    locale: "lt",
+    path: "/izvalgos/verslo-rykliai",
+    title: "Verslo rykliai: kaip iš tikrųjų atrodo pitchas (mano patirtis)",
+    description:
+      "Pristatėme Callsy Rykliai. Lietuva laidoje (TV3). Kas iš tikrųjų vyksta Verslo rykliuose, koks buvo ryklių verdiktas ir ką iš to išmokau. Arunas Vismantas.",
+    keywords: ["verslo rykliai", "rykliai lietuva", "shark tank lietuva"],
+    tier: 3,
+    status: "live",
+  },
+
   // ------------------------------------------------- Insights articles (EN)
   {
     key: "en-artificial-intelligence",
