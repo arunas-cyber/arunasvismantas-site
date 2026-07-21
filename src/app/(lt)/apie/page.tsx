@@ -48,7 +48,7 @@ const sections = [
     h: "Kelias",
     body: [
       "Atvirai: esu tinginys, ir iš to susikūriau karjerą. Jei užduotis kartojasi, ją automatizuoju. Tas pats instinktas jungia visus penkis mano verslus.",
-      "Prasidėjo 2018-aisiais su Smart Vision, el. prekybos aptarnavimo paslaugų įmone. Vėliau buvo keleri metai efektyvaus marketingo ir augimo darbo el. parduotuvėms su AdKings ir [BrandBoosters](https://brandboosters.io), o pakeliui atsirado ir Podbase. Kiekvienas šių verslų iš kito kampo pamokė to paties: nuobodų, pasikartojantį darbą kaip tik ir turėtų atlikti programinė įranga.",
+      "Prasidėjo 2018-aisiais su Smart Vision, el. prekybos aptarnavimo paslaugų įmone. Vėliau buvo keleri metai efektyvaus marketingo ir augimo darbo el. parduotuvėms su [AdKings](https://www.adkings.agency) ir [BrandBoosters](https://brandboosters.io), o pakeliui atsirado ir [Podbase](https://www.podbase.com). Kiekvienas šių verslų iš kito kampo pamokė to paties: nuobodų, pasikartojantį darbą kaip tik ir turėtų atlikti programinė įranga.",
       "Šiandien tai [Callsy](https://callsy.ai), europinė platforma, kurioje AI balso, SMS ir el. pašto agentai veda tikrus pokalbius su klientais: susigrąžina apleistus krepšelius, kvalifikuoja potencialius klientus, priima rezervacijas, primena apie mokėjimus, grąžina pasitraukusius pirkėjus. Įkūriau ją kartu su Laimonu Sutkumi, pamatęs, kiek pardavimų parduotuvės praranda kiekvieną naktį vien todėl, kad niekas nepakelia ragelio.",
     ],
   },

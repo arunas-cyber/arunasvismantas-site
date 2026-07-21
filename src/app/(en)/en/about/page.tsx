@@ -48,7 +48,7 @@ const sections = [
     h: "The arc",
     body: [
       "Here is the honest version: I am a lazy person, and I have built a career out of it. If a task is repetitive, my instinct is to automate it. Five companies later, that instinct is the through-line in all of them.",
-      "It started in 2018 with Smart Vision, an ecommerce support-services company, and ran through years of performance marketing and growth for online brands with AdKings and [BrandBoosters](https://brandboosters.io), plus Podbase along the way. Each one taught the same lesson from a different angle: the boring, repeatable work is exactly what software should handle.",
+      "It started in 2018 with Smart Vision, an ecommerce support-services company, and ran through years of performance marketing and growth for online brands with [AdKings](https://www.adkings.agency) and [BrandBoosters](https://brandboosters.io), plus [Podbase](https://www.podbase.com) along the way. Each one taught the same lesson from a different angle: the boring, repeatable work is exactly what software should handle.",
       "Today it is [Callsy](https://callsy.ai), an EU platform where AI voice, SMS, and email agents hold real customer conversations: recovering abandoned carts, qualifying leads, taking bookings, sending payment reminders, running win-backs. I co-founded it with Laimonas Sutkus after watching online stores lose sales every night, simply because nobody picked up the phone.",
     ],
   },

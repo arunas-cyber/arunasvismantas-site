@@ -116,7 +116,25 @@ export default function HomeLt() {
                 </a>
                 , europinė platforma, kurioje AI balso, SMS ir el. pašto agentai
                 perima pokalbius, kuriems el. parduotuvės neturi laiko. Prieš ją
-                buvo Podbase, Smart Vision, AdKings ir{" "}
+                buvo{" "}
+                <a
+                  href="https://www.podbase.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
+                >
+                  Podbase
+                </a>
+                , Smart Vision,{" "}
+                <a
+                  href="https://www.adkings.agency"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
+                >
+                  AdKings
+                </a>
+                {" "}ir{" "}
                 <a
                   href="https://brandboosters.io"
                   target="_blank"

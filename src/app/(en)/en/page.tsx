@@ -117,7 +117,25 @@ export default function Home() {
                 </a>
                 , an EU platform where AI voice, SMS, and email agents handle
                 the conversations ecommerce brands do not have time for. Before
-                it came Podbase, Smart Vision, AdKings, and{" "}
+                it came{" "}
+                <a
+                  href="https://www.podbase.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
+                >
+                  Podbase
+                </a>
+                , Smart Vision,{" "}
+                <a
+                  href="https://www.adkings.agency"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
+                >
+                  AdKings
+                </a>
+                , and{" "}
                 <a
                   href="https://brandboosters.io"
                   target="_blank"
