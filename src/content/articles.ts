@@ -7,6 +7,8 @@ import { chatgptLietuviskai } from "./lt/chatgpt-lietuviskai";
 import { dirbtinioIntelektoProgramos } from "./lt/dirbtinio-intelekto-programos";
 import { kasYraOpenclaw } from "./lt/kas-yra-openclaw";
 import { versloRykliai } from "./lt/verslo-rykliai";
+import { startuolis } from "./lt/startuolis";
+import { vienaragiaiLietuvoje } from "./lt/vienaragiai-lietuvoje";
 import { artificialIntelligence } from "./en/artificial-intelligence";
 import { freeAiTools } from "./en/free-ai-tools";
 import { buildBusinessNoCapital } from "./en/build-business-no-capital";
@@ -35,6 +37,8 @@ export const articles: Article[] = [
   kasYraOpenclaw,
   whatIsOpenclaw,
   versloRykliai,
+  startuolis,
+  vienaragiaiLietuvoje,
   claudeCodeVsCursor,
   personalAiAssistant,
 ];

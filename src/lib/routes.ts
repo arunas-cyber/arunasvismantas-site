@@ -358,6 +358,38 @@ export const routes: SiteRoute[] = [
   },
 
   {
+    key: "lt-startuolis",
+    locale: "lt",
+    path: "/izvalgos/startuolis",
+    title: "Startuolis: kas tai yra ir kaip pradėti savąjį (2026 gidas)",
+    description:
+      "Kas yra startuolis, kuo skiriasi nuo įprasto verslo, kaip finansuojamas ir kaip pradėti savąjį. Praktinis gidas iš penkis kartus startuolius kūrusio įkūrėjo. Autorius Arunas Vismantas.",
+    keywords: [
+      "startuolis",
+      "kas yra startuolis",
+      "kaip sukurti startuoli",
+      "startuolis lietuvoje",
+    ],
+    tier: 2,
+    status: "live",
+  },
+  {
+    key: "lt-vienaragiai-lietuvoje",
+    locale: "lt",
+    path: "/izvalgos/vienaragiai-lietuvoje",
+    title: "Vienaragiai Lietuvoje: visi penki milijardiniai startuoliai",
+    description:
+      "Lietuva užaugino penkis vienaragius: Vinted, Nord Security, Baltic Classifieds Group, Flo Health ir Cast AI. Kas jie, kaip pasiekė milijardą ir ko iš to pasimokyti.",
+    keywords: [
+      "vienaragiai lietuvoje",
+      "lietuvos vienaragiai",
+      "startuoliai lietuvoje",
+      "unicorn lietuva",
+    ],
+    tier: 3,
+    status: "live",
+  },
+  {
     key: "lt-verslo-rykliai",
     locale: "lt",
     path: "/izvalgos/verslo-rykliai",
