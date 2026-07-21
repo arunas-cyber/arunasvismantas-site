@@ -9,6 +9,7 @@ import { kasYraOpenclaw } from "./lt/kas-yra-openclaw";
 import { versloRykliai } from "./lt/verslo-rykliai";
 import { startuolis } from "./lt/startuolis";
 import { vienaragiaiLietuvoje } from "./lt/vienaragiai-lietuvoje";
+import { kaipPatekomeI500Global } from "./lt/kaip-patekome-i-500-global";
 import { artificialIntelligence } from "./en/artificial-intelligence";
 import { freeAiTools } from "./en/free-ai-tools";
 import { buildBusinessNoCapital } from "./en/build-business-no-capital";
@@ -17,6 +18,7 @@ import { bestAiApps } from "./en/best-ai-apps";
 import { whatIsOpenclaw } from "./en/what-is-openclaw";
 import { claudeCodeVsCursor } from "./en/claude-code-vs-cursor";
 import { personalAiAssistant } from "./en/personal-ai-assistant";
+import { howWeGotInto500Global } from "./en/how-we-got-into-500-global";
 
 /**
  * The article registry. Every published piece is one object here plus one
@@ -39,8 +41,10 @@ export const articles: Article[] = [
   versloRykliai,
   startuolis,
   vienaragiaiLietuvoje,
+  kaipPatekomeI500Global,
   claudeCodeVsCursor,
   personalAiAssistant,
+  howWeGotInto500Global,
 ];
 
 export const articleByRouteKey = (routeKey: string) =>

@@ -77,7 +77,7 @@ const sections = [
   {
     h: "Right now",
     body: [
-      "Today I am scaling Callsy and raising for 2026, after wrapping the 500 Global Eurasia accelerator and FirstPick's AI Accelerator, the first in the Baltics. Along the way Callsy pitched on Rykliai. Lietuva, Lithuania's Shark Tank, reached the Latitude59 pitch finals, and was ranked the #3 AI company on F6S.",
+      "Today I am scaling Callsy and raising for 2026, after wrapping [the 500 Global Eurasia accelerator](/en/insights/how-we-got-into-500-global) and FirstPick's AI Accelerator, the first in the Baltics. Along the way Callsy pitched on Rykliai. Lietuva, Lithuania's Shark Tank, reached the Latitude59 pitch finals, and was ranked the #3 AI company on F6S.",
       "Outside the company, I host Founders & Food, a podcast where Lithuanian founders talk honestly over dinner, and I speak at startup and AI events in Lithuanian and English.",
     ],
   },

@@ -77,7 +77,7 @@ const sections = [
   {
     h: "Dabar",
     body: [
-      "Šiandien auginu Callsy ir renku investicijas 2026-iesiems, ką tik baigęs 500 Global Eurasia akseleratorių ir FirstPick AI akseleratorių, pirmąjį Baltijos šalyse. Pakeliui su Callsy pasirodėme laidoje Rykliai. Lietuva, patekome į Latitude59 finalą ir buvome įvertinti kaip #3 AI įmonė F6S platformoje.",
+      "Šiandien auginu Callsy ir renku investicijas 2026-iesiems, ką tik baigęs [500 Global Eurasia akseleratorių](/izvalgos/kaip-patekome-i-500-global) ir FirstPick AI akseleratorių, pirmąjį Baltijos šalyse. Pakeliui su Callsy pasirodėme laidoje Rykliai. Lietuva, patekome į Latitude59 finalą ir buvome įvertinti kaip #3 AI įmonė F6S platformoje.",
       "Be įmonės, vedu tinklalaidę Founders & Food, kur lietuviai steigėjai atvirai kalbasi prie vakarienės, ir skaitau pranešimus startuolių bei AI renginiuose lietuviškai ir angliškai.",
     ],
   },

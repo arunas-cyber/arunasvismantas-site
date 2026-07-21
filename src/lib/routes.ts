@@ -400,6 +400,23 @@ export const routes: SiteRoute[] = [
     tier: 3,
     status: "live",
   },
+  {
+    key: "lt-500-global",
+    locale: "lt",
+    path: "/izvalgos/kaip-patekome-i-500-global",
+    title: "Kaip patekome į 500 Global akseleratorių (mano patirtis)",
+    description:
+      "Callsy pateko į 500 Global Eurazijos akseleratoriaus 9-ąją laidą. Kas yra 500 Global, kokia atranka, ko ieškoma ir atvira versija, kaip mums pavyko. Arunas Vismantas.",
+    keywords: [
+      "500 global",
+      "500 startups",
+      "startuoliu akseleratorius",
+      "500 global akseleratorius",
+    ],
+    tier: 3,
+    status: "live",
+    counterpart: "en-500-global",
+  },
 
   // ------------------------------------------------- Insights articles (EN)
   {
@@ -516,6 +533,23 @@ export const routes: SiteRoute[] = [
     ],
     tier: 3,
     status: "live",
+  },
+  {
+    key: "en-500-global",
+    locale: "en",
+    path: "/en/insights/how-we-got-into-500-global",
+    title: "How We Got Into 500 Global (A Founder's Honest Take)",
+    description:
+      "Callsy got into 500 Global's Eurasia accelerator (Batch 9). What 500 Global is, how selective it is, what they look for, and the honest story of how we got in. Arunas Vismantas.",
+    keywords: [
+      "500 global",
+      "500 startups",
+      "500 global accelerator",
+      "startup accelerator",
+    ],
+    tier: 3,
+    status: "live",
+    counterpart: "lt-500-global",
   },
 ];
 
