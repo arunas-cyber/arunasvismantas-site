@@ -417,6 +417,23 @@ export const routes: SiteRoute[] = [
     status: "live",
     counterpart: "en-500-global",
   },
+  {
+    key: "lt-kaip-naudotis-claude",
+    locale: "lt",
+    path: "/izvalgos/kaip-naudotis-claude",
+    title: "Kaip naudotis Claude: gidas pradedantiesiems (2026)",
+    description:
+      "Kas yra Claude, kuo skiriasi nuo ChatGPT, kaip pradėti nemokamai ir ką su juo daryti kasdien. Praktinis gidas pradedantiesiems iš įkūrėjo, kuris kuria produktus su Claude. Arunas Vismantas.",
+    keywords: [
+      "kaip naudotis claude",
+      "claude ai",
+      "claude dirbtinis intelektas",
+      "claude pradedantiesiems",
+    ],
+    tier: 2,
+    status: "live",
+    counterpart: "en-how-to-use-claude",
+  },
 
   // ------------------------------------------------- Insights articles (EN)
   {
@@ -550,6 +567,23 @@ export const routes: SiteRoute[] = [
     tier: 3,
     status: "live",
     counterpart: "lt-500-global",
+  },
+  {
+    key: "en-how-to-use-claude",
+    locale: "en",
+    path: "/en/insights/how-to-use-claude",
+    title: "How to Use Claude AI: A Beginner's Guide (2026)",
+    description:
+      "What Claude is, how it differs from ChatGPT, how to start for free, and how to actually use it every day. A practical beginner's guide from a founder who builds products with Claude. Arunas Vismantas.",
+    keywords: [
+      "how to use claude ai",
+      "claude ai for beginners",
+      "claude ai tutorial",
+      "claude ai guide",
+    ],
+    tier: 2,
+    status: "live",
+    counterpart: "lt-kaip-naudotis-claude",
   },
 ];
 
