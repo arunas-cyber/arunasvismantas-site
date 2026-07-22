@@ -268,7 +268,14 @@ export function ArticleView({
               ` · ${t.updated} ${formatDate(article.updatedAt, route.locale)}`}
           </p>
           {article.hero && (
-            <div className="avb relative mt-10 aspect-[16/9] overflow-hidden bg-paper">
+            <div
+              className="avb relative mt-10 aspect-[16/9] overflow-hidden bg-paper"
+              style={
+                article.hero.animate
+                  ? { animation: "hero-float 5s ease-in-out infinite" }
+                  : undefined
+              }
+            >
               <Image
                 src={article.hero.src}
                 alt={article.hero.alt}

@@ -43,7 +43,7 @@ export interface Article {
   /** Opening paragraph, also used on hub cards. */
   lede: string;
   /** Optional hero illustration. Also used as the article's OG/share image. */
-  hero?: { src: string; alt: string };
+  hero?: { src: string; alt: string; animate?: boolean };
   blocks: Block[];
   /** Route keys of related pages for the internal-links footer. */
   related?: string[];
