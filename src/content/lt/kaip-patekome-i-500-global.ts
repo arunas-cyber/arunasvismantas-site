@@ -7,6 +7,10 @@ export const kaipPatekomeI500Global: Article = {
   publishedAt: "2026-07-21",
   kicker: "Steigėjo užrašai",
   lede: "500 Global yra vienas aktyviausių ankstyvos stadijos investuotojų pasaulyje, o į jo akseleratorius patekti nelengva. Callsy pateko į Eurazijos laidą. Štai kas tai per programa, ko joje ieškoma ir atvira versija, kaip mums pavyko.",
+  hero: {
+    src: "/images/insights/500-global.jpg",
+    alt: "Iliustracija: raketa, kylanti nuo Žemės rutulio",
+  },
   blocks: [
     {
       type: "p",

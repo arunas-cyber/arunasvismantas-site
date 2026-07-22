@@ -7,6 +7,10 @@ export const personalAiAssistant: Article = {
   publishedAt: "2026-07-21",
   kicker: "AI Agents",
   lede: "A personal AI assistant is no longer a sci-fi concept or a glorified timer. In 2026, you can build one that knows your business, drafts your emails, manages your calendar, and takes real action across your tools. Here is the complete guide.",
+  hero: {
+    src: "/images/insights/personal-ai-assistant.jpg",
+    alt: "Illustration: a friendly robot with a speech bubble of automation icons",
+  },
   blocks: [
     {
       type: "p",

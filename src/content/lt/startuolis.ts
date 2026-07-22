@@ -7,6 +7,10 @@ export const startuolis: Article = {
   publishedAt: "2026-07-21",
   kicker: "Startuoliai",
   lede: "Kas yra startuolis, kuo jis skiriasi nuo įprasto verslo, kaip finansuojamas ir kaip pradėti savąjį. Praktinis gidas iš penkis kartus startuolius kūrusio įkūrėjo, be teorijos ir be pompastikos.",
+  hero: {
+    src: "/images/insights/startuolis.jpg",
+    alt: "Iliustracija: kylanti raketa, simbolizuojanti startuolio pradžią",
+  },
   blocks: [
     {
       type: "p",

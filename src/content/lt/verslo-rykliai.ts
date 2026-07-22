@@ -7,6 +7,10 @@ export const versloRykliai: Article = {
   publishedAt: "2026-07-21",
   kicker: "Startuoliai",
   lede: "Stovėjau prieš keturis ryklius tiesioginėje laidoje ir pristatinėjau Callsy. Gavau validaciją iš vienaragių kūrėjų, bet sandorio negavau. Štai kas iš tikrųjų vyksta Verslo rykliuose, ko kamera neparodo ir ką iš to išmokau.",
+  hero: {
+    src: "/images/insights/verslo-rykliai.jpg",
+    alt: "Iliustracija: ryklio pelekas ir prožektoriaus apšviesta pakyla",
+  },
   blocks: [
     {
       type: "p",

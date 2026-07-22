@@ -7,6 +7,10 @@ export const howWeGotInto500Global: Article = {
   publishedAt: "2026-07-21",
   kicker: "Founder notes",
   lede: "500 Global is one of the most active early-stage investors in the world, and its accelerators are hard to get into. Callsy made it into the Eurasia batch. Here is what the program actually is, what they look for, and the honest version of how we got in.",
+  hero: {
+    src: "/images/insights/500-global.jpg",
+    alt: "Illustration: a rocket launching off a globe",
+  },
   blocks: [
     {
       type: "p",

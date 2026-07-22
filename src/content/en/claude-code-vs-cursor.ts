@@ -7,6 +7,10 @@ export const claudeCodeVsCursor: Article = {
   publishedAt: "2026-07-21",
   kicker: "Building with AI",
   lede: "I am not an engineer. I am a founder who ships products using AI coding tools every day. I have built features, full sites, and internal tools with both Claude Code and Cursor. Here is what actually matters when choosing between them.",
+  hero: {
+    src: "/images/insights/claude-code-vs-cursor.jpg",
+    alt: "Illustration: two code-editor windows facing off with a lightning-bolt divider",
+  },
   blocks: [
     {
       type: "p",

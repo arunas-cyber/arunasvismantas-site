@@ -7,6 +7,10 @@ export const vienaragiaiLietuvoje: Article = {
   publishedAt: "2026-07-21",
   kicker: "Startuoliai",
   lede: "Lietuva, mažiau nei trijų milijonų gyventojų šalis, jau užaugino penkis vienaragius. Kas jie, kaip kiekvienas pasiekė milijardo vertę ir ką iš to gali pasimokyti kiekvienas įkūrėjas.",
+  hero: {
+    src: "/images/insights/vienaragiai-lietuvoje.jpg",
+    alt: "Iliustracija: geometrinė vienaragio galva su ragu",
+  },
   blocks: [
     {
       type: "p",
