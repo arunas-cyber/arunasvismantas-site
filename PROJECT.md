@@ -93,22 +93,27 @@ Neo-brutalist, from Arunas's official brandbook. **Five colors only:** Paper `#F
 | Best AI apps | `/izvalgos/dirbtinio-intelekto-programos` | `/en/insights/best-ai-apps` | dirbtinio intelekto programos (880/mo, KD 3) |
 | What is OpenClaw | `/izvalgos/kas-yra-openclaw` | `/en/insights/what-is-openclaw` | what is openclaw (14,800/mo, decaying) |
 
+Since then (2026-07, 2nd + 3rd sessions): added **Verslo rykliai** (Shark Tank story, LT), **Startuolis** hub (LT), **Vienaragiai Lietuvoje** (LT), **Kaip patekome į 500 Global** (LT+EN pair), **Claude Code vs Cursor** (EN, 8,100/mo KD5), **Personal AI Assistant** hub (EN, 14,800/mo KD12). **17 articles total, all with on-brand heroes.**
+
 The **business pillar** is built from the transcript of his real **LOGIN 2025 talk** (YouTube `dDxAc3GPziU`, embedded with VideoObject schema). Hero = real LOGIN stage photo.
 
-## 7. Next up (from the keyword research)
+## 7. In-flight decisions (as of 2026-07, resume here)
+
+- **Hero float animation — awaiting Arunas's verdict.** Added opt-in `hero.animate?: boolean` (types.ts) → gentle 5s `hero-float` keyframe on the framed hero. Currently enabled ONLY on `verslo-rykliai` as a test. Decide: keep just there / roll out to all heroes / make subtler / drop.
+- **Bilingual parity ("plan B") — awaiting decision.** 4 of the newer articles are single-language on purpose (verslo-rykliai + vienaragiai = LT-only, genuinely LT-specific; claude-code-vs-cursor + personal-ai-assistant = EN-only, near-zero LT demand). Recommendation: add ONLY a `startuolis` → EN counterpart ("what is a startup"), leave the other four single-language. Not yet done.
+
+## 7b. Next up (from the keyword research)
 
 Plans live in this repo: **`docs/seo-plan.md`** (full Phase 0 keyword research: LT + EN keyword maps with volumes/KD, hub-and-spoke plan) and **`docs/seo-roadmap.md`** (SEO gap audit + prioritised content roadmap).
-- **OpenClaw setup/tutorial** (openclaw setup + tutorial, KD 14–23) — feeds the course. Research already done (see git history / session).
-- **Verslo rykliai** (260/mo, KD 4) — his Shark Tank story, unbeatable E-E-A-T.
-- **Startuolis hub** (480/mo) + **Vienaragiai Lietuvoje** (110/mo, link magnet).
+- **OpenClaw setup/tutorial** (openclaw setup + tutorial, KD 14–23) — feeds the course. Research done (see the `what-is-openclaw` session / git history).
 - **AI mokymai course landing** — the money page. BLOCKED: no checkout (payments deferred) and no Substack yet, so there's nothing to convert into.
-- **Personal AI assistant hub** EN (14,800/mo, KD 12).
+- More long-tail from the roadmap (vibe coding tools, pitch deck examples, pre-seed funding, etc.).
 
 ## 8. Open items / gotchas
 
 - **Google Search Console:** sitemap submitted but showed "Couldn't fetch" — that was almost certainly the old apex→www redirect (now fixed). Re-submit `sitemap.xml`. Verification method still TBD.
 - **Backlinks = the #1 gap.** New domain, zero authority. Easiest win: get **Callsy, iDenfy, Podbase, AdKings, BrandBoosters** to link to arunasvismantas.eu (founder bio / team page). Site already links out to them to make the reciprocal ask easy. A "backlink kit" was offered but not built.
-- **Missing URLs:** Podbase, AdKings, Smart Vision (couldn't verify domains — don't guess; ask Arunas).
+- **Missing URLs:** Podbase (podbase.com) and AdKings (adkings.agency) now linked. Smart Vision still unknown — don't guess; ask Arunas.
 - **Missing from `sameAs`:** X/Twitter, Founders & Food podcast, F6S, Crunchbase. Have: LinkedIn, Threads (@arunas_v), YouTube (channel UCvDlDbUdglYaALimIskMXTA), Callsy.
 - **`SUBSTACK_URL` is null** in `lib/site.ts` → newsletter CTAs fall back to LinkedIn. Set it when the Substack exists.
 - **Imprint** needs real company details once the entity for paid services is chosen.
