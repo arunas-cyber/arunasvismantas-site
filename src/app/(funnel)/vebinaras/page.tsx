@@ -42,14 +42,14 @@ export default function WebinarLanding() {
               {webinar.subtitle}
             </p>
 
-            <div className="mt-6 flex flex-wrap gap-3">
-              <span className="avb inline-flex items-center bg-yellow px-4 py-2 text-[15px] font-bold">
-                {webinar.dateLabel}
+            {/* Plain info line — deliberately NOT a button. */}
+            <p className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-1 border-l-[3px] border-coral pl-4 text-[15px] font-bold text-ink">
+              <span>{webinar.dateLabel}</span>
+              <span aria-hidden className="text-muted">
+                ·
               </span>
-              <span className="avb inline-flex items-center bg-white px-4 py-2 text-[15px] font-bold">
-                {webinar.place}
-              </span>
-            </div>
+              <span>{webinar.place}</span>
+            </p>
 
             <ul className="mt-8 space-y-3">
               {webinar.bullets.map((b) => (
@@ -65,21 +65,27 @@ export default function WebinarLanding() {
               ))}
             </ul>
 
-            <div className="mt-8 flex items-start gap-4 border-t-[3px] border-ink pt-6">
+            {/* Host */}
+            <div className="mt-10 flex items-center gap-5 border-t-[3px] border-ink pt-6">
               {hasPhoto && (
-                <div className="avb relative h-20 w-20 shrink-0 overflow-hidden bg-white">
+                <div className="avb relative h-32 w-32 shrink-0 overflow-hidden bg-white sm:h-36 sm:w-36">
                   <Image
                     src={webinar.photo}
                     alt="Arunas Vismantas"
                     fill
-                    sizes="80px"
-                    className="object-cover"
+                    sizes="144px"
+                    className="object-cover object-[28%_22%]"
                   />
                 </div>
               )}
-              <p className="text-[15px] leading-relaxed text-muted">
-                {webinar.bio}
-              </p>
+              <div>
+                <p className="text-lg font-extrabold tracking-tight">
+                  Arunas Vismantas
+                </p>
+                <p className="mt-1 text-[15px] leading-relaxed text-muted">
+                  {webinar.bio}
+                </p>
+              </div>
             </div>
           </div>
 
