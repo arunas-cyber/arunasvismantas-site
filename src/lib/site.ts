@@ -1,6 +1,6 @@
 /** External links and site-wide constants. */
 
-export const CALENDLY_URL = "https://calendly.com/arunas-callsy";
+export const CALENDLY_URL = "https://calendly.com/arunas-callsy/new-meeting";
 export const LINKEDIN_URL = "https://www.linkedin.com/in/arunas-vismantas/";
 export const THREADS_URL = "https://www.threads.net/@arunas_v";
 export const YOUTUBE_URL =
