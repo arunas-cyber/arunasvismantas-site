@@ -18,7 +18,7 @@ export default function WebinarLanding() {
 
   return (
     <main className="min-h-full bg-paper">
-      <Container className="py-10 sm:py-16">
+      <Container className="py-10 sm:py-14">
         {/* Wordmark only — no nav, no links out. */}
         <div className="mb-10 flex items-center gap-2.5">
           <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-yellow text-[15px] font-extrabold text-ink ring-2 ring-ink">
@@ -29,8 +29,9 @@ export default function WebinarLanding() {
           </span>
         </div>
 
-        <div className="grid items-start gap-10 lg:grid-cols-[1.15fr_1fr] lg:gap-16">
-          {/* Left: the pitch */}
+        {/* HERO: big promise on the left, large portrait on the right */}
+        <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
+          {/* Left: the pitch + primary CTA above the fold */}
           <div>
             <p className="avtag inline-block rounded-lg bg-coral px-3 py-1.5 text-white">
               {webinar.eyebrow}
@@ -51,7 +52,68 @@ export default function WebinarLanding() {
               <span>{webinar.place}</span>
             </p>
 
-            <ul className="mt-8 space-y-3">
+            {/* Primary CTA above the fold */}
+            <div className="mt-8 flex flex-wrap items-center gap-4">
+              <a
+                href="#registracija"
+                className="avb avb-hover inline-flex items-center justify-center bg-yellow px-7 py-4 text-lg font-extrabold uppercase tracking-tight text-ink"
+              >
+                {webinar.cta}
+              </a>
+              <ul className="flex flex-wrap items-center gap-x-4 gap-y-1.5">
+                {webinar.reassurance.map((r) => (
+                  <li
+                    key={r}
+                    className="flex items-center gap-1.5 text-[14px] font-bold text-ink"
+                  >
+                    <span aria-hidden className="text-coral">
+                      ✓
+                    </span>
+                    {r}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          {/* Right: large host portrait */}
+          <div className="lg:sticky lg:top-10">
+            {hasPhoto ? (
+              <div className="avb relative aspect-[4/5] w-full overflow-hidden bg-white">
+                <Image
+                  src={webinar.photo}
+                  alt="Arunas Vismantas"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 520px"
+                  className="object-cover object-[28%_15%]"
+                  priority
+                />
+                {/* Name badge over the photo */}
+                <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 bg-gradient-to-t from-ink/90 to-transparent p-5">
+                  <div>
+                    <p className="text-xl font-extrabold leading-tight text-paper">
+                      Arunas Vismantas
+                    </p>
+                    <p className="text-sm font-medium text-paper/80">
+                      {webinar.host}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <div className="avb flex aspect-[4/5] w-full items-center justify-center bg-yellow">
+                <span className="text-7xl font-extrabold text-ink">AV</span>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* VALUE + FORM: bullets on the left, registration card on the right */}
+        <div className="mt-16 grid items-start gap-10 lg:mt-24 lg:grid-cols-[1fr_1fr] lg:gap-16">
+          {/* Left: what they'll learn */}
+          <div>
+            <p className="avtag text-muted">Ką sužinosi</p>
+            <ul className="mt-4 space-y-3">
               {webinar.bullets.map((b) => (
                 <li
                   key={b}
@@ -65,43 +127,53 @@ export default function WebinarLanding() {
               ))}
             </ul>
 
-            {/* Host */}
-            <div className="mt-10 flex items-center gap-5 border-t-[3px] border-ink pt-6">
-              {hasPhoto && (
-                <div className="avb relative h-32 w-32 shrink-0 overflow-hidden bg-white sm:h-36 sm:w-36">
-                  <Image
-                    src={webinar.photo}
-                    alt="Arunas Vismantas"
-                    fill
-                    sizes="144px"
-                    className="object-cover object-[28%_22%]"
-                  />
-                </div>
-              )}
-              <div>
-                <p className="text-lg font-extrabold tracking-tight">
-                  Arunas Vismantas
-                </p>
-                <p className="mt-1 text-[15px] leading-relaxed text-muted">
-                  {webinar.bio}
-                </p>
-              </div>
-            </div>
+            {/* Credibility chips */}
+            <ul className="mt-8 flex flex-wrap gap-2">
+              {webinar.credentials.map((c) => (
+                <li
+                  key={c}
+                  className="avtag rounded-md border-2 border-ink bg-paper px-2.5 py-1 text-ink"
+                >
+                  {c}
+                </li>
+              ))}
+            </ul>
+
+            {/* Host bio */}
+            <p className="mt-8 max-w-xl text-[15px] leading-relaxed text-muted">
+              {webinar.bio}
+            </p>
           </div>
 
-          {/* Right: the form (sticky on desktop) */}
-          <div className="lg:sticky lg:top-10">
+          {/* Right: registration form (sticky on desktop) */}
+          <div id="registracija" className="lg:sticky lg:top-10">
             <div className="avb bg-ink p-6 text-paper sm:p-8">
               <p className="avtag text-yellow">Registracija</p>
               <p className="mt-2 text-2xl font-extrabold leading-tight">
                 Užsiregistruok nemokamai
               </p>
               <p className="mt-2 text-sm text-paper/70">
-                Vietų skaičius ribotas. Prisijungimo nuorodą atsiųsime el. paštu.
+                Vietų skaičius ribotas. Prisijungimo nuorodą atsiųsime el.
+                paštu.
               </p>
               <div className="mt-6">
                 <WebinarForm cta={webinar.cta} />
               </div>
+
+              {/* Reassurance strip */}
+              <ul className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-1.5 border-t border-paper/15 pt-4">
+                {webinar.reassurance.map((r) => (
+                  <li
+                    key={r}
+                    className="flex items-center gap-1.5 text-[13px] font-bold text-paper/80"
+                  >
+                    <span aria-hidden className="text-yellow">
+                      ✓
+                    </span>
+                    {r}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
