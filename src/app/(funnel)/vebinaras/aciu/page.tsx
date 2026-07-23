@@ -3,7 +3,7 @@ import { Container } from "@/components/Container";
 import { webinar } from "@/lib/webinar";
 
 export const metadata: Metadata = {
-  title: "Iki susitikimo vebinare",
+  title: "Iki susitikimo seminare",
 };
 
 export default function WebinarThanks() {
@@ -17,7 +17,7 @@ export default function WebinarThanks() {
           </h1>
           <p className="mt-4 text-lg leading-relaxed text-muted">
             Tavo vieta rezervuota. Prisijungimo nuorodą ir priminimą atsiųsime
-            el. paštu prieš vebinarą.
+            el. paštu prieš seminarą.
           </p>
           <p className="avtag mt-8 text-coral">{webinar.dateLabel}</p>
         </div>

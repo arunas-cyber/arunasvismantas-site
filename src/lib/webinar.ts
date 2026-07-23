@@ -4,7 +4,7 @@
  */
 export const webinar = {
   // --- Landing page ---
-  eyebrow: "Nemokamas vebinaras",
+  eyebrow: "Nemokamas online seminaras",
   // Big promise. Keep it concrete and outcome-led.
   title: "Kaip įdarbinti Claude Code kasdienėje veikloje ir automatizuoti procesus",
   subtitle:
@@ -17,7 +17,7 @@ export const webinar = {
   host: "Callsy įkūrėjas ir CEO",
 
   // Short bio for credibility (funnel version, tighter than /apie).
-  bio: "Esu Arunas Vismantas, penkių verslų įkūrėjas ir Callsy vadovas. Su Claude Code kasdien automatizuoju darbus ir kuriu produktus, nors neturiu inžinerinio išsilavinimo. Su juo pasidariau ir dalį Callsy, ir šią svetainę. Vebinare parodysiu tikslų būdą, kuris man iš tikrųjų veikia.",
+  bio: "Esu Arunas Vismantas, penkių verslų įkūrėjas ir Callsy vadovas. Su Claude Code kasdien automatizuoju darbus ir kuriu produktus, nors neturiu inžinerinio išsilavinimo. Su juo pasidariau ir dalį Callsy, ir šią svetainę. Seminare parodysiu tikslų būdą, kuris man iš tikrųjų veikia.",
   photo: "/images/webinar/arunas.jpg", // drop a portrait here; page hides the frame until it exists
 
   // Credibility chips shown next to the host. Keep short, all verified.
@@ -43,11 +43,11 @@ export const webinar = {
   // --- Upsell (tripwire) page ---
   upsell: {
     kicker: "Palauk, dar ne viskas",
-    title: "Pasiruošk vebinarui: Claude Code starto rinkinys",
+    title: "Pasiruošk seminarui: Claude Code starto rinkinys",
     price: "7,99 €",
     // The "worth digging in before the webinar" angle boosts conversion.
     pitch:
-      "Prieš vebinarą verta įsigilinti. Šis praktinis rinkinys su įdiegimo žingsniais, paruoštais promptais ir įrankių lentele leis tau ateiti pasiruošusiam ir iš vebinaro išsinešti dvigubai daugiau. Pasiūlymas galioja tik čia ir dabar.",
+      "Prieš seminarą verta įsigilinti. Šis praktinis rinkinys su įdiegimo žingsniais, paruoštais promptais ir įrankių lentele leis tau ateiti pasiruošusiam ir iš seminaro išsinešti dvigubai daugiau. Pasiūlymas galioja tik čia ir dabar.",
     bullets: [
       "Įdiegimo žingsniai: nuo nulio iki pirmo veikiančio projekto.",
       "Paruošti promptai, kuriuos tereikia nukopijuoti.",
@@ -55,7 +55,7 @@ export const webinar = {
       "Kontrolinis sąrašas: ko niekada neleisti agentui.",
     ],
     cta: "Pridėti už 7,99 €",
-    decline: "Ne, ačiū, matysimės vebinare",
+    decline: "Ne, ačiū, matysimės seminare",
     // Placeholder checkout. Swap for the real Gumroad/Stripe/etc. URL later.
     checkoutUrl: "#checkout-not-wired-yet",
   },
