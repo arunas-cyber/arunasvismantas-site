@@ -30,7 +30,7 @@ export default function WebinarLanding() {
   );
 
   return (
-    <main className="min-h-full bg-paper pb-24 lg:pb-0">
+    <main className="min-h-full bg-paper pb-24">
       <Container className="py-10 sm:py-14">
         {/* Wordmark only — no nav, no links out. */}
         <div className="mb-10 flex items-center gap-2.5">
@@ -192,17 +192,27 @@ export default function WebinarLanding() {
         </div>
       </Container>
 
-      {/* Mobile-only sticky CTA — keeps the ask in reach while scrolling */}
-      <div className="fixed inset-x-0 bottom-0 z-50 border-t-[3px] border-ink bg-paper/95 px-4 py-3 backdrop-blur lg:hidden">
-        <a
-          href="#registracija"
-          className="flex w-full items-center justify-center gap-2 rounded-xl bg-yellow px-6 py-3.5 text-base font-extrabold uppercase tracking-tight text-ink ring-2 ring-ink"
-        >
-          {webinar.cta}
-          <span aria-hidden className="text-coral">
-            →
-          </span>
-        </a>
+      {/* Sticky CTA — keeps the ask in reach while scrolling, all breakpoints */}
+      <div className="fixed inset-x-0 bottom-0 z-50 border-t-[3px] border-ink bg-paper/95 backdrop-blur">
+        <Container className="flex items-center justify-between gap-4 py-3">
+          <div className="hidden min-w-0 sm:block">
+            <p className="truncate text-[15px] font-extrabold uppercase tracking-tight text-ink">
+              Claude Code online seminaras
+            </p>
+            <p className="truncate text-[13px] font-bold text-muted">
+              {webinar.dateLabel}
+            </p>
+          </div>
+          <a
+            href="#registracija"
+            className="flex w-full shrink-0 items-center justify-center gap-2 rounded-xl bg-yellow px-6 py-3 text-base font-extrabold uppercase tracking-tight text-ink ring-2 ring-ink sm:w-auto sm:px-7"
+          >
+            {webinar.cta}
+            <span aria-hidden className="text-coral">
+              →
+            </span>
+          </a>
+        </Container>
       </div>
     </main>
   );
