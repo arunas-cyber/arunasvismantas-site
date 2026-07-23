@@ -28,7 +28,7 @@ export const webinar = {
     "F6S #3 AI įmonė 2026",
   ],
   // Reinforces the offer right by the form. Honest, no fake scarcity numbers.
-  reassurance: ["Nemokama", "90 min gyvai", "Nuoroda el. paštu"],
+  reassurance: ["Nemokama", "90 min gyvai", "Gyvas Q&A", "Nuoroda el. paštu"],
 
   // What they'll learn.
   bullets: [
@@ -37,8 +37,37 @@ export const webinar = {
     "Kaip teisingai duoti užduotį agentui, kad jis padarytų būtent tai, ko reikia.",
     "Tikri pavyzdžiai gyvai: nuo pasikartojančių darbų iki automatizuotų procesų.",
     "Kaip nesusimauti: dažniausios pradedančiųjų klaidos ir kaip jų išvengti.",
+    "Gyva klausimų ir atsakymų sesija: pabaigoje atsakysiu į visus tavo klausimus tiesiogiai.",
   ],
   cta: "Registruotis nemokamai",
+
+  // Landing FAQ.
+  faq: [
+    {
+      q: "Ar reikia mokėti programuoti?",
+      a: "Ne. Seminaras skirtas žmonėms be techninio pasiruošimo. Viską rodysiu nuo nulio ir paprasta kalba.",
+    },
+    {
+      q: "Kiek laiko truks?",
+      a: "Apie 90 minučių, įskaitant gyvą klausimų ir atsakymų sesiją pabaigoje.",
+    },
+    {
+      q: "Ar bus įrašas?",
+      a: "Taip. Visiems užsiregistravusiems po seminaro atsiųsime įrašą, todėl nieko nepraleisi, net jei negalėsi dalyvauti gyvai.",
+    },
+    {
+      q: "Ko man reikės?",
+      a: "Tik kompiuterio ir interneto ryšio. Prieš seminarą el. paštu atsiųsime, ką verta pasiruošti iš anksto.",
+    },
+    {
+      q: "Kam šis seminaras skirtas?",
+      a: "Įkūrėjams, komandų vadovams ir specialistams, kurie nori automatizuoti kasdienius darbus su Claude Code, net neturėdami inžinerinio išsilavinimo.",
+    },
+    {
+      q: "Ar tikrai nemokamas?",
+      a: "Taip, dalyvavimas nemokamas. Užsiregistruok ir prisijungimo nuorodą atsiųsime el. paštu.",
+    },
+  ],
 
   // --- Upsell (tripwire) page ---
   upsell: {

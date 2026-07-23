@@ -190,6 +190,24 @@ export default function WebinarLanding() {
             </div>
           </div>
         </div>
+
+        {/* FAQ */}
+        <div className="mt-16 lg:mt-24">
+          <p className="avtag text-muted">D.U.K.</p>
+          <h2 className="mt-2 text-3xl font-extrabold uppercase tracking-tight sm:text-4xl">
+            Dažni klausimai
+          </h2>
+          <div className="mt-8 grid gap-4 sm:grid-cols-2">
+            {webinar.faq.map((item) => (
+              <div key={item.q} className="avb bg-white p-5">
+                <p className="font-extrabold text-ink">{item.q}</p>
+                <p className="mt-2 text-[15px] leading-relaxed text-muted">
+                  {item.a}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
       </Container>
 
       {/* Sticky CTA — keeps the ask in reach while scrolling, all breakpoints */}
