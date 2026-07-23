@@ -6,9 +6,9 @@ export const webinar = {
   // --- Landing page ---
   eyebrow: "Nemokamas vebinaras",
   // Big promise. Keep it concrete and outcome-led.
-  title: "Kaip iš tikrųjų dirbti su Claude Code ir susikurti produktą be programavimo",
+  title: "Kaip įdarbinti Claude Code kasdienėje veikloje ir automatizuoti procesus",
   subtitle:
-    "Per 90 minučių gyvai parodysiu, kaip pats dirbu su Claude Code: nuo idėjos iki veikiančio produkto. Tą patį būdą kasdien naudoju kurdamas Callsy.",
+    "Per 90 minučių gyvai parodysiu, kaip Claude Code paversti kasdieniu darbuotoju: nuo pasikartojančių užduočių iki automatizuotų procesų. Būtent taip kasdien taupau valandas Callsy.",
   // ISO date + a human label (LT). Set the real one.
   dateISO: "2026-08-14T18:00:00+03:00",
   dateLabel: "Rugpjūčio 14 d., 18:00 (Lietuvos laiku)",
@@ -17,7 +17,7 @@ export const webinar = {
   host: "Callsy įkūrėjas ir CEO",
 
   // Short bio for credibility (funnel version, tighter than /apie).
-  bio: "Esu Arunas Vismantas, penkių verslų įkūrėjas ir Callsy vadovas. Su Claude Code kasdien kuriu produktus, nors neturiu inžinerinio išsilavinimo. Su juo sukūriau ir dalį Callsy, ir šią svetainę. Vebinare parodysiu tikslų būdą, kuris man iš tikrųjų veikia.",
+  bio: "Esu Arunas Vismantas, penkių verslų įkūrėjas ir Callsy vadovas. Su Claude Code kasdien automatizuoju darbus ir kuriu produktus, nors neturiu inžinerinio išsilavinimo. Su juo pasidariau ir dalį Callsy, ir šią svetainę. Vebinare parodysiu tikslų būdą, kuris man iš tikrųjų veikia.",
   photo: "/images/webinar/arunas.jpg", // drop a portrait here; page hides the frame until it exists
 
   // Credibility chips shown next to the host. Keep short, all verified.
@@ -32,10 +32,10 @@ export const webinar = {
 
   // What they'll learn.
   bullets: [
-    "Kas yra Claude Code ir kodėl jis viską keičia tiems, kurie nemoka programuoti.",
-    "Kaip paruošti kompiuterį ir pradėti nuo nulio per vieną vakarą.",
-    "Kaip teisingai kalbėti su agentu, kad jis sukurtų būtent tai, ko nori.",
-    "Tikras pavyzdys gyvai: nuo tuščio ekrano iki veikiančio produkto.",
+    "Kas yra Claude Code ir kur jį realiai galima įdarbinti kasdieniame darbe.",
+    "Kaip atpažinti, kurias užduotis verta automatizuoti pirmiausia.",
+    "Kaip teisingai duoti užduotį agentui, kad jis padarytų būtent tai, ko reikia.",
+    "Tikri pavyzdžiai gyvai: nuo pasikartojančių darbų iki automatizuotų procesų.",
     "Kaip nesusimauti: dažniausios pradedančiųjų klaidos ir kaip jų išvengti.",
   ],
   cta: "Registruotis nemokamai",

@@ -9,6 +9,19 @@ import { webinar } from "@/lib/webinar";
 export const metadata: Metadata = {
   title: webinar.title,
   description: webinar.subtitle,
+  openGraph: {
+    type: "website",
+    title: webinar.title,
+    description: webinar.subtitle,
+    url: "/vebinaras",
+    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: webinar.title }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: webinar.title,
+    description: webinar.subtitle,
+    images: ["/og.jpg"],
+  },
 };
 
 export default function WebinarLanding() {
@@ -17,7 +30,7 @@ export default function WebinarLanding() {
   );
 
   return (
-    <main className="min-h-full bg-paper">
+    <main className="min-h-full bg-paper pb-24 lg:pb-0">
       <Container className="py-10 sm:py-14">
         {/* Wordmark only — no nav, no links out. */}
         <div className="mb-10 flex items-center gap-2.5">
@@ -77,7 +90,7 @@ export default function WebinarLanding() {
           </div>
 
           {/* Right: large host portrait */}
-          <div className="lg:sticky lg:top-10">
+          <div className="mx-auto w-full max-w-sm lg:sticky lg:top-10 lg:max-w-none">
             {hasPhoto ? (
               <div className="avb relative aspect-[4/5] w-full overflow-hidden bg-white">
                 <Image
@@ -178,6 +191,19 @@ export default function WebinarLanding() {
           </div>
         </div>
       </Container>
+
+      {/* Mobile-only sticky CTA — keeps the ask in reach while scrolling */}
+      <div className="fixed inset-x-0 bottom-0 z-50 border-t-[3px] border-ink bg-paper/95 px-4 py-3 backdrop-blur lg:hidden">
+        <a
+          href="#registracija"
+          className="flex w-full items-center justify-center gap-2 rounded-xl bg-yellow px-6 py-3.5 text-base font-extrabold uppercase tracking-tight text-ink ring-2 ring-ink"
+        >
+          {webinar.cta}
+          <span aria-hidden className="text-coral">
+            →
+          </span>
+        </a>
+      </div>
     </main>
   );
 }
