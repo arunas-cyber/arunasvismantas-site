@@ -45,6 +45,7 @@ Everything needed to continue is in this repo (code, PROJECT.md, BRAND.md, `docs
 - Each group has its own `layout.tsx` → both render `<RootShell locale>`.
 - LT slugs are **keyword-localized, not translated** (`/apie`, `/konsultacija`, `/izvalgos`, `/spauda`, `/naujienlaiskis`).
 - `x-default` hreflang → **LT** (it's the default locale).
+- **Geo redirect** (`src/middleware.ts`): a first-time visitor from outside Lithuania hitting the bare `/` gets a 307 to `/en`; LT visitors stay. Deliberately narrow for SEO — homepage-only (matcher `["/"]`), **bots are never redirected** (both locales stay crawlable at their canonical URLs), query strings preserved. A `NEXT_LOCALE` cookie overrides it and is set by `LocaleSwitcher` on click, so a manual choice wins and switching back to LT never loops. Country comes from Vercel's `x-vercel-ip-country` header (absent in dev → no redirect).
 
 ### `src/lib/routes.ts` — single source of truth
 Every public URL lives here. Sitemap, nav, metadata, hreflang all read from it. **If it's not in routes.ts, it doesn't exist.**
