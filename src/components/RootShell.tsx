@@ -2,6 +2,7 @@ import { Bricolage_Grotesque, JetBrains_Mono } from "next/font/google";
 import { type ReactNode } from "react";
 import { Nav } from "./Nav";
 import { Footer } from "./Footer";
+import { CookieNotice } from "./CookieNotice";
 import { type Locale } from "@/lib/routes";
 import "@/app/globals.css";
 
@@ -32,6 +33,7 @@ export function RootShell({
         <Nav locale={locale} />
         <main className="flex-1">{children}</main>
         <Footer locale={locale} />
+        <CookieNotice locale={locale} />
       </body>
     </html>
   );

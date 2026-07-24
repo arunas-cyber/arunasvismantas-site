@@ -9,15 +9,23 @@ export default function PrivacyLt() {
     <LegalPage
       eyebrow="Teisinė informacija"
       title="Privatumo politika"
-      updated="Atnaujinta: 2026 m. liepos 13 d."
+      updated="Atnaujinta: 2026 m. liepos 24 d."
       sections={[
         {
           h: "Ką renka ši svetainė",
-          p: "Svetainė nenaudoja sekimo slapukų ir pati nerenka asmens duomenų. Prieglobos paslaugų teikėjo (Vercel) serverių žurnaluose saugumo tikslais gali būti fiksuojami IP adresai.",
+          p: "Svetainė naudoja vieną būtiną slapuką, kad įsimintų pasirinktą kalbą, ir nenaudoja analitikos ar reklamos slapukų. Asmens duomenis renka tik tada, kai patys juos pateikiate (žr. skiltį apie jūsų pateikiamus duomenis). Prieglobos paslaugų teikėjo (Vercel) serverių žurnaluose saugumo tikslais gali būti fiksuojami IP adresai.",
+        },
+        {
+          h: "Slapukai",
+          p: "Vienintelis pačios svetainės nustatomas slapukas yra funkcinis (NEXT_LOCALE). Jis įsimena, ar naršote lietuvių, ar anglų kalba. Šis slapukas nenaudojamas sekimui, todėl pagal e. privatumo taisykles sutikimo nereikia. Jokie trečiųjų šalių analitikos ar reklamos slapukai nenustatomi. Įterpti YouTube vaizdo įrašai kraunami privatumą tausojančiu režimu (youtube-nocookie.com) ir slapukus nustato tik pradėjus žiūrėti.",
+        },
+        {
+          h: "Jūsų pateikiami duomenys",
+          p: "Jei registruojatės į seminarą ar prenumeruojate naujienlaiškį, jūsų nurodytą vardą ir el. paštą saugo el. laiškų platforma, kad galėtų atsiųsti tai, ko prašėte. Prenumeratos galite atsisakyti bet kada, o šiuos duomenis ištrinti galite paprašę žemiau nurodytu kontaktu.",
         },
         {
           h: "Trečiųjų šalių paslaugos",
-          p: "Pokalbio rezervacija vyksta per Calendly, o naujienlaiškio prenumeratą tvarko naujienlaiškio platforma. Ten įvestus duomenis šios paslaugos tvarko pagal savo privatumo politikas. Nuorodos į išorines svetaines (YouTube, LinkedIn) veda į paslaugas su savomis politikomis.",
+          p: "Pokalbio rezervacija vyksta per Calendly, o naujienlaiškio ir seminaro laiškus tvarko el. laiškų platforma. Ten pateiktus duomenis šios paslaugos tvarko pagal savo privatumo politikas. Nuorodos į išorines svetaines (YouTube, LinkedIn) veda į paslaugas su savomis politikomis.",
         },
         {
           h: "Jūsų teisės",
@@ -25,7 +33,7 @@ export default function PrivacyLt() {
         },
         {
           h: "Pakeitimai",
-          p: "Jei svetainė pradės rinkti ką nors naujo (pavyzdžiui, analitiką ar formas), ši politika bus atnaujinta prieš tam pradedant veikti.",
+          p: "Jei svetainė pradės rinkti ką nors naujo (pavyzdžiui, analitiką), ši politika bus atnaujinta prieš tam pradedant veikti.",
         },
       ]}
     />
