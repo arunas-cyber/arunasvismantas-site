@@ -434,6 +434,23 @@ export const routes: SiteRoute[] = [
     status: "live",
     counterpart: "en-how-to-use-claude",
   },
+  {
+    key: "lt-oxylabs-bootstrap",
+    locale: "lt",
+    path: "/izvalgos/oxylabs-bootstrap",
+    title: "Bootstrap iki milijardo: ko Oxylabs istorija moko įkūrėjus",
+    description:
+      "Oxylabs tapo Lietuvos šeštuoju vienaragiu, vertu 3,1 mlrd. €, po vienuolikos metų be investuotojų. Ką ši istorija sako apie bootstrap, kontrolę ir tinkamą laiką. Arunas Vismantas.",
+    keywords: [
+      "oxylabs vienaragis",
+      "oxylabs vertė",
+      "bootstrap startuolis",
+      "įmonė be investuotojų",
+    ],
+    tier: 3,
+    status: "live",
+    counterpart: "en-oxylabs-bootstrapped",
+  },
 
   // ------------------------------------------------- Insights articles (EN)
   {
@@ -584,6 +601,23 @@ export const routes: SiteRoute[] = [
     tier: 2,
     status: "live",
     counterpart: "lt-kaip-naudotis-claude",
+  },
+  {
+    key: "en-oxylabs-bootstrapped",
+    locale: "en",
+    path: "/en/insights/oxylabs-bootstrapped",
+    title: "Bootstrapped to a Billion: What Oxylabs Teaches Founders",
+    description:
+      "Oxylabs became Lithuania's sixth unicorn at a 3.1B euro valuation after eleven years with no investors. What the story says about bootstrapping, control, and timing. Arunas Vismantas.",
+    keywords: [
+      "oxylabs unicorn",
+      "oxylabs valuation",
+      "bootstrapped to a billion",
+      "bootstrapping vs venture capital",
+    ],
+    tier: 3,
+    status: "live",
+    counterpart: "lt-oxylabs-bootstrap",
   },
 ];
 

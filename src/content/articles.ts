@@ -11,6 +11,7 @@ import { startuolis } from "./lt/startuolis";
 import { vienaragiaiLietuvoje } from "./lt/vienaragiai-lietuvoje";
 import { kaipPatekomeI500Global } from "./lt/kaip-patekome-i-500-global";
 import { kaipNaudotisClaude } from "./lt/kaip-naudotis-claude";
+import { oxylabsBootstrap } from "./lt/oxylabs-bootstrap";
 import { artificialIntelligence } from "./en/artificial-intelligence";
 import { freeAiTools } from "./en/free-ai-tools";
 import { buildBusinessNoCapital } from "./en/build-business-no-capital";
@@ -21,6 +22,7 @@ import { claudeCodeVsCursor } from "./en/claude-code-vs-cursor";
 import { personalAiAssistant } from "./en/personal-ai-assistant";
 import { howWeGotInto500Global } from "./en/how-we-got-into-500-global";
 import { howToUseClaude } from "./en/how-to-use-claude";
+import { oxylabsBootstrapped } from "./en/oxylabs-bootstrapped";
 
 /**
  * The article registry. Every published piece is one object here plus one
@@ -45,10 +47,12 @@ export const articles: Article[] = [
   vienaragiaiLietuvoje,
   kaipPatekomeI500Global,
   kaipNaudotisClaude,
+  oxylabsBootstrap,
   claudeCodeVsCursor,
   personalAiAssistant,
   howWeGotInto500Global,
   howToUseClaude,
+  oxylabsBootstrapped,
 ];
 
 export const articleByRouteKey = (routeKey: string) =>
