@@ -14,7 +14,7 @@ export const startuolis: Article = {
   blocks: [
     {
       type: "p",
-      text: "Žodis „startuolis\" Lietuvoje skamba kas antrame pokalbyje apie verslą. Bet jei paklausi dešimties žmonių, kas tai yra, gausi dešimt skirtingų atsakymų. Vieni mano, kad tai bet kokia nauja įmonė, kiti, kad būtinai kažkas su programėle. Nė vienas atsakymas nėra visiškai teisingas. Šiame gide paaiškinu, kas yra startuolis iš tikrųjų, remdamasis ne teorija, o dvidešimčia metų ir penkiais verslais, kuriuos kūriau pats.",
+      text: "Žodis „startuolis“ Lietuvoje skamba kas antrame pokalbyje apie verslą. Bet jei paklausi dešimties žmonių, kas tai yra, gausi dešimt skirtingų atsakymų. Vieni mano, kad tai bet kokia nauja įmonė, kiti, kad būtinai kažkas su programėle. Nė vienas atsakymas nėra visiškai teisingas. Šiame gide paaiškinu, kas yra startuolis iš tikrųjų, remdamasis ne teorija, o dvidešimčia metų ir penkiais verslais, kuriuos kūriau pats.",
     },
     {
       type: "h2",
@@ -23,7 +23,7 @@ export const startuolis: Article = {
     },
     {
       type: "p",
-      text: "Startuolis (angl. startup) yra jauna įmonė, sukurta ieškoti verslo modelio, kurį galima greitai ir dideliu mastu išplėsti. Svarbiausias žodis čia yra „mastas\". Startuolis nuo pradžių projektuojamas taip, kad galėtų augti daug greičiau nei įprastas verslas ir aptarnauti ne miestą ar šalį, o visą pasaulį.",
+      text: "Startuolis (angl. startup) yra jauna įmonė, sukurta ieškoti verslo modelio, kurį galima greitai ir dideliu mastu išplėsti. Svarbiausias žodis čia yra „mastas“. Startuolis nuo pradžių projektuojamas taip, kad galėtų augti daug greičiau nei įprastas verslas ir aptarnauti ne miestą ar šalį, o visą pasaulį.",
     },
     {
       type: "p",
@@ -53,7 +53,7 @@ export const startuolis: Article = {
     },
     {
       type: "p",
-      text: "Čia svarbu vienas dalykas, kurio niekas nesako garsiai: startuolis nėra „geriau\" už įprastą verslą. Tai tiesiog kitoks žaidimas su kitokia rizika. Dauguma startuolių žlunga. Kavinė su gera vieta ir šeimininku uždirbs pinigų daug patikimiau. Startuolio kelią renkasi tie, kas nori pabandyti sukurti kažką, kas galėtų būti labai didelis.",
+      text: "Čia svarbu vienas dalykas, kurio niekas nesako garsiai: startuolis nėra „geriau“ už įprastą verslą. Tai tiesiog kitoks žaidimas su kitokia rizika. Dauguma startuolių žlunga. Kavinė su gera vieta ir šeimininku uždirbs pinigų daug patikimiau. Startuolio kelią renkasi tie, kas nori pabandyti sukurti kažką, kas galėtų būti labai didelis.",
     },
     {
       type: "h2",
@@ -129,7 +129,7 @@ export const startuolis: Article = {
     {
       type: "ol",
       items: [
-        "**Rask realią problemą, ne idėją.** Kalbėk su žmonėmis, kurie tą problemą jaučia. Jei jie sako „būtų gerai\", to negana. Turi girdėti „man to reikia dabar\".",
+        "**Rask realią problemą, ne idėją.** Kalbėk su žmonėmis, kurie tą problemą jaučia. Jei jie sako „būtų gerai“, to negana. Turi girdėti „man to reikia dabar“.",
         "**Parduok prieš kurdamas.** Pabandyk parduoti sprendimą dar prieš jį sukurdamas. Jei niekas nemoka, produkto verti nereikia. Tai pigiausias būdas patikrinti idėją.",
         "**Kurk mažiausią versiją.** Ne tobulą, o veikiančią. Paleisk greitai ir stebėk, ką žmonės realiai daro, ne ką sako.",
         "**Naudok dirbtinį intelektą.** Šiandien vienas žmogus su AI gali padaryti tai, kam anksčiau reikėjo komandos. Prototipą, tekstus, net kodą. Tai didžiausias pokytis startuoliams per dešimtmetį.",

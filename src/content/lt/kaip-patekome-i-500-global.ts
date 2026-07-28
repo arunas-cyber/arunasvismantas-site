@@ -27,7 +27,7 @@ export const kaipPatekomeI500Global: Article = {
     },
     {
       type: "p",
-      text: "500 Global (anksčiau 500 Startups) yra rizikos kapitalo įmonė ir startuolių akseleratorius, įkurtas 2010 metais Silicio slėnyje. Tai vienas produktyviausių ankstyvos stadijos investuotojų pasaulyje: parėmęs tūkstančius įmonių dešimtyse šalių, o jo portfelyje yra ne vienas verslas, vėliau tapęs vienaragiu. Įmonė garsėja tuo, kad anksti meta plačią kojas ir dvigubina statymus į tai, kas veikia.",
+      text: "500 Global (anksčiau 500 Startups) yra rizikos kapitalo įmonė ir startuolių akseleratorius, įkurtas 2010 metais Silicio slėnyje. Tai vienas produktyviausių ankstyvos stadijos investuotojų pasaulyje: parėmęs tūkstančius įmonių dešimtyse šalių, o jo portfelyje yra ne vienas verslas, vėliau tapęs vienaragiu. Įmonė garsėja tuo, kad anksti užmeta platų tinklą, o paskui labiau investuoja į tai, kas veikia.",
     },
     {
       type: "p",

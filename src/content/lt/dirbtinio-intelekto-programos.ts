@@ -6,7 +6,7 @@ export const dirbtinioIntelektoProgramos: Article = {
   kind: "spoke",
   publishedAt: "2026-07-15",
   kicker: "Dirbtinis intelektas",
-  lede: "Geriausios dirbtinio intelekto programos nėra vienas sąrašas. Yra atsakymas į klausimą „ką konkrečiai nori padaryti\". Štai kuri programa kuriam darbui, ir kur kiekviena nusileidžia.",
+  lede: "Geriausios dirbtinio intelekto programos nėra vienas sąrašas. Yra atsakymas į klausimą „ką konkrečiai nori padaryti“. Štai kuri programa kuriam darbui, ir kur kiekviena nusileidžia.",
   hero: {
     src: "/images/insights/dirbtinio-intelekto-programos.jpg",
     alt: "Iliustracija: dirbtinio intelekto programų piktogramų tinklelis su didinamuoju stiklu",
@@ -14,7 +14,7 @@ export const dirbtinioIntelektoProgramos: Article = {
   blocks: [
     {
       type: "p",
-      text: "Klausimas „kuri dirbtinio intelekto programa geriausia\" yra maždaug toks pat naudingas, kaip klausimas „kuris įrankis geriausias\". Atsuktuvas ar pjūklas? Priklauso, ką darai. Todėl šis sąrašas sudėliotas ne pagal reitingą, o pagal darbą, kurį reikia atlikti.",
+      text: "Klausimas „kuri dirbtinio intelekto programa geriausia“ yra maždaug toks pat naudingas, kaip klausimas „kuris įrankis geriausias“. Atsuktuvas ar pjūklas? Priklauso, ką darai. Todėl šis sąrašas sudėliotas ne pagal reitingą, o pagal darbą, kurį reikia atlikti.",
     },
     {
       type: "p",
@@ -45,7 +45,7 @@ export const dirbtinioIntelektoProgramos: Article = {
     },
     {
       type: "p",
-      text: "**[Claude](https://claude.ai/referral/5JaLlVfIEg)** yra stipriausias ilgesniems tekstams, dokumentams ir niuansuotam tonui. Jis rečiau „pila vandenį\" ir geriau laikosi sudėtingų nurodymų. Nemokama versija turi solidžias ribas, kurių kasdieniam rašymui dažniausiai pakanka.",
+      text: "**[Claude](https://claude.ai/referral/5JaLlVfIEg)** yra stipriausias ilgesniems tekstams, dokumentams ir niuansuotam tonui. Jis rečiau „pila vandenį“ ir geriau laikosi sudėtingų nurodymų. Nemokama versija turi solidžias ribas, kurių kasdieniam rašymui dažniausiai pakanka.",
     },
     {
       type: "p",
@@ -62,7 +62,7 @@ export const dirbtinioIntelektoProgramos: Article = {
     },
     {
       type: "p",
-      text: "**Perplexity** yra geriausias pasirinkimas, kai reikia atsakymo su šaltiniais. Jis veikia kaip paieška, tik iškart pateikia atsakymą ir nurodo, iš kur jį paėmė. Nemokama versija riboja gilesnes „Pro\" paieškas iki kelių per dieną, bet paprastoms užklausoms neriboja.",
+      text: "**Perplexity** yra geriausias pasirinkimas, kai reikia atsakymo su šaltiniais. Jis veikia kaip paieška, tik iškart pateikia atsakymą ir nurodo, iš kur jį paėmė. Nemokama versija riboja gilesnes „Pro“ paieškas iki kelių per dieną, bet paprastoms užklausoms neriboja.",
     },
     {
       type: "p",

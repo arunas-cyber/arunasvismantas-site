@@ -6,7 +6,7 @@ export const chatgptLietuviskai: Article = {
   kind: "spoke",
   publishedAt: "2026-07-15",
   kicker: "Dirbtinis intelektas",
-  lede: "Visi rašo, kad ChatGPT „puikiai moka lietuviškai\". Tyrimų skaičiai sako kitaip. Štai kiek gerai jis moka iš tikrųjų, kaip naudotis nemokamai ir be registracijos, ir kodėl dalis „ChatGPT lietuviškai\" svetainių apskritai nėra ChatGPT.",
+  lede: "Visi rašo, kad ChatGPT „puikiai moka lietuviškai“. Tyrimų skaičiai sako kitaip. Štai kiek gerai jis moka iš tikrųjų, kaip naudotis nemokamai ir be registracijos, ir kodėl dalis „ChatGPT lietuviškai“ svetainių apskritai nėra ChatGPT.",
   hero: {
     src: "/images/insights/chatgpt-lietuviskai.jpg",
     alt: "Iliustracija: du pokalbio burbulai, vienas su dirbtinio intelekto žvaigždute",
@@ -14,7 +14,7 @@ export const chatgptLietuviskai: Article = {
   blocks: [
     {
       type: "p",
-      text: "Jei ieškojai „ChatGPT lietuviškai\", greičiausiai radai dvi rūšis puslapių: tokius, kurie sako, kad viskas puikiai veikia, ir tokius, kurie siūlo „ChatGPT lietuviškai nemokamai, be registracijos\". Abu atvejai nutyli svarbiausius dalykus. Šis gidas remiasi tyrimų duomenimis, ne nuomonėmis.",
+      text: "Jei ieškojai „ChatGPT lietuviškai“, greičiausiai radai dvi rūšis puslapių: tokius, kurie sako, kad viskas puikiai veikia, ir tokius, kurie siūlo „ChatGPT lietuviškai nemokamai, be registracijos“. Abu atvejai nutyli svarbiausius dalykus. Šis gidas remiasi tyrimų duomenimis, ne nuomonėmis.",
     },
     {
       type: "h2",
@@ -27,7 +27,7 @@ export const chatgptLietuviskai: Article = {
     },
     {
       type: "p",
-      text: "Tikrasis klausimas ne „ar moka\", o **kiek gerai moka**. Čia ir prasideda įdomiausia dalis.",
+      text: "Tikrasis klausimas ne „ar moka“, o **kiek gerai moka**. Čia ir prasideda įdomiausia dalis.",
     },
     {
       type: "h2",
@@ -36,7 +36,7 @@ export const chatgptLietuviskai: Article = {
     },
     {
       type: "p",
-      text: "Beveik visi lietuviški straipsniai (ir net Google AI apžvalga) teigia, kad ChatGPT lietuvių kalbą moka „puikiai\". Tai patogus, bet nepatikrintas teiginys. Tyrimai rodo niuansuotesnį vaizdą:",
+      text: "Beveik visi lietuviški straipsniai (ir net Google AI apžvalga) teigia, kad ChatGPT lietuvių kalbą moka „puikiai“. Tai patogus, bet nepatikrintas teiginys. Tyrimai rodo niuansuotesnį vaizdą:",
     },
     {
       type: "table",
@@ -63,11 +63,11 @@ export const chatgptLietuviskai: Article = {
     },
     {
       type: "p",
-      text: "Perskaityk tą pirmą eilutę dar kartą. Geriausiu atveju maždaug **85% tikslumas ties linksniais**, blogiausiu, apie 66%. Tai nėra „puikiai\". Tai „gerai, bet tikrinti privalu\". Ir tas antras tyrimas atskleidžia dar vieną nemalonų faktą: tie patys modeliai su Šiaurės šalių kalbomis susitvarko geriau nei su lietuvių. Lietuvių kalba dirbtiniam intelektui vis dar yra antrarūšė, nes skaitmeninių tekstų, iš kurių jis mokosi, tiesiog mažiau.",
+      text: "Perskaityk tą pirmą eilutę dar kartą. Geriausiu atveju maždaug **85 proc. tikslumas ties linksniais**, blogiausiu, apie 66 proc. Tai nėra „puikiai“. Tai „gerai, bet tikrinti privalu“. Ir tas antras tyrimas atskleidžia dar vieną nemalonų faktą: tie patys modeliai su Šiaurės šalių kalbomis susitvarko geriau nei su lietuvių. Lietuvių kalba dirbtiniam intelektui vis dar yra antrarūšė, nes skaitmeninių tekstų, iš kurių jis mokosi, tiesiog mažiau.",
     },
     {
       type: "quote",
-      text: "ChatGPT lietuviškai kalba gerai. Bet „gerai\" ir „puikiai\" skiria būtent tie 15%, kuriuos tu turėsi pataisyti pats.",
+      text: "ChatGPT lietuviškai kalba gerai. Bet „gerai“ ir „puikiai“ skiria būtent tie 15 proc., kuriuos tu turėsi pataisyti pats.",
     },
     {
       type: "h2",
@@ -86,7 +86,7 @@ export const chatgptLietuviskai: Article = {
     },
     {
       type: "p",
-      text: "Tai ne mano nuomonė. KTU kalbos ekspertai, tarp jų VLKK narė prof. dr. Ramunė Kasperė, dar 2024-aisiais viešai konstatavo, kad modeliai generuoja lietuvių kalbą su „daug klaidų, netikslumų, neegzistuojančių žodžių\", o menkai aprašytomis lietuviškomis temomis „pateikiama informacija yra klaidinga\". Modeliai nuo tada pagerėjo, bet šablonas išliko tas pats.",
+      text: "Tai ne mano nuomonė. KTU kalbos ekspertai, tarp jų VLKK narė prof. dr. Ramunė Kasperė, dar 2024-aisiais viešai konstatavo, kad modeliai generuoja lietuvių kalbą su „daug klaidų, netikslumų, neegzistuojančių žodžių“, o menkai aprašytomis lietuviškomis temomis „pateikiama informacija yra klaidinga“. Modeliai nuo tada pagerėjo, bet šablonas išliko tas pats.",
     },
     {
       type: "h2",
@@ -104,23 +104,23 @@ export const chatgptLietuviskai: Article = {
     {
       type: "h2",
       id: "svetaines-kurios-nera-chatgpt",
-      text: "Atsargiai: „ChatGPT lietuviškai\" svetainės, kurios nėra ChatGPT",
+      text: "Atsargiai: „ChatGPT lietuviškai“ svetainės, kurios nėra ChatGPT",
     },
     {
       type: "p",
-      text: "Google paieškoje pagal „chatgpt lietuviškai\" aukščiau už pačią OpenAI dažnai lipa tarpininkų svetainės, siūlančios „ChatGPT lietuviškai nemokamai, neribotai ir be registracijos\". Pasidomėjus, kas už jų slypi, vaizdas įdomus:",
+      text: "Google paieškoje pagal „chatgpt lietuviškai“ aukščiau už pačią OpenAI dažnai lipa tarpininkų svetainės, siūlančios „ChatGPT lietuviškai nemokamai, neribotai ir be registracijos“. Pasidomėjus, kas už jų slypi, vaizdas įdomus:",
     },
     {
       type: "ul",
       items: [
-        "**Viena populiariausių** tokių svetainių priklauso **Čekijos įmonei** (Explicaire s.r.o., Plzeň). Jos pačios smulkiajame šrifte parašyta, kad „ChatGPT yra registruotas OpenAI prekės ženklas, o mūsų paslauga yra nepriklausoma alternatyva ir niekaip nesusijusi su OpenAI\". Tai parašyta po antrašte „Chat GPT lietuviškai nemokamai\".",
+        "**Viena populiariausių** tokių svetainių priklauso **Čekijos įmonei** (Explicaire s.r.o., Plzeň). Jos pačios smulkiajame šrifte parašyta, kad „ChatGPT yra registruotas OpenAI prekės ženklas, o mūsų paslauga yra nepriklausoma alternatyva ir niekaip nesusijusi su OpenAI“. Tai parašyta po antrašte „Chat GPT lietuviškai nemokamai“.",
         "**Ta pati svetainė nenurodo, koks modelis** iš tikrųjų atsakinėja. Negali patikrinti, ar bendrauji su ChatGPT, ar su kokiu nors pigesniu modeliu.",
-        "**Kita aukštai reitinguojama svetainė** su „chatgpt\" domeno pradžioje pasirodo esanti paprastas WordPress tinklaraštis, nukreipiantis tave į tą patį chatgpt.com.",
+        "**Kita aukštai reitinguojama svetainė** su „chatgpt“ domeno pradžioje pasirodo esanti paprastas WordPress tinklaraštis, nukreipiantis tave į tą patį chatgpt.com.",
       ],
     },
     {
       type: "p",
-      text: "Ar tai sukčiai? Ne. Tai realios įmonės su realiais teisiniais puslapiais. Bet pozicionavimas klaidina, o rizikos realios: tavo tekstai keliauja per nežinomą tarpininką, negali valdyti duomenų kaip OpenAI paskyroje, nežinai, koks modelis atsako, o „nemokamai ir neribotai\" praktiškai reiškia reklamą ir mokamus planus.",
+      text: "Ar tai sukčiai? Ne. Tai realios įmonės su realiais teisiniais puslapiais. Bet pozicionavimas klaidina, o rizikos realios: tavo tekstai keliauja per nežinomą tarpininką, negali valdyti duomenų kaip OpenAI paskyroje, nežinai, koks modelis atsako, o „nemokamai ir neribotai“ praktiškai reiškia reklamą ir mokamus planus.",
     },
     {
       type: "p",
@@ -134,10 +134,10 @@ export const chatgptLietuviskai: Article = {
     {
       type: "ol",
       items: [
-        "**Aiškiai paprašyk natūralios kalbos.** „Rašyk natūralia lietuvių kalba, ne vertimu iš anglų. Venk anglicizmų ir vertalų.\" Tai tiesiogiai taikosi į dažniausią silpnybę.",
+        "**Aiškiai paprašyk natūralios kalbos.** „Rašyk natūralia lietuvių kalba, ne vertimu iš anglų. Venk anglicizmų ir vertalų.“ Tai tiesiogiai taikosi į dažniausią silpnybę.",
         "**Įrašyk tai į nuolatinius nurodymus** (Custom Instructions), o ne į pokalbį. Vienkartinė žinutė pasimiršta, nustatymai galioja visada.",
         "**Nurodyk registrą:** dalykinis, šnekamasis ar akademinis. Modelis registro klaidų nemato, o skaitytojas mato iškart.",
-        "**Dirbk dviem etapais.** Antra užklausa: „Patikrink linksnius ir ar kur nors skamba kaip vertimas.\" Tikrinti modeliui sekasi geriau nei kurti.",
+        "**Dirbk dviem etapais.** Antra užklausa: „Patikrink linksnius ir ar kur nors skamba kaip vertimas.“ Tikrinti modeliui sekasi geriau nei kurti.",
         "**Duok šaltinį, o ne kliaukis atmintimi.** Įklijuok tekstą ir paprašyk juo remtis. Būtent lietuviškose temose atmintis dažniausiai ir prasimano.",
         "**Pateik savo rašymo pavyzdį.** Vienas tavo tekstas nustato toną geriau nei dešimt būdvardžių.",
         "**Niekada nepasitikėk lietuviškais faktais be šaltinio.** Vietos istorija, teisė, institucijos, tai zona, kurioje modelis klysta įtikinamiausiai.",
@@ -150,7 +150,7 @@ export const chatgptLietuviskai: Article = {
     },
     {
       type: "p",
-      text: "Sąžiningas atsakymas į klausimą „kuris AI geriausias lietuviškai\": **viešo, patikimo palyginimo tarp ChatGPT, Claude ir Gemini lietuvių kalba tiesiog nėra.** Kas teigia kitaip, spėja. Visi trys lietuviškai susikalba, visi trys klysta panašiose vietose. Aš kasdien rašau su [Claude](https://claude.ai/referral/5JaLlVfIEg) (rekomendacinė nuoroda, tau nieko nekainuoja), bet tai mano įprotis, ne išmatuotas pranašumas.",
+      text: "Sąžiningas atsakymas į klausimą „kuris AI geriausias lietuviškai“: **viešo, patikimo palyginimo tarp ChatGPT, Claude ir Gemini lietuvių kalba tiesiog nėra.** Kas teigia kitaip, spėja. Visi trys lietuviškai susikalba, visi trys klysta panašiose vietose. Aš kasdien rašau su [Claude](https://claude.ai/referral/5JaLlVfIEg) (rekomendacinė nuoroda, tau nieko nekainuoja), bet tai mano įprotis, ne išmatuotas pranašumas.",
     },
     {
       type: "p",
@@ -162,7 +162,7 @@ export const chatgptLietuviskai: Article = {
       items: [
         {
           q: "Ar ChatGPT moka lietuviškai?",
-          a: "Taip, ir automatiškai: parašyk lietuviškai, atsakys lietuviškai. Bet tyrimai rodo apie 0,66–0,85 tikslumą ties linksniais, o lietuvių kalba atsilieka nuo Šiaurės šalių kalbų. Tai gerai, bet ne „puikiai\", tekstą visada peržiūrėk.",
+          a: "Taip, ir automatiškai: parašyk lietuviškai, atsakys lietuviškai. Bet tyrimai rodo apie 0,66–0,85 tikslumą ties linksniais, o lietuvių kalba atsilieka nuo Šiaurės šalių kalbų. Tai gerai, bet ne „puikiai“, tekstą visada peržiūrėk.",
         },
         {
           q: "Ar reikia registruotis norint naudotis ChatGPT?",
@@ -173,7 +173,7 @@ export const chatgptLietuviskai: Article = {
           a: "Taip, yra nemokama versija su ribojimais: pasiekus dienos ribą, modelis persijungia į silpnesnį. Ribos yra dinamiškos ir keičiasi, todėl tikslių skaičių neverta įsiminti. Mokami planai duoda galingiausius modelius ir didesnes ribas.",
         },
         {
-          q: "Ar „ChatGPT lietuviškai be registracijos\" svetainės saugios?",
+          q: "Ar „ChatGPT lietuviškai be registracijos“ svetainės saugios?",
           a: "Dažniausiai tai nepriklausomi tarpininkai, ne OpenAI. Jie nenurodo, koks modelis atsako, o tavo tekstai keliauja per nežinomą trečiąją šalį. Kadangi oficialus chatgpt.com jau veikia nemokamai ir be registracijos, prasmės jais naudotis beveik nėra.",
         },
         {

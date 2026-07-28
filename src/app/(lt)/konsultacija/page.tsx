@@ -10,7 +10,7 @@ export const metadata = pageMetadata("call-lt");
 const topics = [
   {
     title: "AI agentai ir MCP",
-    body: "Ką AI agentas realiai gali automatizuoti jūsų versle, nuo ko pradėti ir kaip MCP integracijos sujungia jį su jūsų įrankiais.",
+    body: "Ką AI agentas realiai gali automatizuoti jūsų versle, nuo ko pradėti ir kaip MCP integracijos sujungia jį su turimais įrankiais.",
   },
   {
     title: "El. prekybos automatizavimas",

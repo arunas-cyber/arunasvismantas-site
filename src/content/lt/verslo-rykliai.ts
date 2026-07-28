@@ -15,7 +15,7 @@ export const versloRykliai: Article = {
   blocks: [
     {
       type: "p",
-      text: "\"Rykliai. Lietuva\" (dar žinoma kaip Verslo rykliai) yra TV3 laida, Lietuvos atitikmuo pasaulinio formato \"Shark Tank\". Kūrėjai pristato savo verslą keturiems investuotojams ir bando gauti finansavimą. 2026 metų sezone kartu su bendraįkūrėju Laimonu Sutkumi pristatėme [Callsy](https://callsy.ai), AI balso asistentą el. prekybai. Ši istorija apie tai, kaip ten atsidūrėme, ką pamatėme iš vidaus ir kodėl \"ne\" iš ryklių gali būti vertingiau nei \"taip\".",
+      text: "„Rykliai. Lietuva“ (dar žinoma kaip Verslo rykliai) yra TV3 laida, Lietuvos atitikmuo pasaulinio formato „Shark Tank“. Kūrėjai pristato savo verslą keturiems investuotojams ir bando gauti finansavimą. 2026 metų sezone kartu su bendraįkūrėju Laimonu Sutkumi pristatėme [Callsy](https://callsy.ai), AI balso asistentą el. prekybai. Ši istorija apie tai, kaip ten atsidūrėme, ką pamatėme iš vidaus ir kodėl „ne“ iš ryklių gali būti vertingiau nei „taip“.",
     },
     {
       type: "video",
@@ -33,7 +33,7 @@ export const versloRykliai: Article = {
     },
     {
       type: "p",
-      text: "Formatas paprastas: gauni kelias minutes pristatyti savo verslą, po to rykliai klausinėja ir arba investuoja, arba sako \"ne\". Lietuvoje rykliais sėdi tikri verslininkai ir investuotojai: Tadas Burgaila, Toma Sabaliauskienė, Einaras ir Dovilė. Kamera sukasi, publika žiūri, ir tu stovi vienas prieš keturis žmones, kurie vertina tavo idėją, skaičius ir tave patį.",
+      text: "Formatas paprastas: gauni kelias minutes pristatyti savo verslą, po to rykliai klausinėja ir arba investuoja, arba sako „ne“. Lietuvoje rykliais sėdi tikri verslininkai ir investuotojai: Tadas Burgaila, Toma Sabaliauskienė, Einaras ir Dovilė. Kamera sukasi, publika žiūri, ir tu stovi vienas prieš keturis žmones, kurie vertina tavo idėją, skaičius ir tave patį.",
     },
     {
       type: "p",
@@ -46,11 +46,11 @@ export const versloRykliai: Article = {
     },
     {
       type: "p",
-      text: "Mūsų pasiūlymas buvo aiškus: prašėme **100 000 eurų investicijos už 3% akcijų**. Tai reiškė maždaug 3,3 milijono eurų valuaciją. Skaičius ne iš lubų: FirstPick buvo investavęs 80 000 eurų prie 800 000 post-money valuacijos, o 500 Global jau buvo pakėlęs kartelę.",
+      text: "Mūsų pasiūlymas buvo aiškus: prašėme **100 000 eurų investicijos už 3 proc. akcijų**. Tai reiškė maždaug 3,3 milijono eurų valuaciją. Skaičius ne iš lubų: FirstPick buvo investavęs 80 000 eurų prie 800 000 post-money valuacijos, o 500 Global jau buvo pakėlęs kartelę.",
     },
     {
       type: "p",
-      text: "Pristatymą pradėjome nuo problemos, kurią pažįsta kiekvienas el. prekybos savininkas: **70% pirkėjų palieka krepšelį neapmokėję**. Vien Europoje ir JAV tai sudaro per 260 milijardų dolerių prarastų pajamų per metus. Skaičiai, kurie net rykliams priverčia suklust.",
+      text: "Pristatymą pradėjome nuo problemos, kurią pažįsta kiekvienas el. prekybos savininkas: **70 proc. pirkėjų palieka krepšelį neapmokėję**. Vien Europoje ir JAV tai sudaro per 260 milijardų dolerių prarastų pajamų per metus. Skaičiai, kurie net rykliams priverčia suklust.",
     },
     {
       type: "p",
@@ -71,7 +71,7 @@ export const versloRykliai: Article = {
     },
     {
       type: "p",
-      text: "Mums nelabai pasisekė su savanoriu, bet pačiam AI tai buvo puikus testas. Jis nenuleido rankų, atsakė profesionaliai, paaiškino kaip veikia sistema. Dovilė po pokalbio pripažino: \"tikrai gerai kalba\". Televizijoje tokie neplanuoti momentai yra vertingesni nei bet koks suplanuotas pristatymas.",
+      text: "Mums nelabai pasisekė su savanoriu, bet pačiam AI tai buvo puikus testas. Jis nenuleido rankų, atsakė profesionaliai, paaiškino kaip veikia sistema. Dovilė po pokalbio pripažino: „tikrai gerai kalba“. Televizijoje tokie neplanuoti momentai yra vertingesni nei bet koks suplanuotas pristatymas.",
     },
     {
       type: "h2",
@@ -80,23 +80,23 @@ export const versloRykliai: Article = {
     },
     {
       type: "p",
-      text: "**Tadas Burgaila** buvo labiausiai pozityvus. Jis pasakė tiesiai: \"Jūs esat labai teisingoj trajektorijoj.\" Jis puikiai suprato, kad balso agentų rinka yra milžiniška, nes vienas dažniausių darbų pasaulyje yra būtent darbas prie telefono: pardavimo agentas, konsultantas. Dirbtinis intelektas tiesiog pakeičia žmogų ir sukuria didžiulę pridėtinę vertę. Bet Tadas uždavė ir kiečiausią klausimą: \"Jūs dabar esate feature. Kaip šitas tampa platforma, kuri išgyvens, kai Shopify nukopijuos tą vieną dabartinę dalį?\"",
+      text: "**Tadas Burgaila** buvo labiausiai pozityvus. Jis pasakė tiesiai: „Jūs esat labai teisingoj trajektorijoj.“ Jis puikiai suprato, kad balso agentų rinka yra milžiniška, nes vienas dažniausių darbų pasaulyje yra būtent darbas prie telefono: pardavimo agentas, konsultantas. Dirbtinis intelektas tiesiog pakeičia žmogų ir sukuria didžiulę pridėtinę vertę. Bet Tadas uždavė ir kiečiausią klausimą: „Jūs dabar esate feature. Kaip šitas tampa platforma, kuri išgyvens, kai Shopify nukopijuos tą vieną dabartinę dalį?“",
     },
     {
       type: "p",
-      text: "Atsakiau tiesiai: mūsų vizija yra sukurti email marketingo platformą balsu. Ne vienas skambučių įrankis, o visa ekosistema, kur verslas komunikuoja su klientais per balsą taip pat natūraliai, kaip dabar siunčia el. laiškus. Tadas neinvestavo, bet jo validacija buvo vertingesnė nei pinigai. Kai žmogus, sukūręs ne vieną sėkmingą verslą, sako \"esat teisingoj trajektorijoj\", tai kažką reiškia.",
+      text: "Atsakiau tiesiai: mūsų vizija yra sukurti email marketingo platformą balsu. Ne vienas skambučių įrankis, o visa ekosistema, kur verslas komunikuoja su klientais per balsą taip pat natūraliai, kaip dabar siunčia el. laiškus. Tadas neinvestavo, bet jo validacija buvo vertingesnė nei pinigai. Kai žmogus, sukūręs ne vieną sėkmingą verslą, sako „esat teisingoj trajektorijoj“, tai kažką reiškia.",
     },
     {
       type: "p",
-      text: "**Toma Sabaliauskienė** irgi sakė \"ne\", bet su svarbiu papildymu: ji jau buvo investavusi į FirstPick fondą, taigi techniškai jau buvo investavusi į Callsy. Ji pasiūlė susisiekti po laidos ir padėti. Kartais \"ne\" iš investuotojo reiškia \"ne dabar\", o ne \"niekada\".",
+      text: "**Toma Sabaliauskienė** irgi sakė „ne“, bet su svarbiu papildymu: ji jau buvo investavusi į FirstPick fondą, taigi techniškai jau buvo investavusi į Callsy. Ji pasiūlė susisiekti po laidos ir padėti. Kartais „ne“ iš investuotojo reiškia „ne dabar“, o ne „niekada“.",
     },
     {
       type: "p",
-      text: "**Einaras** buvo labai atviras: \"Būčiau labai suinteresuotas, bet yra vienas bet.\" Tų pačių metų gegužę jis jau buvo investavęs į Outcraft, faktiškai identišką įmonę. Tai puikiai iliustruoja, kas vyksta AI rinkoje: vienu metu pasaulyje atsiranda dešimtys komandų, kuriančių tą patį sprendimą. Einaras pavadino tai \"išlikimo žaidynėmis\". Ir jis teisus.",
+      text: "**Einaras** buvo labai atviras: „Būčiau labai suinteresuotas, bet yra vienas bet.“ Tų pačių metų gegužę jis jau buvo investavęs į Outcraft, faktiškai identišką įmonę. Tai puikiai iliustruoja, kas vyksta AI rinkoje: vienu metu pasaulyje atsiranda dešimtys komandų, kuriančių tą patį sprendimą. Einaras pavadino tai „išlikimo žaidynėmis“. Ir jis teisus.",
     },
     {
       type: "p",
-      text: "Ketvirtasis ryklys taip pat sakė \"ne\". Jis suprato produktą ir nišą, bet jam trūko supratimo apie konkurencinę aplinką pasaulyje. Pernelyg didelė rizika.",
+      text: "Ketvirtasis ryklys taip pat sakė „ne“. Jis suprato produktą ir nišą, bet jam trūko supratimo apie konkurencinę aplinką pasaulyje. Pernelyg didelė rizika.",
     },
     {
       type: "h2",
@@ -105,15 +105,15 @@ export const versloRykliai: Article = {
     },
     {
       type: "p",
-      text: "Rezultatas: keturi \"ne\", nulis investicijų. Bet jei manai, kad tai pralaimėjimas, tu nesupratai žaidimo. Štai kas iš tikrųjų svarbiausia:",
+      text: "Rezultatas: keturi „ne“, nulis investicijų. Bet jei manai, kad tai pralaimėjimas, tu nesupratai žaidimo. Štai kas iš tikrųjų svarbiausia:",
     },
     {
       type: "ol",
       items: [
         "**Validacija svarbiau nei pinigai.** Kai Tadas Burgaila sako, kad esi teisingoje trajektorijoje, tai yra signalai, kuriuos gali naudoti pritraukdamas kitų investuotojų dėmesį. Tai yra socialinis įrodymas, kurį pinigais nenusipirksi.",
-        "**\"Ne\" dažniausiai reiškia ne tave, o kontekstą.** Einaras norėjo investuoti, bet jau turėjo identišką investiciją. Toma jau buvo investavusi per fondą. Tai ne tavo produkto problema, tai laiko ir aplinkybių klausimai.",
+        "**„Ne“ dažniausiai reiškia ne tave, o kontekstą.** Einaras norėjo investuoti, bet jau turėjo identišką investiciją. Toma jau buvo investavusi per fondą. Tai ne tavo produkto problema, tai laiko ir aplinkybių klausimai.",
         "**Televizija yra marketingas, ne fundraisingas.** Realistiški tikėtis investicijos iš TV laidos per 12 minučių? Ne. Bet tūkstančiai žmonių pamato tavo produktą, ir tai verta daugiau nei bet koks reklamos biudžetas.",
-        "**Pitčink problemą, ne technologiją.** Rykliai nesureaguoja į \"mes naudojam GPT-4 su fine-tuned modeliais\". Jie sureaguoja į \"70% krepšelių paliekami\" ir \"260 milijardų prarastų pajamų\". Visada pradėk nuo skausmo.",
+        "**Pitčink problemą, ne technologiją.** Rykliai nesureaguoja į „mes naudojam GPT-4 su fine-tuned modeliais“. Jie sureaguoja į „70 proc. krepšelių paliekami“ ir „260 milijardų prarastų pajamų“. Visada pradėk nuo skausmo.",
         "**Tikri skaičiai laimi.** 150 klientų, 12 000 skambučių, 200 000 dolerių sugrąžintų pajamų, 63 000 dolerių per mėnesį vienam pilotui Čilėje. Ne projekcijos, o realūs rezultatai. Tai rykliams svarbiausia.",
       ],
     },
@@ -132,7 +132,7 @@ export const versloRykliai: Article = {
     },
     {
       type: "p",
-      text: "Mes po laidos toliau augome. 30% per mėnesį, kaip ir sakėme rykliams. Kartais geriausias dalykas, kurį investuotojas gali tau padaryti, yra pasakyti \"ne\" ir priversti tave įrodyti, kad jis klydo.",
+      text: "Mes po laidos toliau augome. 30 proc. per mėnesį, kaip ir sakėme rykliams. Kartais geriausias dalykas, kurį investuotojas gali tau padaryti, yra pasakyti „ne“ ir priversti tave įrodyti, kad jis klydo.",
     },
     {
       type: "faq",
@@ -140,11 +140,11 @@ export const versloRykliai: Article = {
       items: [
         {
           q: "Kas yra Verslo rykliai?",
-          a: "\"Rykliai. Lietuva\" (arba Verslo rykliai) yra TV3 verslo realybės laida, Lietuvos \"Shark Tank\" versija. Kūrėjai pristato savo verslą keturiems investuotojams ir bando gauti finansavimą mainais už įmonės dalį.",
+          a: "„Rykliai. Lietuva“ (arba Verslo rykliai) yra TV3 verslo realybės laida, Lietuvos „Shark Tank“ versija. Kūrėjai pristato savo verslą keturiems investuotojams ir bando gauti finansavimą mainais už įmonės dalį.",
         },
         {
           q: "Ar Callsy gavo investiciją Verslo rykliuose?",
-          a: "Ne, keturi rykliai sakė \"ne\". Tačiau laida suteikė vertingą validaciją: Tadas Burgaila patvirtino, kad Callsy yra \"teisingoje trajektorijoje\", o Toma Sabaliauskienė jau buvo investavusi per FirstPick fondą. Callsy toliau augo 30% per mėnesį po laidos.",
+          a: "Ne, keturi rykliai sakė „ne“. Tačiau laida suteikė vertingą validaciją: Tadas Burgaila patvirtino, kad Callsy yra „teisingoje trajektorijoje“, o Toma Sabaliauskienė jau buvo investavusi per FirstPick fondą. Callsy toliau augo 30 proc. per mėnesį po laidos.",
         },
         {
           q: "Kiek kainuoja dalyvavimas Verslo rykliuose?",
@@ -152,7 +152,7 @@ export const versloRykliai: Article = {
         },
         {
           q: "Ar verta eiti į Verslo ryklius?",
-          a: "Taip, bet ne dėl investicijos. Laida yra puiki platforma ekspozicijai, marketingui ir savo pitčo streso testui. Tūkstančiai žmonių pamato tavo verslą be reklamos išlaidų. Net \"ne\" iš ryklių yra vertingas, nes gauni tiesioginį grįžtamąjį ryšį iš patyrusių investuotojų.",
+          a: "Taip, bet ne dėl investicijos. Laida yra puiki platforma ekspozicijai, marketingui ir savo pitčo streso testui. Tūkstančiai žmonių pamato tavo verslą be reklamos išlaidų. Net „ne“ iš ryklių yra vertingas, nes gauni tiesioginį grįžtamąjį ryšį iš patyrusių investuotojų.",
         },
         {
           q: "Kas yra Callsy?",

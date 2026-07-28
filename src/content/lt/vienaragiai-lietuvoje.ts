@@ -108,7 +108,7 @@ export const vienaragiaiLietuvoje: Article = {
     },
     {
       type: "p",
-      text: "Kai pažvelgi į visus penkis, matai kelis bendrus bruožus, kurie, mano nuomone, ir yra tikroji pamoka:",
+      text: "Kai pažvelgi į visus šešis, matai kelis bendrus bruožus, kurie, mano nuomone, ir yra tikroji pamoka:",
     },
     {
       type: "ol",
@@ -136,7 +136,7 @@ export const vienaragiaiLietuvoje: Article = {
     },
     {
       type: "p",
-      text: "Nesvarbu, ar kuri startuolį, ar tik svarstai, žinia paprasta: dydis nėra kliūtis. Jei maža Lietuva gali užauginti penkis vienaragius, tai geografija ar rinkos dydis nėra pasiteisinimas. Pradėk nuo realios problemos, galvok globaliai iš karto ir būk pasiruošęs ilgam keliui. Kitas vienaragis gali gimti bet kur, net tavo garaže.",
+      text: "Nesvarbu, ar kuri startuolį, ar tik svarstai, žinia paprasta: dydis nėra kliūtis. Jei maža Lietuva gali užauginti šešis vienaragius, tai geografija ar rinkos dydis nėra pasiteisinimas. Pradėk nuo realios problemos, galvok globaliai iš karto ir būk pasiruošęs ilgam keliui. Kitas vienaragis gali gimti bet kur, net tavo garaže.",
     },
     {
       type: "faq",

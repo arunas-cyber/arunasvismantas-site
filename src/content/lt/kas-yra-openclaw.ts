@@ -45,7 +45,7 @@ export const kasYraOpenclaw: Article = {
     },
     {
       type: "p",
-      text: "Verta atvirai pasakyti apie naujoviškumą, nes TechCrunch kalbinti ekspertai taip ir padarė. AI inžinierius Artem Sorokin: *„Iš dirbtinio intelekto tyrimų perspektyvos, čia nėra nieko naujo.\"* John Hammond iš Huntress dar tiesiau: *„OpenClaw vis tiek tėra apvalkalas ChatGPT, Claude ar bet kuriam modeliui, kurį prie jo prikabini.\"*",
+      text: "Verta atvirai pasakyti apie naujoviškumą, nes TechCrunch kalbinti ekspertai taip ir padarė. AI inžinierius Artem Sorokin: *„Iš dirbtinio intelekto tyrimų perspektyvos, čia nėra nieko naujo.“* John Hammond iš Huntress dar tiesiau: *„OpenClaw vis tiek tėra apvalkalas ChatGPT, Claude ar bet kuriam modeliui, kurį prie jo prikabini.“*",
     },
     {
       type: "quote",
@@ -58,11 +58,11 @@ export const kasYraOpenclaw: Article = {
     },
     {
       type: "p",
-      text: "Štai dalis, kurios beveik niekas nemini. **2026 m. balandžio 4 d. Anthropic atjungė Claude Pro ir Max prenumeratas nuo trečiųjų šalių įrankių**, tarp jų ir OpenClaw. Iki tos dienos žmonės praktiškai neribotai leido agentus už fiksuotą 20-200 eurų mėnesio prenumeratą. Po jos teko mokėti pagal realų sunaudojimą.",
+      text: "Štai dalis, kurios beveik niekas nemini. **2026 m. balandžio 4 d. Anthropic atjungė Claude Pro ir Max prenumeratas nuo trečiųjų šalių įrankių**, tarp jų ir OpenClaw. Iki tos dienos žmonės praktiškai neribotai leido agentus už fiksuotą 20–200 eurų mėnesio prenumeratą. Po jos teko mokėti pagal realų sunaudojimą.",
     },
     {
       type: "p",
-      text: "Sąnaudos aktyviems naudotojams šoktelėjo **10-50 kartų**. Hacker News prisipildė pasakojimų, kaip 200 dolerių ištirpsta per valandą. Boris Cherny, vadovaujantis Claude Code, paaiškino paprastai: *„mūsų prenumeratos nebuvo kurtos tokiam naudojimo modeliui.\"*",
+      text: "Sąnaudos aktyviems naudotojams šoktelėjo **10-50 kartų**. Hacker News prisipildė pasakojimų, kaip 200 dolerių ištirpsta per valandą. Boris Cherny, vadovaujantis Claude Code, paaiškino paprastai: *„mūsų prenumeratos nebuvo kurtos tokiam naudojimo modeliui.“*",
     },
     {
       type: "p",
@@ -75,11 +75,11 @@ export const kasYraOpenclaw: Article = {
     {
       type: "h2",
       id: "localhost-klaida",
-      text: "„Localhost\" klaida",
+      text: "„Localhost“ klaida",
     },
     {
       type: "p",
-      text: "Saugumo istorija reali, bet įdomesnė nei „kodas buvo prastas\". OpenClaw sukurtas veikti **lokaliai**, kur jo 18789 prievadas visiškai saugus, nes prie jo prieina tik tavo kompiuteris.",
+      text: "Saugumo istorija reali, bet įdomesnė nei „kodas buvo prastas“. OpenClaw sukurtas veikti **lokaliai**, kur jo 18789 prievadas visiškai saugus, nes prie jo prieina tik tavo kompiuteris.",
     },
     {
       type: "p",
@@ -96,7 +96,7 @@ export const kasYraOpenclaw: Article = {
     },
     {
       type: "p",
-      text: "Pamatysi cituojant „543 saugumo spragos\" kaip įrodymą, kad OpenClaw katastrofiškai nesaugus. Būsiu sąžiningas taip, kaip dauguma nėra: **tas skaičius klaidina.** Apie 92% jų užregistravo viena saugumo tyrimų organizacija. Taip nutinka, kai populiariausias projektas GitHub istorijoje tampa trofėjumi: tyrėjai sugula visi.",
+      text: "Pamatysi cituojant „543 saugumo spragos“ kaip įrodymą, kad OpenClaw katastrofiškai nesaugus. Būsiu sąžiningas taip, kaip dauguma nėra: **tas skaičius klaidina.** Apie 92 proc. jų užregistravo viena saugumo tyrimų organizacija. Taip nutinka, kai populiariausias projektas GitHub istorijoje tampa trofėjumi: tyrėjai sugula visi.",
     },
     {
       type: "p",
@@ -153,7 +153,7 @@ export const kasYraOpenclaw: Article = {
     },
     {
       type: "p",
-      text: "**Kliūtis yra pasitikėjimo ribos.** Prie ko šitas daiktas gali liestis? Kieno žinutės gali jam nurodinėti? Kiek jis gali išleisti? Jokios gudrios užklausos to neišsprendžia, nes tai ne užklausų problema. Būtent todėl, kai mokau susikurti savo AI asistentą, vertingiausias įgūdis yra ne „sukurti agentą\". Agentą kiekvienas įdiegia per penkias minutes. Vertingiausias įgūdis yra **apibrėžti agento ribas**: nuspręsti, ko jis niekada negali daryti.",
+      text: "**Kliūtis yra pasitikėjimo ribos.** Prie ko šitas daiktas gali liestis? Kieno žinutės gali jam nurodinėti? Kiek jis gali išleisti? Jokios gudrios užklausos to neišsprendžia, nes tai ne užklausų problema. Būtent todėl, kai mokau susikurti savo AI asistentą, vertingiausias įgūdis yra ne „sukurti agentą“. Agentą kiekvienas įdiegia per penkias minutes. Vertingiausias įgūdis yra **apibrėžti agento ribas**: nuspręsti, ko jis niekada negali daryti.",
     },
     {
       type: "faq",

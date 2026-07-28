@@ -120,14 +120,14 @@ export const kaipNaudotisClaude: Article = {
     },
     {
       type: "p",
-      text: "Nereikia mokytis jokio „užklausų inžinerijos“ meno. Reikia bendrauti taip, kaip su nauju gabiu kolega, kuris nežino jokio konteksto. Ką gausi atgal, daugiausia priklauso nuo to, ką įdėsi. Kelie įpročiai atlieka 90 % darbo:",
+      text: "Nereikia mokytis jokio „užklausų inžinerijos“ meno. Reikia bendrauti taip, kaip su nauju gabiu kolega, kuris nežino jokio konteksto. Ką gausi atgal, daugiausia priklauso nuo to, ką įdėsi. Keli įpročiai atlieka 90 proc. darbo:",
     },
     {
       type: "ul",
       items: [
         "**Duok kontekstą.** Pasakyk, kas esi, kam skirta ir kaip atrodo geras rezultatas. „Parašyk šaltą laišką“ silpna. „Vadovauju AI balso agentų startuoliui. Parašyk trumpą šaltą laišką „Shopify“ parduotuvės savininkui, siūlantį nemokamą bandymą, draugišką ir konkretų, be pompastikos“ stipru.",
         "**Prašyk formato.** „Duok penkis variantus“, „lentele“, „punktais“, „iki 100 žodžių“. Claude gerai laikosi struktūros nurodymų.",
-        "**Tobulink, o ne pradėk iš naujo.** Jei pirmas atsakymas 80 % geras, pasakyk, ką keisti: „trumpiau, šilčiau, išmesk trečią punktą“. Įrankis yra pats pokalbis, ne viena tobula užklausa.",
+        "**Tobulink, o ne pradėk iš naujo.** Jei pirmas atsakymas 80 proc. geras, pasakyk, ką keisti: „trumpiau, šilčiau, išmesk trečią punktą“. Įrankis yra pats pokalbis, ne viena tobula užklausa.",
         "**Duok savo medžiagą.** Įklijuok pastabas, įkelk dokumentą, pasidalink juodraščiu. Su tavo tikru turiniu Claude kur kas naudingesnis nei kurdamas iš nieko.",
         "**Liepk užduoti tau klausimus.** „Paklausk visko, ko reikia, prieš pradėdamas.“ Ši viena eilutė smarkiai pagerina rezultatą su bet kuo sudėtingesniu.",
       ],

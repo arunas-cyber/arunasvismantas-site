@@ -14,7 +14,7 @@ export const verslasBeKapitalo: Article = {
   blocks: [
     {
       type: "p",
-      text: "Statistika negailestinga: apie **90% verslų žlunga nepasiekę 100 000 eurų pajamų**, o 20-30% užsidaro jau per pirmus metus. Idėja atrodo nereali, viskas kunkuliuoja, o paskui realybė pradeda smogti. Šiame straipsnyje surinkau tai, ką pats išmokau kurdamas verslus Lietuvoje ir užsienyje, tą pačią medžiagą, kurią pristačiau LOGIN 2025 scenoje pilnai salei žmonių.",
+      text: "Statistika negailestinga: apie **90 proc. verslų žlunga nepasiekę 100 000 eurų pajamų**, o 20–30 proc. užsidaro jau per pirmus metus. Idėja atrodo nereali, viskas kunkuliuoja, o paskui realybė pradeda smogti. Šiame straipsnyje surinkau tai, ką pats išmokau kurdamas verslus Lietuvoje ir užsienyje, tą pačią medžiagą, kurią pristačiau LOGIN 2025 scenoje pilnai salei žmonių.",
     },
     {
       type: "video",
@@ -61,7 +61,7 @@ export const verslasBeKapitalo: Article = {
     },
     {
       type: "p",
-      text: "MVP šiais laikais sudėtingėja, su visiškai brokuotu produktu ateiti nebegalima, prarasi pasitikėjimą. Bet jei nuolat iteruoji ir taisai, verta leisti produktą į rinką kuo greičiau. Su Podbase per 18 mėnesių taip pasiekėme 100 000 eurų mėnesines pasikartojančias pajamas. Nebūtina parduoti vien idėjos, parduok veikiantį MVP, o kažkas didelio gali gimti per ateinančius 12-18 mėnesių.",
+      text: "MVP šiais laikais sudėtingėja, su visiškai brokuotu produktu ateiti nebegalima, prarasi pasitikėjimą. Bet jei nuolat iteruoji ir taisai, verta leisti produktą į rinką kuo greičiau. Su Podbase per 18 mėnesių taip pasiekėme 100 000 eurų mėnesines pasikartojančias pajamas. Nebūtina parduoti vien idėjos, parduok veikiantį MVP, o kažkas didelio gali gimti per ateinančius 12–18 mėnesių.",
     },
     {
       type: "h2",
@@ -91,7 +91,7 @@ export const verslasBeKapitalo: Article = {
     },
     {
       type: "p",
-      text: "Orientuokis į verslus, kurių maržingumas didesnis nei 60%, idealiu atveju 70-80%. Be maržos nėra augimo galimybės (scaleability), o be jos tai tampa amatu, ne verslu. Pilna Lietuvos verslų, kurie įstrigo ties 20-30 tūkst. eurų apyvarta: jie tiesiog nebegali sau leisti nei marketingo, nei geresnių specialistų, ir augimas sustoja.",
+      text: "Orientuokis į verslus, kurių maržingumas didesnis nei 60 proc., idealiu atveju 70–80 proc. Be maržos nėra augimo galimybės, o be jos tai tampa amatu, ne verslu. Pilna Lietuvos verslų, kurie įstrigo ties 20–30 tūkst. eurų apyvarta: jie tiesiog nebegali sau leisti nei marketingo, nei geresnių specialistų, ir augimas sustoja.",
     },
     {
       type: "h2",
@@ -104,11 +104,11 @@ export const verslasBeKapitalo: Article = {
     },
     {
       type: "p",
-      text: "Kūrėme telemedicinos startuolį Smart Vision. Verslo modelis veikė, turėjome finansavimą, bet naujo kliento pritraukimas kainuodavo 50-70 eurų, o klientai per porą metų pirkdavo tik vieną du kartus. Kai LTV lygus CAC, augti ir plėstis į naujas rinkas tampa be galo sunku, prireikia labai didelių investicijų.",
+      text: "Kūrėme telemedicinos startuolį Smart Vision. Verslo modelis veikė, turėjome finansavimą, bet naujo kliento pritraukimas kainuodavo 50–70 eurų, o klientai per porą metų pirkdavo tik vieną du kartus. Kai LTV lygus CAC, augti ir plėstis į naujas rinkas tampa be galo sunku, prireikia labai didelių investicijų.",
     },
     {
       type: "p",
-      text: "Kai Didžiojoje Britanijoje vysčiau kavinių tinklą, net turistiniame Londone 60-70% pajamų ateidavo iš lojalių, reguliarių klientų, ir tik 30-40% iš praeivių. Tie 60% padengia kaštus, o likę 30-40% yra tavo pelnas. Ši logika veikia beveik kiekviename versle.",
+      text: "Kai Didžiojoje Britanijoje vysčiau kavinių tinklą, net turistiniame Londone 60–70 proc. pajamų ateidavo iš lojalių, reguliarių klientų, ir tik 30–40 proc. iš praeivių. Tie 60 proc. padengia kaštus, o likę 30–40 proc. yra tavo pelnas. Ši logika veikia beveik kiekviename versle.",
     },
     {
       type: "h2",
@@ -138,7 +138,7 @@ export const verslasBeKapitalo: Article = {
     },
     {
       type: "p",
-      text: "Dirbdamas šalia Burgos įkūrėjų supratau vieną dalyką: nors jų produktas yra tech aksesuarai, tikroji stiprybė kitur. Pirma, jie turi itin stiprų marketingo skyrių su savo produkcijos studija. Antra, jie patys gamina savo produkciją. Iš šono to nepamatysi, bet būtent tai duoda 20-30% maržos pranašumą, kuris leidžia agresyviai auginti verslą. Neabejoju, kad Burga jau yra arba netrukus taps vienaragiu.",
+      text: "Dirbdamas šalia Burgos įkūrėjų supratau vieną dalyką: nors jų produktas yra tech aksesuarai, tikroji stiprybė kitur. Pirma, jie turi itin stiprų marketingo skyrių su savo produkcijos studija. Antra, jie patys gamina savo produkciją. Iš šono to nepamatysi, bet būtent tai duoda 20–30 proc. maržos pranašumą, kuris leidžia agresyviai auginti verslą. Neabejoju, kad Burga jau yra arba netrukus taps vienaragiu.",
     },
     {
       type: "p",
@@ -184,7 +184,7 @@ export const verslasBeKapitalo: Article = {
     },
     {
       type: "p",
-      text: "Apie 70% pirkėjų palieka krepšelį. Kai paskambini, sužinai neįtikėtinai daug: kodėl žmonės perka arba neperka. Sėsdavau ir kasdien padarydavau po 10-20 skambučių. Pakoregavome pasiūlymą, produktą, kainodarą, ir viskas išsprogo. Būtent iš šios istorijos gimė Callsy: AI agentas, kuris automatiškai apskambina apleistus krepšelius, pasiūlo personalizuotą nuolaidą ir susigrąžina prarastas pajamas. Verslas dažnai gimsta ne iš genialios idėjos, o iš nuobodaus, kartojamo darbo.",
+      text: "Apie 70 proc. pirkėjų palieka krepšelį. Kai paskambini, sužinai neįtikėtinai daug: kodėl žmonės perka arba neperka. Sėsdavau ir kasdien padarydavau po 10–20 skambučių. Pakoregavome pasiūlymą, produktą, kainodarą, ir viskas išsprogo. Būtent iš šios istorijos gimė Callsy: AI agentas, kuris automatiškai apskambina apleistus krepšelius, pasiūlo personalizuotą nuolaidą ir susigrąžina prarastas pajamas. Verslas dažnai gimsta ne iš genialios idėjos, o iš nuobodaus, kartojamo darbo.",
     },
     {
       type: "quote",
@@ -204,7 +204,7 @@ export const verslasBeKapitalo: Article = {
         },
         {
           q: "Kokia marža turėtų būti versle?",
-          a: "Bent 3 kartus tarp savikainos ir pardavimo kainos, arba 60-80% maržingumas. Mažesnė marža reiškia, kad negalėsi sau leisti marketingo ir talentų, ir augimas sustos.",
+          a: "Bent 3 kartus tarp savikainos ir pardavimo kainos, arba 60–80 proc. maržingumas. Mažesnė marža reiškia, kad negalėsi sau leisti marketingo ir talentų, ir augimas sustos.",
         },
         {
           q: "Kodėl grįžtantys klientai tokie svarbūs?",
