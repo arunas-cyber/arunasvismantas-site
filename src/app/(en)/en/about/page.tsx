@@ -19,7 +19,7 @@ const milestones = [
   },
   {
     year: "2018",
-    text: "Co-founded Smart Vision, an ecommerce support-services company, and raised €2.6M for it.",
+    text: "Co-founded Smart Vision, an ecommerce support-services company, and raised €2.4M for it.",
   },
   {
     year: "2020",

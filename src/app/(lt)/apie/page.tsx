@@ -19,7 +19,7 @@ const milestones = [
   },
   {
     year: "2018",
-    text: "Kartu su komanda įkūriau Smart Vision, el. prekybos aptarnavimo paslaugų įmonę, ir jai pritraukiau 2,6 mln. eurų investiciją.",
+    text: "Kartu su komanda įkūriau Smart Vision, el. prekybos aptarnavimo paslaugų įmonę, ir jai pritraukiau 2,4 mln. eurų investiciją.",
   },
   {
     year: "2020",
