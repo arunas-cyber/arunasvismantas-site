@@ -14,8 +14,8 @@ const milestones = [
     text: "BA in Leadership in Management, Oxford Brookes University.",
   },
   {
-    year: "2010–2017",
-    text: "Ran UK operations for the EAT and PAUL chains, managed the largest cinema in Europe, and led teams of 200+ people.",
+    year: "2010–2018",
+    text: "Ran UK operations as General Manager for EAT and PAUL, then managed operations of the biggest cinema in Europe (Vue Entertainment) with a team of 200+.",
   },
   {
     year: "2018",
