@@ -5,8 +5,9 @@ export const vienaragiaiLietuvoje: Article = {
   routeKey: "lt-vienaragiai-lietuvoje",
   kind: "spoke",
   publishedAt: "2026-07-21",
+  updatedAt: "2026-07-24",
   kicker: "Startuoliai",
-  lede: "Lietuva, mažiau nei trijų milijonų gyventojų šalis, jau užaugino penkis vienaragius. Kas jie, kaip kiekvienas pasiekė milijardo vertę ir ką iš to gali pasimokyti kiekvienas įkūrėjas.",
+  lede: "Lietuva, mažiau nei trijų milijonų gyventojų šalis, jau užaugino šešis vienaragius. Kas jie, kaip kiekvienas pasiekė milijardo vertę ir ką iš to gali pasimokyti kiekvienas įkūrėjas.",
   hero: {
     src: "/images/insights/vienaragiai-lietuvoje.jpg",
     alt: "Iliustracija: geometrinė vienaragio galva su ragu",
@@ -14,7 +15,7 @@ export const vienaragiaiLietuvoje: Article = {
   blocks: [
     {
       type: "p",
-      text: "Vienaragis versle yra retas dalykas: startuolis, kurio vertė viršija milijardą dolerių. Terminą 2013 metais sugalvojo investuotoja Aileen Lee būtent todėl, kad tokios įmonės yra tokios retos, kaip mitinis vienaragis. Ir vis dėlto Lietuva, maža šalis Baltijos pakrantėje, jų turi jau penkis. Tai daugiau nei įspūdinga santykyje su gyventojų skaičiumi.",
+      text: "Vienaragis versle yra retas dalykas: startuolis, kurio vertė viršija milijardą dolerių. Terminą 2013 metais sugalvojo investuotoja Aileen Lee būtent todėl, kad tokios įmonės yra tokios retos, kaip mitinis vienaragis. Ir vis dėlto Lietuva, maža šalis Baltijos pakrantėje, jų turi jau šešis. Naujausias, Oxylabs, prie sąrašo prisijungė 2026 metų liepą. Tai daugiau nei įspūdinga santykyje su gyventojų skaičiumi.",
     },
     {
       type: "h2",
@@ -32,7 +33,7 @@ export const vienaragiaiLietuvoje: Article = {
     {
       type: "h2",
       id: "lietuvos-vienaragiai",
-      text: "Penki Lietuvos vienaragiai",
+      text: "Šeši Lietuvos vienaragiai",
     },
     {
       type: "table",
@@ -44,6 +45,7 @@ export const vienaragiaiLietuvoje: Article = {
         ["Baltic Classifieds Group", "Internetiniai skelbimai", "Vienaragis"],
         ["Flo Health", "Moterų sveikatos programėlė", "2024"],
         ["Cast AI", "Debesų kaštų optimizavimas", "2026 (penktasis)"],
+        ["Oxylabs", "Interneto duomenų infrastruktūra", "2026 (šeštasis)"],
       ],
     },
     {
@@ -76,11 +78,28 @@ export const vienaragiaiLietuvoje: Article = {
     {
       type: "h2",
       id: "cast-ai",
-      text: "Cast AI: penktasis ir šviežiausias",
+      text: "Cast AI: penktasis vienaragis",
     },
     {
       type: "p",
       text: "Cast AI tapo penktuoju Lietuvos vienaragiu 2026 metų sausį. Įmonė kuria debesų kaštų optimizavimo programinę įrangą, padedančią verslams sutaupyti infrastruktūros išlaidų. Nors būstinė yra Floridoje, įmonė turi lietuviškas šaknis ir didelį biurą Vilniuje, todėl pagrįstai laikoma Lietuvos vienaragiu. Tai pirmasis šalies vienaragis, kurio pagrindas yra dirbtinio intelekto era.",
+    },
+    {
+      type: "h2",
+      id: "oxylabs",
+      text: "Oxylabs: šeštasis ir šviežiausias",
+    },
+    {
+      type: "p",
+      text: "Oxylabs šeštuoju Lietuvos vienaragiu tapo 2026 metų liepą ir iškart vienu įdomiausių. Vilniaus įmonė, išaugusi Tesonet ekosistemoje (toje pačioje, iš kurios kilo Nord Security), vienuolika metų augo visiškai be išorinių investicijų. Šią vasarą ji dalį pardavė fondui Warburg Pincus: 113,6 milijono eurų prie 3,1 milijardo eurų vertės. Tai buvo pirmas kartas per visą įmonės istoriją, kai ji pritraukė išorinį kapitalą.",
+    },
+    {
+      type: "p",
+      text: "Oxylabs pradėjo kaip aukščiausios klasės tarpinių serverių (proxy) paslauga, o šiandien save vadina interneto intelekto (web intelligence) platforma, aptarnaujančia milijardus užklausų per dieną. Metinis pasikartojančių pajamų tempas siekia 350 milijonų dolerių, o platforma naudojasi daugiau nei 350 tūkstančių technologijų komandų. Po šio sandorio Oxylabs tapo antra vertingiausia privati Lietuvos įmone iškart po Vinted.",
+    },
+    {
+      type: "p",
+      text: "Įdomiausia dalis yra kodėl būtent dabar. Dirbtinio intelekto modeliams ir agentams reikia gyvų, viešų interneto duomenų milžinišku mastu: kainų, paieškos rezultatų, turinio treniravimui. Oxylabs kaip tik ir tiekia infrastruktūrą tam surinkti. Mano akimis, tai gražiausia pamoka visame sąraše: galima vienuolika metų kantriai statyti pelningą verslą be jokio triukšmo, o kai rinka pasisuka tavo linkme, peršokti į milijardų lygą. Ne kiekvienam vienaragiui reikia degti investuotojų pinigus.",
     },
     {
       type: "h2",
@@ -98,6 +117,7 @@ export const vienaragiaiLietuvoje: Article = {
         "**Sprendžia realią, plačią problemą.** Per brangūs drabužiai, saugumas internete, moterų sveikata, debesų kaštai. Problemos, kurias jaučia milijonai žmonių.",
         "**Stipri techninė komanda.** Lietuva turi puikų inžinerinį talentą, o šios įmonės sugebėjo jį pritraukti ir išlaikyti.",
         "**Ilgas kelias, ne staigmena.** Nė vienas netapo vienaragiu per naktį. Vinted augo dešimtmetį. Sėkmė atrodo staigi tik iš šono.",
+        "**Ne visada reikia rizikos kapitalo.** Oxylabs vienuolika metų augo pelningai ir be išorinių investicijų. Bootstrap kelias lėtesnis, bet įkūrėjams lieka kur kas daugiau kontrolės ir vertės.",
       ],
     },
     {
@@ -124,7 +144,7 @@ export const vienaragiaiLietuvoje: Article = {
       items: [
         {
           q: "Kiek vienaragių turi Lietuva?",
-          a: "2026 metais Lietuva turi penkis vienaragius: Vinted, Nord Security, Baltic Classifieds Group, Flo Health ir Cast AI. Visų jų vertė viršija milijardą dolerių.",
+          a: "2026 metais Lietuva turi šešis vienaragius: Vinted, Nord Security, Baltic Classifieds Group, Flo Health, Cast AI ir Oxylabs. Visų jų vertė viršija milijardą dolerių.",
         },
         {
           q: "Koks buvo pirmasis Lietuvos vienaragis?",

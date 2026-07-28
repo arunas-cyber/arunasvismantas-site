@@ -377,9 +377,9 @@ export const routes: SiteRoute[] = [
     key: "lt-vienaragiai-lietuvoje",
     locale: "lt",
     path: "/izvalgos/vienaragiai-lietuvoje",
-    title: "Vienaragiai Lietuvoje: visi penki milijardiniai startuoliai",
+    title: "Vienaragiai Lietuvoje: visi šeši milijardiniai startuoliai",
     description:
-      "Lietuva užaugino penkis vienaragius: Vinted, Nord Security, Baltic Classifieds Group, Flo Health ir Cast AI. Kas jie, kaip pasiekė milijardą ir ko iš to pasimokyti.",
+      "Lietuva užaugino šešis vienaragius: Vinted, Nord Security, Baltic Classifieds Group, Flo Health, Cast AI ir Oxylabs. Kas jie, kaip pasiekė milijardą ir ko iš to pasimokyti.",
     keywords: [
       "vienaragiai lietuvoje",
       "lietuvos vienaragiai",
