@@ -7,6 +7,10 @@ export const oxylabsBootstrap: Article = {
   publishedAt: "2026-07-24",
   kicker: "Startuoliai",
   lede: "2026 metų liepą Oxylabs pardavė dalį įmonės ir tapo vertas 3,1 milijardo eurų. Įdomiausia ne suma, o kelias: vienuolika metų be nė vieno išorinio investuotojo. Štai ką ši istorija sako kiekvienam įkūrėjui apie bootstrap, kontrolę ir tinkamą laiką.",
+  hero: {
+    src: "/images/insights/oxylabs-bootstrap.jpg",
+    alt: "Iliustracija: žmogus lipa monetų laiptais link kalno viršūnės su vėliava",
+  },
   blocks: [
     {
       type: "p",

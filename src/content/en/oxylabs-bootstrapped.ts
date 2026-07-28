@@ -7,6 +7,10 @@ export const oxylabsBootstrapped: Article = {
   publishedAt: "2026-07-24",
   kicker: "Startups",
   lede: "In July 2026 Oxylabs sold a slice of the company at a 3.1 billion euro valuation. The headline is not the number. It is the path: eleven years without a single outside investor. Here is what that story tells every founder about bootstrapping, control, and timing.",
+  hero: {
+    src: "/images/insights/oxylabs-bootstrap.jpg",
+    alt: "Illustration: a figure climbing a staircase of coin stacks toward a mountain summit with a flag",
+  },
   blocks: [
     {
       type: "p",
