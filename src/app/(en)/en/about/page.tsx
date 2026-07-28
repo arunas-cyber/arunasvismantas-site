@@ -14,8 +14,12 @@ const milestones = [
     text: "BA in Leadership in Management, Oxford Brookes University.",
   },
   {
+    year: "2010–2017",
+    text: "Ran UK operations for the EAT and PAUL chains, managed the largest cinema in Europe, and led teams of 200+ people.",
+  },
+  {
     year: "2018",
-    text: "Co-founded Smart Vision, an ecommerce support-services company.",
+    text: "Co-founded Smart Vision, an ecommerce support-services company, and raised €2.6M for it.",
   },
   {
     year: "2020",

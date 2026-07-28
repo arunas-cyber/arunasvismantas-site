@@ -14,8 +14,12 @@ const milestones = [
     text: "Vadybos lyderystės bakalauras, Oxford Brookes universitetas.",
   },
   {
+    year: "2010–2017",
+    text: "Jungtinėje Karalystėje vadovavau EAT ir PAUL tinklams, valdžiau didžiausią kino teatrą Europoje ir vedžiau daugiau nei 200 žmonių komandas.",
+  },
+  {
     year: "2018",
-    text: "Kartu su komanda įkūriau Smart Vision, el. prekybos aptarnavimo paslaugų įmonę.",
+    text: "Kartu su komanda įkūriau Smart Vision, el. prekybos aptarnavimo paslaugų įmonę, ir jai pritraukiau 2,6 mln. eurų investiciją.",
   },
   {
     year: "2020",
