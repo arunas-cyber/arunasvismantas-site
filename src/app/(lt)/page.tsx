@@ -56,7 +56,7 @@ export default function HomeLt() {
             <span className="text-coral">Ir padedu kurti kitiems.</span>
           </h1>
           <p className="mt-8 max-w-[52ch] text-[19px] font-medium leading-normal">
-            Penkių verslų įkūrėjas iš Vilniaus. Kartu su komanda kuriu{" "}
+            Vilnietis, įkūręs penkias įmones. Kartu su komanda kuriu{" "}
             <strong>Callsy</strong>, europinę AI balso agentų platformą. Čia
             dalinuosi, kaip kuriu su dirbtiniu intelektu, kokius verslus statau
             ir apie ką{" "}

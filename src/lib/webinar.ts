@@ -17,7 +17,7 @@ export const webinar = {
   host: "Callsy įkūrėjas ir CEO",
 
   // Short bio for credibility (funnel version, tighter than /apie).
-  bio: "Esu Arunas Vismantas, penkių verslų įkūrėjas ir Callsy vadovas. Su Claude Code kasdien automatizuoju darbus ir kuriu produktus, nors neturiu inžinerinio išsilavinimo. Su juo pasidariau ir dalį Callsy, ir šią svetainę. Seminare parodysiu tikslų būdą, kuris man iš tikrųjų veikia.",
+  bio: "Esu Arunas Vismantas, įkūriau penkias įmones ir vadovauju Callsy. Su Claude Code kasdien automatizuoju darbus ir kuriu produktus, nors neturiu inžinerinio išsilavinimo. Su juo pasidariau ir dalį Callsy, ir šią svetainę. Seminare parodysiu tikslų būdą, kuris man iš tikrųjų veikia.",
   photo: "/images/webinar/arunas.jpg", // drop a portrait here; page hides the frame until it exists
 
   // Credibility chips shown next to the host. Keep short, all verified.
