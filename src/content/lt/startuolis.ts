@@ -6,7 +6,7 @@ export const startuolis: Article = {
   kind: "hub",
   publishedAt: "2026-07-21",
   kicker: "Startuoliai",
-  lede: "Kas yra startuolis, kuo jis skiriasi nuo įprasto verslo, kaip finansuojamas ir kaip pradėti savąjį. Praktinis gidas iš penkis kartus startuolius kūrusio įkūrėjo, be teorijos ir be pompastikos.",
+  lede: "Kas yra startuolis, kuo jis skiriasi nuo įprasto verslo, kaip finansuojamas ir kaip pradėti savąjį. Praktinis gidas iš penkis kartus startuolius kūrusio founderio, be teorijos ir be pompastikos.",
   hero: {
     src: "/images/insights/startuolis.jpg",
     alt: "Iliustracija: kylanti raketa, simbolizuojanti startuolio pradžią",
@@ -90,7 +90,7 @@ export const startuolis: Article = {
       type: "ul",
       items: [
         "**Savi pinigai (angl. bootstrapping).** Augi iš savų lėšų ir pajamų. Lėčiau, bet išlaikai visą įmonės kontrolę. Daug stipriausių verslų prasideda būtent taip.",
-        "**Verslo angelai.** Privatūs investuotojai, dažnai patys buvę įkūrėjai, investuojantys savo pinigus ankstyvame etape mainais už įmonės dalį.",
+        "**Verslo angelai.** Privatūs investuotojai, dažnai patys buvę founderiai, investuojantys savo pinigus ankstyvame etape mainais už įmonės dalį.",
         "**Pre-seed ir seed raundai.** Pirmosios rimtos investicijos iš fondų, kai jau turi MVP ir pirmus klientus. Lietuvoje čia veikia tokie fondai kaip Practica Capital, Iron Wolf, Coinvest.",
         "**Rizikos kapitalas (angl. venture capital).** Didesni raundai (Series A, B ir toliau), kai reikia auginti mastą. Investuoja tarptautiniai VC fondai.",
         "**Akseleratoriai.** Programos, kurios duoda nedidelę investiciją, mentorystę ir tinklą mainais už įmonės dalį. Su Callsy baigėme FirstPick AI akseleratorių ir 500 Global Eurasia programą, ir tai davė daugiau nei pinigai: ryšius ir discipliną.",
@@ -98,7 +98,7 @@ export const startuolis: Article = {
     },
     {
       type: "p",
-      text: "Vienas dalykas, kurį noriu pasakyti aiškiai: investicija nėra sėkmės ženklas. Tai įrankis. Daug įkūrėjų vaikosi raundų kaip trofėjų, nors realiai kiekvienas raundas atiduoda įmonės dalį ir prideda spaudimo. Pinigus verta imti tada, kai tiksliai žinai, kur juos investuosi augimui, ne anksčiau.",
+      text: "Vienas dalykas, kurį noriu pasakyti aiškiai: investicija nėra sėkmės ženklas. Tai įrankis. Daug founderių vaikosi raundų kaip trofėjų, nors realiai kiekvienas raundas atiduoda įmonės dalį ir prideda spaudimo. Pinigus verta imti tada, kai tiksliai žinai, kur juos investuosi augimui, ne anksčiau.",
     },
     {
       type: "h2",
@@ -115,7 +115,7 @@ export const startuolis: Article = {
     },
     {
       type: "p",
-      text: "Kodėl tokia maža šalis pagimdo tiek stiprių įmonių? Mano nuomone, atsakymas paprastas: maža vidaus rinka priverčia galvoti globaliai nuo pirmos dienos. Lietuvis įkūrėjas negali sau leisti kurti tik Lietuvai, nes rinka per maža. Tad iš karto taikosi į pasaulį. Būtent tai ir yra startuolio mąstysena.",
+      text: "Kodėl tokia maža šalis pagimdo tiek stiprių įmonių? Mano nuomone, atsakymas paprastas: maža vidaus rinka priverčia galvoti globaliai nuo pirmos dienos. Lietuvis founderis negali sau leisti kurti tik Lietuvai, nes rinka per maža. Tad iš karto taikosi į pasaulį. Būtent tai ir yra startuolio mąstysena.",
     },
     {
       type: "h2",
@@ -148,7 +148,7 @@ export const startuolis: Article = {
         "**Vaikytis investicijų vietoj pajamų.** Raundas nėra sėkmė. Mokantis klientas yra.",
         "**Per anksti plėstis.** Samdyti ir deginti pinigus prieš radus produkto ir rinkos atitikimą.",
         "**Ignoruoti skaičius.** Nežinoti savo maržos, kliento įsigijimo kainos ir grąžos. Be skaičių valdai aklai.",
-        "**Kurti vienam.** Stiprus bendraįkūrėjis ir komanda pakelia daug daugiau nei vienišas genijus.",
+        "**Kurti vienam.** Stiprus co-founderis ir komanda pakelia daug daugiau nei vienišas genijus.",
       ],
     },
     {

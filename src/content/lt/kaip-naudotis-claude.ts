@@ -1,6 +1,6 @@
 import { type Article } from "../types";
 
-/** Hub — kw "kaip naudotis claude". Gidas pradedantiesiems, įkūrėjo perspektyva. */
+/** Hub — kw "kaip naudotis claude". Gidas pradedantiesiems, founderio perspektyva. */
 export const kaipNaudotisClaude: Article = {
   routeKey: "lt-kaip-naudotis-claude",
   kind: "hub",
@@ -193,7 +193,7 @@ export const kaipNaudotisClaude: Article = {
     },
     {
       type: "p",
-      text: "Kad būtų konkretu, štai tikras darbas, kurį kaip įkūrėjas varau per Claude ir kuriam nereikia jokių techninių įgūdžių:",
+      text: "Kad būtų konkretu, štai tikras darbas, kurį kaip founderis varau per Claude ir kuriam nereikia jokių techninių įgūdžių:",
     },
     {
       type: "ul",
@@ -248,7 +248,7 @@ export const kaipNaudotisClaude: Article = {
     },
     {
       type: "cta",
-      text: "Kaip netechninis įkūrėjas kuriu ir leidžiu produktus su Claude. Jei nori apkalbėti, kaip panaudoti AI savo darbe ar įmonėje, rezervuok pokalbį.",
+      text: "Kaip netechninis founderis kuriu ir leidžiu produktus su Claude. Jei nori apkalbėti, kaip panaudoti AI savo darbe ar įmonėje, rezervuok pokalbį.",
       label: "Rezervuoti pokalbį",
       href: "/konsultacija",
     },

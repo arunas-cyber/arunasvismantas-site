@@ -5,11 +5,11 @@ import { SITE_URL } from "@/lib/routes";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Arunas Vismantas | Startuolio įkūrėjas, AI praktikas",
+    default: "Arunas Vismantas | Startuolio founderis, AI praktikas",
     template: "%s | Arunas Vismantas",
   },
   description:
-    "Callsy įkūrėjas. Kuriu AI agentus, mokau susikurti savo AI asistentą, vedu renginius apie startuolius ir dirbtinį intelektą.",
+    "Callsy founderis. Kuriu AI agentus, mokau susikurti savo AI asistentą, vedu renginius apie startuolius ir dirbtinį intelektą.",
   openGraph: {
     type: "website",
     siteName: "Arunas Vismantas",

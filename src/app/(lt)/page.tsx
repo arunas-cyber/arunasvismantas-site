@@ -49,7 +49,7 @@ export default function HomeLt() {
           <div className="grid gap-10 lg:grid-cols-[1.25fr_1fr]">
           <div>
           <p className="avtag inline-block rounded-lg bg-ink px-3 py-1.5 text-yellow">
-            Callsy įkūrėjas · AI agentai · Pranešėjas
+            Callsy founderis · AI agentai · Pranešėjas
           </p>
           <h1 className="mt-8 max-w-4xl text-[clamp(2.6rem,7vw,5.25rem)] font-extrabold uppercase leading-[0.86] tracking-[-0.035em]">
             Kuriu AI agentus.{" "}

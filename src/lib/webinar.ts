@@ -14,7 +14,7 @@ export const webinar = {
   dateLabel: "Rugpjūčio 14 d., 18:00 (Lietuvos laiku)",
   place: "Tiesioginė transliacija internetu",
   // Short role line shown on the photo badge.
-  host: "Callsy įkūrėjas ir CEO",
+  host: "Callsy founderis ir CEO",
 
   // Short bio for credibility (funnel version, tighter than /apie).
   bio: "Esu Arunas Vismantas, įkūriau penkias įmones ir vadovauju Callsy. Su Claude Code kasdien automatizuoju darbus ir kuriu produktus, nors neturiu inžinerinio išsilavinimo. Su juo pasidariau ir dalį Callsy, ir šią svetainę. Seminare parodysiu tikslų būdą, kuris man iš tikrųjų veikia.",
@@ -23,7 +23,7 @@ export const webinar = {
   // Credibility chips shown next to the host. Keep short, all verified.
   credentials: [
     "LOGIN 2025 pranešėjas",
-    "Callsy įkūrėjas ir CEO",
+    "Callsy founderis ir CEO",
     "500 Global akseleratorius",
     "F6S #3 AI įmonė 2026",
   ],
@@ -61,7 +61,7 @@ export const webinar = {
     },
     {
       q: "Kam šis seminaras skirtas?",
-      a: "Įkūrėjams, komandų vadovams ir specialistams, kurie nori automatizuoti kasdienius darbus su Claude Code, net neturėdami inžinerinio išsilavinimo.",
+      a: "Founderiams, komandų vadovams ir specialistams, kurie nori automatizuoti kasdienius darbus su Claude Code, net neturėdami inžinerinio išsilavinimo.",
     },
     {
       q: "Ar tikrai nemokamas?",

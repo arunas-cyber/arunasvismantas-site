@@ -7,7 +7,7 @@ export const vienaragiaiLietuvoje: Article = {
   publishedAt: "2026-07-21",
   updatedAt: "2026-07-24",
   kicker: "Startuoliai",
-  lede: "Lietuva, mažiau nei trijų milijonų gyventojų šalis, jau užaugino šešis vienaragius. Kas jie, kaip kiekvienas pasiekė milijardo vertę ir ką iš to gali pasimokyti kiekvienas įkūrėjas.",
+  lede: "Lietuva, mažiau nei trijų milijonų gyventojų šalis, jau užaugino šešis vienaragius. Kas jie, kaip kiekvienas pasiekė milijardo vertę ir ką iš to gali pasimokyti kiekvienas founderis.",
   hero: {
     src: "/images/insights/vienaragiai-lietuvoje.jpg",
     alt: "Iliustracija: geometrinė vienaragio galva su ragu",
@@ -55,7 +55,7 @@ export const vienaragiaiLietuvoje: Article = {
     },
     {
       type: "p",
-      text: "Vinted, naudotų drabužių prekyvietė, tapo pirmuoju Lietuvos vienaragiu 2019 metais. Idėja gimė paprastai: viena iš įkūrėjų turėjo per daug drabužių ir per mažai vietos spintoje. Šiandien Vinted yra viena didžiausių tokių platformų Europoje, o jos vertė vėlesniuose etapuose siekė apie 5 milijardus eurų. Tai geriausias pavyzdys, kaip kasdienė problema virsta milijardine įmone.",
+      text: "Vinted, naudotų drabužių prekyvietė, tapo pirmuoju Lietuvos vienaragiu 2019 metais. Idėja gimė paprastai: viena iš founderių turėjo per daug drabužių ir per mažai vietos spintoje. Šiandien Vinted yra viena didžiausių tokių platformų Europoje, o jos vertė vėlesniuose etapuose siekė apie 5 milijardus eurų. Tai geriausias pavyzdys, kaip kasdienė problema virsta milijardine įmone.",
     },
     {
       type: "h2",
@@ -117,7 +117,7 @@ export const vienaragiaiLietuvoje: Article = {
         "**Sprendžia realią, plačią problemą.** Per brangūs drabužiai, saugumas internete, moterų sveikata, debesų kaštai. Problemos, kurias jaučia milijonai žmonių.",
         "**Stipri techninė komanda.** Lietuva turi puikų inžinerinį talentą, o šios įmonės sugebėjo jį pritraukti ir išlaikyti.",
         "**Ilgas kelias, ne staigmena.** Nė vienas netapo vienaragiu per naktį. Vinted augo dešimtmetį. Sėkmė atrodo staigi tik iš šono.",
-        "**Ne visada reikia rizikos kapitalo.** Oxylabs vienuolika metų augo pelningai ir be išorinių investicijų. Bootstrap kelias lėtesnis, bet įkūrėjams lieka kur kas daugiau kontrolės ir vertės.",
+        "**Ne visada reikia rizikos kapitalo.** Oxylabs vienuolika metų augo pelningai ir be išorinių investicijų. Bootstrap kelias lėtesnis, bet founderiams lieka kur kas daugiau kontrolės ir vertės.",
       ],
     },
     {
@@ -156,7 +156,7 @@ export const vienaragiaiLietuvoje: Article = {
         },
         {
           q: "Kodėl Lietuva turi tiek daug vienaragių?",
-          a: "Mažos vidaus rinkos dėka lietuviai įkūrėjai priversti galvoti globaliai nuo pirmos dienos. Kartu šalis turi stiprų inžinerinį talentą ir sparčiai augančią ekosistemą, vertinamą apie 16 milijardų eurų.",
+          a: "Mažos vidaus rinkos dėka lietuviai founderiai priversti galvoti globaliai nuo pirmos dienos. Kartu šalis turi stiprų inžinerinį talentą ir sparčiai augančią ekosistemą, vertinamą apie 16 milijardų eurų.",
         },
       ],
     },

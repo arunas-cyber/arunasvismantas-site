@@ -5,6 +5,7 @@ export const howWeGotInto500Global: Article = {
   routeKey: "en-500-global",
   kind: "spoke",
   publishedAt: "2026-07-21",
+  updatedAt: "2026-07-24",
   kicker: "Founder notes",
   lede: "500 Global is one of the most active early-stage investors in the world, and its accelerators are hard to get into. Callsy made it into the Eurasia batch. Here is what the program actually is, what they look for, and the honest version of how we got in.",
   hero: {
@@ -102,6 +103,27 @@ export const howWeGotInto500Global: Article = {
     {
       type: "p",
       text: "The pitch above is the short version of the story we tell investors. Watch it and you will notice there is very little hype in it. It is the product, the problem, and the numbers. That is deliberate. The best pitch is not the most exciting one, it is the one that is impossible to argue with.",
+    },
+    {
+      type: "h2",
+      id: "inside-the-program",
+      text: "What the program is actually like",
+    },
+    {
+      type: "p",
+      text: "The accelerator runs in three phases, and 500 Global names them plainly: **Foundations of Growth**, **Growth Weeks**, and **Fundraising**. It opens and closes with in-person blocks in Tbilisi, Georgia, with eight weeks of remote execution in between. Both on-site stretches are hosted at Stamba, a five-star design hotel and honestly one of the most stylish spaces I have ever worked from. It sets the tone from day one: this is serious, and you are expected to show up fully.",
+    },
+    {
+      type: "p",
+      text: "Foundations of Growth is a grind in the best sense. Roughly seven hours a day of sessions led by people who have actually built and scaled companies, not career lecturers, covering analytics, customer development, metrics, growth, marketing, and sales. Then your evenings go to real work on your own business. You leave with things you cannot unlearn: how to run sales, how to think about marketing, and above all operations. How to set KPIs and actually measure progress. A real startup framework, not theory.",
+    },
+    {
+      type: "p",
+      text: "Then the eight Growth Weeks fly by. You go remote, work with mentors, and double down: B2B sales, pipeline, funnel and retention experiments, financial management. It is the quiet stretch where the compounding happens, because you are shipping while you learn.",
+    },
+    {
+      type: "p",
+      text: "The final phase is the one every founder remembers, and it has to be lived to be understood. Fundraising is preparation for Demo Day: near-endless twelve-hour days sharpening one thing, the pitch. And pitching is exactly where most founders lose. Telling a story on a stage is an art, and you learn it here. I watched founders who could barely string a sentence together in English on day one walk on stage weeks later and pitch like professionals, in front of hundreds of investors and ecosystem people. That transformation is the part I would call genuinely life-changing.",
     },
     {
       type: "h2",

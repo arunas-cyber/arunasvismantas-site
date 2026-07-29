@@ -43,7 +43,7 @@ const milestones = [
   },
   {
     year: "2026",
-    text: "Pradėjau tinklalaidę Founders & Food: atviri lietuvių steigėjų pokalbiai prie vakarienės stalo.",
+    text: "Pradėjau tinklalaidę Founders & Food: atviri lietuvių founderių pokalbiai prie vakarienės stalo.",
   },
 ];
 
@@ -60,14 +60,14 @@ const sections = [
     h: "Kaip kuriu",
     body: [
       "Nesu diplomuotas programuotojas. Viską, ką paleidžiu, susikuriu su dirbtiniu intelektu: pačius agentus, MCP integracijas, ištisas svetaines, įskaitant šią.",
-      "Kadaise tai atrodė kaip trūkumas. Pasirodė, kad tai naudingiausia, ko galiu išmokyti. Įrankiai tapo pakankamai geri, kad steigėjas, kuris tikrai supranta problemą, dabar gali pats sukurti sprendimą, be informatikos diplomo ir nelaukdamas komandos. Jei aš taip valdau veikiančią AI platformą, galite ir jūs.",
+      "Kadaise tai atrodė kaip trūkumas. Pasirodė, kad tai naudingiausia, ko galiu išmokyti. Įrankiai tapo pakankamai geri, kad founderis, kuris tikrai supranta problemą, dabar gali pats sukurti sprendimą, be informatikos diplomo ir nelaukdamas komandos. Jei aš taip valdau veikiančią AI platformą, galite ir jūs.",
       "Todėl atvirai kalbu apie technologijas, realias sąnaudas ir klaidas. Nieko neslepiu ir nesureikšminu.",
     ],
   },
   {
     h: "Kodėl dalinuosi",
     body: [
-      "Du dalykai lydi mane visą karjerą. Esu apsėstas naujų technologijų, noriu išbandyti kiekvieną naudingą įrankį tą pačią savaitę, kai jis pasirodo. Ir mėgstu dalintis tuo, ką išmokstu, ar tai būtų steigėjo mokymas susikurti pirmąjį agentą, ar tiesiog kai pavyksta ką nors uždegti tuo, kas dabar įmanoma.",
+      "Du dalykai lydi mane visą karjerą. Esu apsėstas naujų technologijų, noriu išbandyti kiekvieną naudingą įrankį tą pačią savaitę, kai jis pasirodo. Ir mėgstu dalintis tuo, ką išmokstu, ar tai būtų founderio mokymas susikurti pirmąjį agentą, ar tiesiog kai pavyksta ką nors uždegti tuo, kas dabar įmanoma.",
       "Šioje svetainėje telpa abu: gidai, pranešimai, kūrimo užrašai. Jei tai, ką išsiaiškinau, jums sutaupys mėnesį, būtent to ir siekiu.",
     ],
   },
@@ -75,14 +75,14 @@ const sections = [
     h: "Ką manau apie AI agentus",
     body: [
       "Dauguma AI demonstracijų yra žaislai. Verta dirbti su agentais, kurie atlieka tikrą darbą nuo pradžios iki pabaigos ir užsitarnauja pakankamai pasitikėjimo, kad juos būtų galima palikti vienus.",
-      "Manau, kad artimiausi metai priklausys steigėjams, kurie sugebės įpinti šiuos agentus į savo verslą greičiau, nei rinkos senbuviai spės juos prisikabinti prie savojo. Ne didžiausiai inžinierių komandai. Greičiausiam ir aiškiausiam mąstytojui su tinkamais įrankiais. Tai ir yra Callsy pagrindas, ir viso, ko mokau.",
+      "Manau, kad artimiausi metai priklausys founderiams, kurie sugebės įpinti šiuos agentus į savo verslą greičiau, nei rinkos senbuviai spės juos prisikabinti prie savojo. Ne didžiausiai inžinierių komandai. Greičiausiam ir aiškiausiam mąstytojui su tinkamais įrankiais. Tai ir yra Callsy pagrindas, ir viso, ko mokau.",
     ],
   },
   {
     h: "Dabar",
     body: [
       "Šiandien auginu Callsy ir pritraukiu investicijas 2026-iesiems, ką tik baigęs [500 Global Eurasia akseleratorių](/izvalgos/kaip-patekome-i-500-global) ir FirstPick AI akseleratorių, pirmąjį Baltijos šalyse. Pakeliui su Callsy pasirodėme laidoje Rykliai. Lietuva, patekome į Latitude59 finalą ir buvome įvertinti kaip #3 AI įmonė F6S platformoje.",
-      "Be įmonės, vedu tinklalaidę Founders & Food, kur lietuviai steigėjai atvirai kalbasi prie vakarienės, ir skaitau pranešimus startuolių bei AI renginiuose lietuviškai ir angliškai.",
+      "Be įmonės, vedu tinklalaidę Founders & Food, kur lietuviai founderiai atvirai kalbasi prie vakarienės, ir skaitau pranešimus startuolių bei AI renginiuose lietuviškai ir angliškai.",
     ],
   },
 ];
@@ -95,7 +95,7 @@ export default function AboutLt() {
       <PageHeader
         eyebrow="Apie mane"
         title="Pirmiausia verslininkas. Inžinierius iš reikalo."
-        lede="Esu Arunas Vismantas, Vilniuje gyvenantis steigėjas. Bendraįkūriau ir vadovavau penkiems verslams, iš kurių naujausias yra Callsy. Kuriu AI agentus be formalaus inžinerinio išsilavinimo ir dalinuosi tuo, ką išmokstu, kad tą patį galėtų padaryti ir kiti steigėjai."
+        lede="Esu Arunas Vismantas, Vilniuje gyvenantis founderis. Bendraįkūriau ir vadovavau penkiems verslams, iš kurių naujausias yra Callsy. Kuriu AI agentus be formalaus inžinerinio išsilavinimo ir dalinuosi tuo, ką išmokstu, kad tą patį galėtų padaryti ir kiti founderiai."
       />
 
       <section className="border-b-[3px] border-ink">

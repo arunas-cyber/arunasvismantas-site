@@ -53,7 +53,7 @@ export const verslasBeKapitalo: Article = {
     },
     {
       type: "p",
-      text: "Kai su Burgos įkūrėjais kūrėme Podbase, spausdinimo pagal poreikį platformą telefonų aksesuarams, per tris mėnesius turėjome tik pusiau veikiantį MVP. Vis tiek ėjome į rinką ir kalbėjomės su kūrėjais. Pirmas klientas patikėjo, per pirmą mėnesį gavome apie 1000 užsakymų, ir viskas sugriuvo: operacijos, gamyba, sąskaitos. Bet būtent tada supranti svarbiausią dalyką.",
+      text: "Kai su Burgos founderiais kūrėme Podbase, spausdinimo pagal poreikį platformą telefonų aksesuarams, per tris mėnesius turėjome tik pusiau veikiantį MVP. Vis tiek ėjome į rinką ir kalbėjomės su kūrėjais. Pirmas klientas patikėjo, per pirmą mėnesį gavome apie 1000 užsakymų, ir viskas sugriuvo: operacijos, gamyba, sąskaitos. Bet būtent tada supranti svarbiausią dalyką.",
     },
     {
       type: "quote",
@@ -138,7 +138,7 @@ export const verslasBeKapitalo: Article = {
     },
     {
       type: "p",
-      text: "Dirbdamas šalia Burgos įkūrėjų supratau vieną dalyką: nors jų produktas yra tech aksesuarai, tikroji stiprybė kitur. Pirma, jie turi itin stiprų marketingo skyrių su savo produkcijos studija. Antra, jie patys gamina savo produkciją. Iš šono to nepamatysi, bet būtent tai duoda 20–30 proc. maržos pranašumą, kuris leidžia agresyviai auginti verslą. Neabejoju, kad Burga jau yra arba netrukus taps vienaragiu.",
+      text: "Dirbdamas šalia Burgos founderių supratau vieną dalyką: nors jų produktas yra tech aksesuarai, tikroji stiprybė kitur. Pirma, jie turi itin stiprų marketingo skyrių su savo produkcijos studija. Antra, jie patys gamina savo produkciją. Iš šono to nepamatysi, bet būtent tai duoda 20–30 proc. maržos pranašumą, kuris leidžia agresyviai auginti verslą. Neabejoju, kad Burga jau yra arba netrukus taps vienaragiu.",
     },
     {
       type: "p",

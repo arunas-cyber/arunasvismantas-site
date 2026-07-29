@@ -1,11 +1,12 @@
 import { type Article } from "../types";
 
-/** Spoke — kw "500 global". Steigėjo istorija, stiprus E-E-A-T. */
+/** Spoke — kw "500 global". Founderio istorija, stiprus E-E-A-T. */
 export const kaipPatekomeI500Global: Article = {
   routeKey: "lt-500-global",
   kind: "spoke",
   publishedAt: "2026-07-21",
-  kicker: "Steigėjo užrašai",
+  updatedAt: "2026-07-24",
+  kicker: "Founderio užrašai",
   lede: "500 Global yra vienas aktyviausių ankstyvos stadijos investuotojų pasaulyje, o į jo akseleratorius patekti nelengva. Callsy pateko į Eurazijos laidą. Štai kas tai per programa, ko joje ieškoma ir atvira versija, kaip mums pavyko.",
   hero: {
     src: "/images/insights/500-global.jpg",
@@ -14,11 +15,11 @@ export const kaipPatekomeI500Global: Article = {
   blocks: [
     {
       type: "p",
-      text: "Kai žmonės išgirsta, kad [Callsy](https://callsy.ai) pateko į **500 Global** akseleratorių, pirmoji reakcija dažniausiai ta pati: kaip? Klausimas teisingas. 500 Global yra Silicio slėnio įmonė, remianti startuolius nuo 2010 metų, o jos programos garsėja atranka. Tai steigėjo, o ne nublizginta pranešimo spaudai versija.",
+      text: "Kai žmonės išgirsta, kad [Callsy](https://callsy.ai) pateko į **500 Global** akseleratorių, pirmoji reakcija dažniausiai ta pati: kaip? Klausimas teisingas. 500 Global yra Silicio slėnio įmonė, remianti startuolius nuo 2010 metų, o jos programos garsėja atranka. Tai founderio, o ne nublizginta pranešimo spaudai versija.",
     },
     {
       type: "p",
-      text: "Rašau dėl dviejų priežasčių. Pirma, steigėjai nuolat manęs to klausia asmeniškai, o aš mieliau atsakysiu vieną kartą viešai. Antra, tos pačios pamokos, kurios mus įleido, ir daro įmonę verta investicijų iš viso. Jei ką nors kuri ir galvoji apie akseleratorius, štai ką norėčiau, kad kas nors būtų man laiku pasakęs.",
+      text: "Rašau dėl dviejų priežasčių. Pirma, founderiai nuolat manęs to klausia asmeniškai, o aš mieliau atsakysiu vieną kartą viešai. Antra, tos pačios pamokos, kurios mus įleido, ir daro įmonę verta investicijų iš viso. Jei ką nors kuri ir galvoji apie akseleratorius, štai ką norėčiau, kad kas nors būtų man laiku pasakęs.",
     },
     {
       type: "h2",
@@ -31,7 +32,7 @@ export const kaipPatekomeI500Global: Article = {
     },
     {
       type: "p",
-      text: "Šalia savo fondų 500 Global vykdo akseleratorių programas. Ta, į kurią pakliuvome, yra jo **Eurazijos akseleratorius**, orientuotas į didelio potencialo startuolius platesniame regione. Buvome **9-ojoje laidoje**. Kiekviena laida yra grupė įmonių, kartu einančių per intensyvią programą: investicija, struktūruota mentorystė ir prieiga prie didelio globalaus steigėjų bei investuotojų tinklo.",
+      text: "Šalia savo fondų 500 Global vykdo akseleratorių programas. Ta, į kurią pakliuvome, yra jo **Eurazijos akseleratorius**, orientuotas į didelio potencialo startuolius platesniame regione. Buvome **9-ojoje laidoje**. Kiekviena laida yra grupė įmonių, kartu einančių per intensyvią programą: investicija, struktūruota mentorystė ir prieiga prie didelio globalaus founderių bei investuotojų tinklo.",
     },
     {
       type: "h2",
@@ -105,6 +106,27 @@ export const kaipPatekomeI500Global: Article = {
     },
     {
       type: "h2",
+      id: "kaip-atrodo-programa",
+      text: "Kaip iš tikrųjų atrodo programa",
+    },
+    {
+      type: "p",
+      text: "Akseleratorius vyksta trimis etapais, o 500 Global juos vadina paprastai: **Foundations of Growth**, **Growth Weeks** ir **Fundraising**. Pradžia ir pabaiga yra gyvai Tbilisyje, Gruzijoje, o tarp jų aštuonios nuotolinio darbo savaitės. Abi gyvosios dalys vyksta Stamba viešbutyje. Tai penkių žvaigždučių dizaino viešbutis ir, atvirai, viena stilingiausių erdvių, kuriose man teko dirbti. Toną jis užduoda iškart: čia rimta, ir dirbama iš visų jėgų.",
+    },
+    {
+      type: "p",
+      text: "Pirmasis etapas yra tikras maratonas geriausia to žodžio prasme. Maždaug septynios valandos sesijų per dieną, kurias veda žmonės, patys kūrę ir auginę įmones, o ne karjeros dėstytojai: analitika, klientų pažinimas, rodikliai, augimas, rinkodara ir pardavimai. O vakarai skirti realiam darbui su savo verslu. Išsineši dalykų, kurių nebepamirši: kaip valdyti pardavimus, kaip galvoti apie rinkodarą ir, svarbiausia, apie operacijas. Kaip išsikelti KPI ir iš tikrųjų matuoti pažangą. Tikras startuolio karkasas, ne teorija.",
+    },
+    {
+      type: "p",
+      text: "Paskui aštuonios augimo savaitės pralekia akimirksniu. Dirbi nuotoliu, su mentoriais, ir dvigubai stipriau imiesi visko: B2B pardavimų, pardavimų kanalo, funelio ir išlaikymo eksperimentų, finansų valdymo. Tai tyli atkarpa, kurioje viskas ima kauptis, nes mokaisi ir tuo pačiu leidi produktą į priekį.",
+    },
+    {
+      type: "p",
+      text: "Paskutinis etapas yra tas, kurį prisimena kiekvienas founderis, ir jį reikia išgyventi, kad suprastum. Tai pasiruošimas Demo dienai: beveik begaliniai dvylikos valandų darbai, šlifuojant vieną dalyką, pitchą. Būtent čia dauguma founderių ir pralaimi. Papasakoti istoriją scenoje yra menas, ir jo čia išmoksti. Mačiau founderių, kurie pirmą dieną scenoje vos surezgė sakinį angliškai, o po kelių savaičių pristatinėjo kaip profesionalai, prieš šimtus investuotojų ir ekosistemos žmonių. Tą virsmą ir vadinčiau iš tikrųjų keičiančiu gyvenimą.",
+    },
+    {
+      type: "h2",
       id: "ka-davė-programa",
       text: "Ką programa iš tikrųjų davė",
     },
@@ -114,7 +136,7 @@ export const kaipPatekomeI500Global: Article = {
     },
     {
       type: "p",
-      text: "Tinklas yra kita pusė. Būti laidoje reiškia, kad staiga tave nuo steigėjų, operatorių ir investuotojų skiria vienas pristatymas, o kitu atveju rašytum šaltus laiškus į tuštumą. Įmonei, renkančiai pinigus per sienas, tokia prieiga verta daugiau nei čekis.",
+      text: "Tinklas yra kita pusė. Būti laidoje reiškia, kad staiga tave nuo founderių, operatorių ir investuotojų skiria vienas pristatymas, o kitu atveju rašytum šaltus laiškus į tuštumą. Įmonei, renkančiai pinigus per sienas, tokia prieiga verta daugiau nei čekis.",
     },
     {
       type: "h2",
@@ -127,7 +149,7 @@ export const kaipPatekomeI500Global: Article = {
     },
     {
       type: "p",
-      text: "Ir būk sąžiningas paraiškoje. Kiekvienas patyręs investuotojas užuodžia perpardavinėjantį steigėją. Patenka dažniausiai tos komandos, kurios paprastai pasako, kas veikia, kas dar ne ir ką tiksliai darytų su pinigais bei pagalba. Aiškumas skamba kaip pasitikėjimas, nes dažniausiai juo ir yra.",
+      text: "Ir būk sąžiningas paraiškoje. Kiekvienas patyręs investuotojas užuodžia perpardavinėjantį founderį. Patenka dažniausiai tos komandos, kurios paprastai pasako, kas veikia, kas dar ne ir ką tiksliai darytų su pinigais bei pagalba. Aiškumas skamba kaip pasitikėjimas, nes dažniausiai juo ir yra.",
     },
     {
       type: "faq",
@@ -147,7 +169,7 @@ export const kaipPatekomeI500Global: Article = {
         },
         {
           q: "Ką duoda 500 Global akseleratorius?",
-          a: "Kapitalą, struktūruotą mentorystę iš žmonių, mačiusių šimtus įmonių, ir prieigą prie didelio globalaus steigėjų bei investuotojų tinklo. Pavadinimas taip pat veikia kaip ženklas vėlesniems investuotojams.",
+          a: "Kapitalą, struktūruotą mentorystę iš žmonių, mačiusių šimtus įmonių, ir prieigą prie didelio globalaus founderių bei investuotojų tinklo. Pavadinimas taip pat veikia kaip ženklas vėlesniems investuotojams.",
         },
       ],
     },

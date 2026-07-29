@@ -6,7 +6,7 @@ export const oxylabsBootstrap: Article = {
   kind: "spoke",
   publishedAt: "2026-07-24",
   kicker: "Startuoliai",
-  lede: "2026 metų liepą Oxylabs pardavė dalį įmonės ir tapo vertas 3,1 milijardo eurų. Įdomiausia ne suma, o kelias: vienuolika metų be nė vieno išorinio investuotojo. Štai ką ši istorija sako kiekvienam įkūrėjui apie bootstrap, kontrolę ir tinkamą laiką.",
+  lede: "2026 metų liepą Oxylabs pardavė dalį įmonės ir tapo vertas 3,1 milijardo eurų. Įdomiausia ne suma, o kelias: vienuolika metų be nė vieno išorinio investuotojo. Štai ką ši istorija sako kiekvienam founderiui apie bootstrap, kontrolę ir tinkamą laiką.",
   hero: {
     src: "/images/insights/oxylabs-bootstrap.jpg",
     alt: "Iliustracija: žmogus lipa monetų laiptais link kalno viršūnės su vėliava",
@@ -71,12 +71,12 @@ export const oxylabsBootstrap: Article = {
     {
       type: "h2",
       id: "ka-bootstrap-duoda",
-      text: "Ką bootstrap duoda įkūrėjui",
+      text: "Ką bootstrap duoda founderiui",
     },
     {
       type: "ol",
       items: [
-        "**Kontrolė.** Nėra investuotojų valdyboje, kurie diktuotų tempą ar spaustų parduoti. Sprendimus priima įkūrėjai.",
+        "**Kontrolė.** Nėra investuotojų valdyboje, kurie diktuotų tempą ar spaustų parduoti. Sprendimus priima founderiai.",
         "**Nuosavybė.** Kai galiausiai parduodi dalį, tavo rankose lieka kur kas didesnis gabalas. Milijardai, priklausantys tau, o ne išskaidyti per penkis raundus, yra visai kitas skaičius.",
         "**Disciplina.** Kai augi iš savo pinigų, negali slėptis už augimo bet kokia kaina. Verslas nuo pirmos dienos turi būti sveikas.",
         "**Derybų galia.** Kai pinigų nereikia, gali laukti tinkamo partnerio ir tinkamos kainos. Oxylabs derybas vedė iš stiprios, ne iš beviltiškos pozicijos.",
@@ -110,7 +110,7 @@ export const oxylabsBootstrap: Article = {
     },
     {
       type: "p",
-      text: "Man, kaip įkūrėjui, Oxylabs istorijoje svarbiausia ne suma, o kantrybė. Vienuolika metų kantriai statyti pelningą verslą be triukšmo, o tada, kai rinka pasisuka tavo linkme, peršokti į milijardų lygą. Tai priminimas, kad rizikos kapitalas nėra nei vienintelis kelias, nei sėkmės matas. Su Callsy kuriame AI balso agentus el. prekybai ir irgi kiekvieną sprendimą matuojame ne pritraukta suma, o tuo, ar verslas sveikas. Pinigai, kuriuos uždirbi, beveik visada stipresni nei pinigai, kuriuos pasiskolini.",
+      text: "Man, kaip founderiui, Oxylabs istorijoje svarbiausia ne suma, o kantrybė. Vienuolika metų kantriai statyti pelningą verslą be triukšmo, o tada, kai rinka pasisuka tavo linkme, peršokti į milijardų lygą. Tai priminimas, kad rizikos kapitalas nėra nei vienintelis kelias, nei sėkmės matas. Su Callsy kuriame AI balso agentus el. prekybai ir irgi kiekvieną sprendimą matuojame ne pritraukta suma, o tuo, ar verslas sveikas. Pinigai, kuriuos uždirbi, beveik visada stipresni nei pinigai, kuriuos pasiskolini.",
     },
     {
       type: "faq",

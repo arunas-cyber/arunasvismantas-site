@@ -15,7 +15,7 @@ export const versloRykliai: Article = {
   blocks: [
     {
       type: "p",
-      text: "„Rykliai. Lietuva“ (dar žinoma kaip Verslo rykliai) yra TV3 laida, Lietuvos atitikmuo pasaulinio formato „Shark Tank“. Kūrėjai pristato savo verslą keturiems investuotojams ir bando gauti finansavimą. 2026 metų sezone kartu su bendraįkūrėju Laimonu Sutkumi pristatėme [Callsy](https://callsy.ai), AI balso asistentą el. prekybai. Ši istorija apie tai, kaip ten atsidūrėme, ką pamatėme iš vidaus ir kodėl „ne“ iš ryklių gali būti vertingiau nei „taip“.",
+      text: "„Rykliai. Lietuva“ (dar žinoma kaip Verslo rykliai) yra TV3 laida, Lietuvos atitikmuo pasaulinio formato „Shark Tank“. Kūrėjai pristato savo verslą keturiems investuotojams ir bando gauti finansavimą. 2026 metų sezone kartu su co-founderiu Laimonu Sutkumi pristatėme [Callsy](https://callsy.ai), AI balso asistentą el. prekybai. Ši istorija apie tai, kaip ten atsidūrėme, ką pamatėme iš vidaus ir kodėl „ne“ iš ryklių gali būti vertingiau nei „taip“.",
     },
     {
       type: "video",

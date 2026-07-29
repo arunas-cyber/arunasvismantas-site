@@ -153,9 +153,9 @@ export const routes: SiteRoute[] = [
     key: "home-lt",
     locale: "lt",
     path: "/",
-    title: "Arunas Vismantas | Startuolio įkūrėjas, AI praktikas",
+    title: "Arunas Vismantas | Startuolio founderis, AI praktikas",
     description:
-      "Callsy įkūrėjas. Kuriu AI agentus, mokau susikurti savo AI asistentą, vedu renginius apie startuolius ir dirbtinį intelektą.",
+      "Callsy founderis. Kuriu AI agentus, mokau susikurti savo AI asistentą, vedu renginius apie startuolius ir dirbtinį intelektą.",
     keywords: ["arunas vismantas"],
     tier: 1,
     status: "live",
@@ -167,7 +167,7 @@ export const routes: SiteRoute[] = [
     path: "/apie",
     title: "Apie mane",
     description:
-      "Arunas Vismantas: Callsy įkūrėjas, Latitude59 finalininkas, FirstPick ir 500 Global akseleratorių alumnas, tinklalaidės Founders & Food vedėjas.",
+      "Arunas Vismantas: Callsy founderis, Latitude59 finalininkas, FirstPick ir 500 Global akseleratorių alumnas, tinklalaidės Founders & Food vedėjas.",
     keywords: ["arunas vismantas"],
     tier: 1,
     status: "live",
@@ -363,7 +363,7 @@ export const routes: SiteRoute[] = [
     path: "/izvalgos/startuolis",
     title: "Startuolis: kas tai yra ir kaip pradėti savąjį (2026 gidas)",
     description:
-      "Kas yra startuolis, kuo skiriasi nuo įprasto verslo, kaip finansuojamas ir kaip pradėti savąjį. Praktinis gidas iš penkis kartus startuolius kūrusio įkūrėjo. Autorius Arunas Vismantas.",
+      "Kas yra startuolis, kuo skiriasi nuo įprasto verslo, kaip finansuojamas ir kaip pradėti savąjį. Praktinis gidas iš penkis kartus startuolius kūrusio founderio. Autorius Arunas Vismantas.",
     keywords: [
       "startuolis",
       "kas yra startuolis",
@@ -423,7 +423,7 @@ export const routes: SiteRoute[] = [
     path: "/izvalgos/kaip-naudotis-claude",
     title: "Kaip naudotis Claude: gidas pradedantiesiems (2026)",
     description:
-      "Kas yra Claude, kuo skiriasi nuo ChatGPT, kaip pradėti nemokamai ir ką su juo daryti kasdien. Praktinis gidas pradedantiesiems iš įkūrėjo, kuris kuria produktus su Claude. Arunas Vismantas.",
+      "Kas yra Claude, kuo skiriasi nuo ChatGPT, kaip pradėti nemokamai ir ką su juo daryti kasdien. Praktinis gidas pradedantiesiems iš founderio, kuris kuria produktus su Claude. Arunas Vismantas.",
     keywords: [
       "kaip naudotis claude",
       "claude ai",
@@ -438,7 +438,7 @@ export const routes: SiteRoute[] = [
     key: "lt-oxylabs-bootstrap",
     locale: "lt",
     path: "/izvalgos/oxylabs-bootstrap",
-    title: "Bootstrap iki milijardo: ko Oxylabs istorija moko įkūrėjus",
+    title: "Bootstrap iki milijardo: ko Oxylabs istorija moko founderius",
     description:
       "Oxylabs tapo Lietuvos šeštuoju vienaragiu, vertu 3,1 mlrd. €, po vienuolikos metų be investuotojų. Ką ši istorija sako apie bootstrap, kontrolę ir tinkamą laiką. Arunas Vismantas.",
     keywords: [

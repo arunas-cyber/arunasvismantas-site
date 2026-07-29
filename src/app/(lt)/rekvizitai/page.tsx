@@ -13,7 +13,7 @@ export default function ImprintLt() {
       sections={[
         {
           h: "Svetainės valdytojas",
-          p: "Šią svetainę valdo Arunas Vismantas, Callsy įkūrėjas.",
+          p: "Šią svetainę valdo Arunas Vismantas, Callsy founderis.",
         },
         {
           h: "Kontaktai",
