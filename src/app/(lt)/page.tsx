@@ -199,8 +199,8 @@ export default function HomeLt() {
         <Container className="py-20 sm:py-24">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <SectionHeading
-              eyebrow="Apie ką rašau"
-              title="Pastabos iš kūrimo, ne teorija"
+              eyebrow="Ką rašau"
+              title="Iš praktikos, ne iš teorijos"
             />
             <Button href="/izvalgos" variant="secondary">
               Skaityti įžvalgas

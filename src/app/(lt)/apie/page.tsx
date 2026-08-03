@@ -68,7 +68,7 @@ const sections = [
     h: "Kodėl dalinuosi",
     body: [
       "Du dalykai lydi mane visą karjerą. Esu apsėstas naujų technologijų, noriu išbandyti kiekvieną naudingą įrankį tą pačią savaitę, kai jis pasirodo. Ir mėgstu dalintis tuo, ką išmokstu, ar tai būtų founderio mokymas susikurti pirmąjį agentą, ar tiesiog kai pavyksta ką nors uždegti tuo, kas dabar įmanoma.",
-      "Šioje svetainėje telpa abu: gidai, pranešimai, kūrimo užrašai. Jei tai, ką išsiaiškinau, jums sutaupys mėnesį, būtent to ir siekiu.",
+      "Šioje svetainėje telpa abu: gidai, pranešimai ir užrašai iš realaus darbo. Jei tai, ką išsiaiškinau, jums sutaupys mėnesį, būtent to ir siekiu.",
     ],
   },
   {
