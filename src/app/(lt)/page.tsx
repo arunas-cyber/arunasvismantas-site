@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -10,21 +11,22 @@ import { CALLSY_URL } from "@/lib/site";
 
 export const metadata = pageMetadata("home-lt");
 
-const offers = [
+const covered = [
   {
-    title: "Susikurk savo AI asistentą",
-    body: "Praktiniai mokymai, kaip susikurti AI agentą, kuris iš tikrųjų atlieka darbą. Jau greitai.",
-    cta: null,
+    title: "AI agentai ir automatizavimas",
+    body: "Kur dirbtinis intelektas realiai sutaupys laiko ir nuo ko pradėti, kad neišmestumėte pinigų į demonstracijas.",
   },
   {
-    title: "Konsultacija",
-    body: "AI agentai, MCP integracijos, el. prekybos automatizavimas ar investicijų pritraukimas. Patarimai iš žmogaus, kuris savo verslą pristatė nacionalinėje televizijoje.",
-    cta: { label: "Rezervuoti pokalbį", href: "/konsultacija" },
+    title: "MCP integracijos",
+    body: "Kaip sujungti AI agentą su turimais įrankiais, kad jis atliktų realų darbą, ne tik atsakinėtų.",
   },
   {
-    title: "Pranešimai ir renginiai",
-    body: "Pranešimai ir renginių vedimas apie AI agentus ir startuolių kūrimą. Lietuviškai arba angliškai.",
-    cta: { label: "Susisiekti", href: "/konsultacija" },
+    title: "El. prekybos automatizavimas",
+    body: "Apleisti krepšeliai, klientų aptarnavimas, rezervacijos. Ką verta automatizuoti pirmiausia.",
+  },
+  {
+    title: "Investicijų pritraukimas",
+    body: "Produktas, pitchas ir akseleratoriai iš žmogaus, praėjusio 500 Global ir pritraukusio milijonus.",
   },
 ];
 
@@ -47,40 +49,42 @@ export default function HomeLt() {
             callsy.ai ↗
           </a>
           <div className="grid gap-10 lg:grid-cols-[1.25fr_1fr]">
-          <div>
-          <p className="avtag inline-block rounded-lg bg-ink px-3 py-1.5 text-yellow">
-            Callsy founderis · AI agentai · Pranešėjas
-          </p>
-          <h1 className="mt-8 max-w-4xl text-[clamp(2.6rem,7vw,5.25rem)] font-extrabold uppercase leading-[0.86] tracking-[-0.035em]">
-            Kuriu AI agentus.{" "}
-            <span className="text-coral">Ir padedu kurti kitiems.</span>
-          </h1>
-          <p className="mt-8 max-w-[52ch] text-[19px] font-medium leading-normal">
-            Vilnietis, įkūręs penkias įmones. Kartu su komanda kuriu{" "}
-            <strong>Callsy</strong>, europinę AI balso agentų platformą. Čia
-            dalinuosi, kaip kuriu su dirbtiniu intelektu, kokius verslus statau
-            ir apie ką{" "}
-            <span className="rounded-md bg-blue px-1.5 py-0.5 text-white">
-              kalbu scenoje
-            </span>
-            .
-          </p>
-          <div className="mt-10 flex flex-wrap gap-4">
-            <Button href="/konsultacija" variant="dark">
-              Rezervuoti pokalbį
-            </Button>
-            <Button href="/naujienlaiskis" variant="secondary">
-              Prenumeruoti naujienlaiškį
-            </Button>
-          </div>
-          <div className="mt-10">
-            <Waveform />
-          </div>
-          </div>
-          <HeroPhoto
-            label="Scenoje"
-            alt="Arunas Vismantas skaito pranešimą technologijų konferencijos scenoje"
-          />
+            <div>
+              <p className="avtag inline-block rounded-lg bg-ink px-3 py-1.5 text-yellow">
+                Callsy founderis · AI agentai · Pranešėjas
+              </p>
+              <h1 className="mt-8 max-w-4xl text-[clamp(2.6rem,7vw,5.25rem)] font-extrabold uppercase leading-[0.86] tracking-[-0.035em]">
+                Kuriu AI agentus.{" "}
+                <span className="text-coral">Ir padedu kurti kitiems.</span>
+              </h1>
+              <p className="mt-8 max-w-[52ch] text-[19px] font-medium leading-normal">
+                Vilnietis, įkūręs penkias įmones. Kartu su komanda kuriu{" "}
+                <strong>Callsy</strong>, europinę AI balso agentų platformą.
+                Rezervuokite nemokamą pokalbį ir aptarsime, ką dirbtinis
+                intelektas galėtų nuveikti jūsų versle.
+              </p>
+              <div className="mt-10">
+                <Button href="/konsultacija" variant="dark">
+                  Nemokama konsultacija
+                </Button>
+                <p className="avtag mt-4 text-ink/70">
+                  30 min · nemokamai · be įsipareigojimų
+                </p>
+                <a
+                  href="/naujienlaiskis"
+                  className="mt-4 inline-block text-sm font-semibold underline underline-offset-4 transition-colors duration-150 hover:text-coral"
+                >
+                  arba prenumeruokite naujienlaiškį →
+                </a>
+              </div>
+              <div className="mt-10">
+                <Waveform />
+              </div>
+            </div>
+            <HeroPhoto
+              label="Scenoje"
+              alt="Arunas Vismantas skaito pranešimą technologijų konferencijos scenoje"
+            />
           </div>
         </section>
 
@@ -90,145 +94,59 @@ export default function HomeLt() {
         </div>
       </Container>
 
-      {/* Story */}
-      <section>
-        <Container className="py-20 sm:py-24">
-          <div className="grid gap-10 lg:grid-cols-[1fr_1.4fr]">
-            <SectionHeading
-              eyebrow="Trumpai apie mane"
-              title="Penki verslai, vienas instinktas"
-            />
-            <div className="max-w-[54ch] space-y-5 text-lg leading-relaxed text-muted">
-              <p>
-                Atvirai: esu tinginys, ir iš to susikūriau karjerą. Jei
-                užduotis kartojasi, ją automatizuoju. Tas pats instinktas
-                jungia visus penkis mano verslus.
-              </p>
-              <p>
-                Šiandien tai{" "}
-                <a
-                  href="https://callsy.ai"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
-                >
-                  Callsy
-                </a>
-                , europinė platforma, kurioje AI balso, SMS ir el. pašto agentai
-                perima pokalbius, kuriems el. parduotuvės neturi laiko. Prieš ją
-                buvo{" "}
-                <a
-                  href="https://www.podbase.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
-                >
-                  Podbase
-                </a>
-                , Smart Vision,{" "}
-                <a
-                  href="https://www.adkings.agency"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
-                >
-                  AdKings
-                </a>
-                {" "}ir{" "}
-                <a
-                  href="https://brandboosters.io"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
-                >
-                  BrandBoosters
-                </a>
-                .
-              </p>
-              <p>
-                Esu apsėstas naujų technologijų ir lygiai taip pat mėgstu
-                dalintis tuo, ką iš jų išmokstu. Čia dedu savo darbus, žinias ir
-                būdus, kaip galime ką nors sukurti kartu.
-              </p>
-              <div className="pt-1">
-                <Button href="/apie" variant="ghost">
-                  Visa istorija →
-                </Button>
-              </div>
-            </div>
-          </div>
-        </Container>
-      </section>
-
-      {/* Offers */}
+      {/* What the call covers */}
       <section className="border-t-[3px] border-ink">
         <Container className="py-20 sm:py-24">
           <SectionHeading
-            eyebrow="Dirbkime kartu"
-            title="Trys keliai pradėti"
+            eyebrow="Nemokama konsultacija"
+            title="Ką galime aptarti"
           />
-          <div className="mt-12 grid gap-7 sm:grid-cols-3">
-            {offers.map((o) => (
-              <div
-                key={o.title}
-                className="avb avb-hover flex flex-col bg-white p-7"
-              >
-                <h3 className="text-xl font-extrabold tracking-tight">
+          <div className="mt-12 grid gap-7 sm:grid-cols-2 lg:grid-cols-4">
+            {covered.map((o) => (
+              <div key={o.title} className="avb flex flex-col bg-white p-7">
+                <h3 className="text-lg font-extrabold tracking-tight">
                   {o.title}
                 </h3>
                 <p className="mt-3 flex-1 text-[15px] leading-relaxed text-muted">
                   {o.body}
                 </p>
-                {o.cta ? (
-                  <div className="mt-5">
-                    <Button href={o.cta.href} variant="ghost">
-                      {o.cta.label} →
-                    </Button>
-                  </div>
-                ) : (
-                  <p className="avtag mt-5 text-coral">Jau greitai</p>
-                )}
               </div>
             ))}
           </div>
-        </Container>
-      </section>
-
-      {/* Writing teaser */}
-      <section className="border-t-[3px] border-ink bg-white">
-        <Container className="py-20 sm:py-24">
-          <div className="flex flex-wrap items-end justify-between gap-6">
-            <SectionHeading
-              eyebrow="Ką rašau"
-              title="Iš praktikos, ne iš teorijos"
-            />
-            <Button href="/izvalgos" variant="secondary">
-              Skaityti įžvalgas
+          <div className="mt-10">
+            <Button href="/konsultacija" variant="dark">
+              Rezervuoti pokalbį
             </Button>
           </div>
-          <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              "Kaip susikurti savo AI asistentą",
-              "Produktų kūrimas su AI be programavimo",
-              "AI agentai el. prekybai",
-              "Startuolio kūrimas Baltijos šalyse",
-            ].map((topic) => (
-              <li key={topic} className="avb bg-paper p-5 text-[15px] font-bold">
-                {topic}
-              </li>
-            ))}
-          </ul>
         </Container>
       </section>
 
-      {/* CTA band */}
+      {/* Closing CTA band — with a face, so the ask has a person behind it */}
       <Container className="py-20">
-        <section className="avb bg-ink px-8 py-16 text-center text-paper">
-          <h2 className="mx-auto max-w-2xl text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Pasikalbėkime, ką AI agentas galėtų nuveikti jūsų versle
-          </h2>
-          <div className="mt-8 flex justify-center">
-            <Button href="/konsultacija">Rezervuoti pokalbį</Button>
+        <section className="avb overflow-hidden bg-ink text-paper">
+          <div className="grid items-stretch md:grid-cols-[0.85fr_1.15fr]">
+            <div className="relative min-h-[300px] border-b-[3px] border-ink bg-ink md:border-b-0 md:border-r-[3px]">
+              <Image
+                src="/images/webinar/arunas.jpg"
+                alt="Arunas Vismantas"
+                fill
+                sizes="(min-width: 768px) 40vw, 100vw"
+                className="object-cover object-[30%_20%]"
+              />
+            </div>
+            <div className="flex flex-col justify-center px-8 py-14 text-center md:px-12 md:text-left">
+              <p className="avtag text-yellow">Su kuo kalbėsitės</p>
+              <h2 className="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">
+                Pasikalbėkime, ką AI agentas galėtų nuveikti jūsų versle
+              </h2>
+              <p className="mt-4 max-w-md text-paper/70">
+                Nemokamas 30 minučių pokalbis tiesiogiai su manimi, Arunu. Be
+                įsipareigojimų ir be pardavimų scenarijų.
+              </p>
+              <div className="mt-8 flex justify-center md:justify-start">
+                <Button href="/konsultacija">Nemokama konsultacija</Button>
+              </div>
+            </div>
           </div>
         </section>
       </Container>

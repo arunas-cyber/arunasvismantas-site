@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -10,21 +11,22 @@ import { CALLSY_URL } from "@/lib/site";
 
 export const metadata = pageMetadata("home");
 
-const offers = [
+const covered = [
   {
-    title: "Build your own AI assistant",
-    body: "A hands-on course on building an AI agent that actually does the work. Coming soon.",
-    cta: null,
+    title: "AI agents & automation",
+    body: "Where AI actually saves you time and where to start, so you don't burn money on demos.",
   },
   {
-    title: "Advisory call",
-    body: "AI agents, MCP integrations, ecommerce automation, or fundraising notes from someone who pitched on national TV.",
-    cta: { label: "Book a call", href: "/call" },
+    title: "MCP integrations",
+    body: "How to connect an AI agent to your existing tools so it does real work, not just chat.",
   },
   {
-    title: "Speaking and hosting",
-    body: "Keynotes and event hosting on AI agents and startup building, in Lithuanian or English.",
-    cta: { label: "Get in touch", href: "/call" },
+    title: "Ecommerce automation",
+    body: "Abandoned carts, customer support, bookings. What's worth automating first.",
+  },
+  {
+    title: "Fundraising",
+    body: "Product, pitch, and accelerators from someone who went through 500 Global and raised millions.",
   },
 ];
 
@@ -47,40 +49,42 @@ export default function Home() {
             callsy.ai ↗
           </a>
           <div className="grid gap-10 lg:grid-cols-[1.25fr_1fr]">
-          <div>
-          <p className="avtag inline-block rounded-lg bg-ink px-3 py-1.5 text-yellow">
-            Founder of Callsy · AI agents · Speaker
-          </p>
-          <h1 className="mt-8 max-w-4xl text-[clamp(3rem,8vw,6rem)] font-extrabold uppercase leading-[0.86] tracking-[-0.035em]">
-            I build AI agents.{" "}
-            <span className="text-coral">And help founders build theirs.</span>
-          </h1>
-          <p className="mt-8 max-w-[52ch] text-[19px] font-medium leading-normal">
-            A five-time founder from Vilnius. I co-founded{" "}
-            <strong>Callsy</strong>, an EU AI voice platform for ecommerce.
-            This is where I share how I build with AI, the companies I start,
-            and the ideas I{" "}
-            <span className="rounded-md bg-blue px-1.5 py-0.5 text-white">
-              talk about on stage
-            </span>
-            .
-          </p>
-          <div className="mt-10 flex flex-wrap gap-4">
-            <Button href="/en/call" variant="dark">
-              Book a call
-            </Button>
-            <Button href="/en/newsletter" variant="secondary">
-              Join the newsletter
-            </Button>
-          </div>
-          <div className="mt-10">
-            <Waveform />
-          </div>
-          </div>
-          <HeroPhoto
-            label="On stage"
-            alt="Arunas Vismantas speaking on stage at a tech conference"
-          />
+            <div>
+              <p className="avtag inline-block rounded-lg bg-ink px-3 py-1.5 text-yellow">
+                Founder of Callsy · AI agents · Speaker
+              </p>
+              <h1 className="mt-8 max-w-4xl text-[clamp(3rem,8vw,6rem)] font-extrabold uppercase leading-[0.86] tracking-[-0.035em]">
+                I build AI agents.{" "}
+                <span className="text-coral">And help founders build theirs.</span>
+              </h1>
+              <p className="mt-8 max-w-[52ch] text-[19px] font-medium leading-normal">
+                A five-time founder from Vilnius. I co-founded{" "}
+                <strong>Callsy</strong>, an EU AI voice platform for ecommerce.
+                Book a free call and let's talk about what AI could actually do
+                in your business.
+              </p>
+              <div className="mt-10">
+                <Button href="/en/call" variant="dark">
+                  Book a free call
+                </Button>
+                <p className="avtag mt-4 text-ink/70">
+                  30 min · free · no pitch
+                </p>
+                <a
+                  href="/en/newsletter"
+                  className="mt-4 inline-block text-sm font-semibold underline underline-offset-4 transition-colors duration-150 hover:text-coral"
+                >
+                  or join the newsletter →
+                </a>
+              </div>
+              <div className="mt-10">
+                <Waveform />
+              </div>
+            </div>
+            <HeroPhoto
+              label="On stage"
+              alt="Arunas Vismantas speaking on stage at a tech conference"
+            />
           </div>
         </section>
 
@@ -90,143 +94,56 @@ export default function Home() {
         </div>
       </Container>
 
-      {/* Story */}
-      <section>
-        <Container className="py-20 sm:py-24">
-          <div className="grid gap-10 lg:grid-cols-[1fr_1.4fr]">
-            <SectionHeading
-              eyebrow="The short version"
-              title="Five companies in, one instinct"
-            />
-            <div className="max-w-[54ch] space-y-5 text-lg leading-relaxed text-muted">
-              <p>
-                Here is the honest version: I am a lazy person, and I have
-                built a career out of it. If a task is repetitive, my instinct
-                is to automate it. Five companies later, that instinct is the
-                through-line in all of them.
-              </p>
-              <p>
-                Today it is{" "}
-                <a
-                  href="https://callsy.ai"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
-                >
-                  Callsy
-                </a>
-                , an EU platform where AI voice, SMS, and email agents handle
-                the conversations ecommerce brands do not have time for. Before
-                it came{" "}
-                <a
-                  href="https://www.podbase.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
-                >
-                  Podbase
-                </a>
-                , Smart Vision,{" "}
-                <a
-                  href="https://www.adkings.agency"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
-                >
-                  AdKings
-                </a>
-                , and{" "}
-                <a
-                  href="https://brandboosters.io"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-blue underline underline-offset-4 transition-colors duration-150 hover:text-coral"
-                >
-                  BrandBoosters
-                </a>
-                .
-              </p>
-              <p>
-                I am obsessed with trying new technology, and just as obsessed
-                with sharing what I learn from it. This site is where I put my
-                work, my know-how, and the ways we can build something together.
-              </p>
-              <div className="pt-1">
-                <Button href="/en/about" variant="ghost">
-                  Read the full story →
-                </Button>
-              </div>
-            </div>
-          </div>
-        </Container>
-      </section>
-
-      {/* Offers */}
+      {/* What the call covers */}
       <section className="border-t-[3px] border-ink">
         <Container className="py-20 sm:py-24">
-          <SectionHeading eyebrow="Work with me" title="Three ways in" />
-          <div className="mt-12 grid gap-7 sm:grid-cols-3">
-            {offers.map((o) => (
-              <div
-                key={o.title}
-                className="avb avb-hover flex flex-col bg-white p-7"
-              >
-                <h3 className="text-xl font-extrabold tracking-tight">
+          <SectionHeading eyebrow="Free consultation" title="What we can cover" />
+          <div className="mt-12 grid gap-7 sm:grid-cols-2 lg:grid-cols-4">
+            {covered.map((o) => (
+              <div key={o.title} className="avb flex flex-col bg-white p-7">
+                <h3 className="text-lg font-extrabold tracking-tight">
                   {o.title}
                 </h3>
                 <p className="mt-3 flex-1 text-[15px] leading-relaxed text-muted">
                   {o.body}
                 </p>
-                {o.cta ? (
-                  <div className="mt-5">
-                    <Button href={o.cta.href} variant="ghost">
-                      {o.cta.label} →
-                    </Button>
-                  </div>
-                ) : (
-                  <p className="avtag mt-5 text-coral">Coming soon</p>
-                )}
               </div>
             ))}
           </div>
-        </Container>
-      </section>
-
-      {/* Writing teaser */}
-      <section className="border-t-[3px] border-ink bg-white">
-        <Container className="py-20 sm:py-24">
-          <div className="flex flex-wrap items-end justify-between gap-6">
-            <SectionHeading
-              eyebrow="What I write about"
-              title="Notes from building, not think pieces"
-            />
-            <Button href="/en/insights" variant="secondary">
-              Read the insights
+          <div className="mt-10">
+            <Button href="/en/call" variant="dark">
+              Book a call
             </Button>
           </div>
-          <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              "Building your own AI assistant",
-              "Building products with AI as a non-engineer",
-              "AI agents for ecommerce",
-              "Starting up in the Baltics",
-            ].map((topic) => (
-              <li key={topic} className="avb bg-paper p-5 text-[15px] font-bold">
-                {topic}
-              </li>
-            ))}
-          </ul>
         </Container>
       </section>
 
-      {/* CTA band */}
+      {/* Closing CTA band — with a face, so the ask has a person behind it */}
       <Container className="py-20">
-        <section className="avb bg-ink px-8 py-16 text-center text-paper">
-          <h2 className="mx-auto max-w-2xl text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Let&apos;s talk about what an AI agent could do in your business
-          </h2>
-          <div className="mt-8 flex justify-center">
-            <Button href="/en/call">Book a call</Button>
+        <section className="avb overflow-hidden bg-ink text-paper">
+          <div className="grid items-stretch md:grid-cols-[0.85fr_1.15fr]">
+            <div className="relative min-h-[300px] border-b-[3px] border-ink bg-ink md:border-b-0 md:border-r-[3px]">
+              <Image
+                src="/images/webinar/arunas.jpg"
+                alt="Arunas Vismantas"
+                fill
+                sizes="(min-width: 768px) 40vw, 100vw"
+                className="object-cover object-[30%_20%]"
+              />
+            </div>
+            <div className="flex flex-col justify-center px-8 py-14 text-center md:px-12 md:text-left">
+              <p className="avtag text-yellow">Who you'll talk to</p>
+              <h2 className="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">
+                Let's talk about what an AI agent could do in your business
+              </h2>
+              <p className="mt-4 max-w-md text-paper/70">
+                A free 30-minute call, directly with me. No obligation, no sales
+                script.
+              </p>
+              <div className="mt-8 flex justify-center md:justify-start">
+                <Button href="/en/call">Book a free call</Button>
+              </div>
+            </div>
           </div>
         </section>
       </Container>
