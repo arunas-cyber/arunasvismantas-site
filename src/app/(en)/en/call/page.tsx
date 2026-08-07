@@ -3,6 +3,7 @@ import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { PageHeader } from "@/components/PageHeader";
 import { FAQ, type FaqItem } from "@/components/FAQ";
+import { CalendlyInline } from "@/components/CalendlyInline";
 import { pageMetadata } from "@/lib/meta";
 import { CALENDLY_URL } from "@/lib/site";
 
@@ -10,8 +11,16 @@ export const metadata = pageMetadata("call");
 
 const topics = [
   {
-    title: "AI agents and MCP",
-    body: "What an AI agent can realistically automate in your business, how to scope the first one, and how MCP integrations connect it to your tools.",
+    title: "Autonomous AI employees",
+    body: "I deploy fully autonomous AI agents that do real work inside your company: answering, qualifying leads, handling tasks and processes. Not a demo, an employee.",
+  },
+  {
+    title: "Acquisition funnel automation",
+    body: "I automate the whole acquisition funnel, from first touch to sale, so the system runs itself without manual work.",
+  },
+  {
+    title: "AI CMO",
+    body: "I build an AI CMO that runs your digital media: media buying, creative production, and content. Marketing that runs itself.",
   },
   {
     title: "Ecommerce automation",
@@ -71,9 +80,7 @@ export default function Call() {
                 one question, leave with a clear plan.
               </p>
               <div className="mt-6">
-                <Button href={CALENDLY_URL} external>
-                  Pick a time on Calendly
-                </Button>
+                <Button href="#book">Book a time</Button>
               </div>
             </div>
           </div>
@@ -82,10 +89,19 @@ export default function Call() {
 
       <section className="border-b border-line">
         <Container className="py-16">
-          <div className="grid gap-6 sm:grid-cols-3">
+          <h2 className="text-3xl font-extrabold tracking-tight">
+            What I can do for your business
+          </h2>
+          <p className="mt-3 max-w-2xl text-muted">
+            From a single AI agent to your entire marketing run by AI. Here is
+            where I most often help.
+          </p>
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {topics.map((t) => (
               <div key={t.title} className="avb bg-white p-7">
-                <h2 className="text-xl font-extrabold tracking-tight">{t.title}</h2>
+                <h3 className="text-xl font-extrabold tracking-tight">
+                  {t.title}
+                </h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted">
                   {t.body}
                 </p>
@@ -93,9 +109,23 @@ export default function Call() {
             ))}
           </div>
           <div className="mt-10">
-            <Button href={CALENDLY_URL} external>
-              Pick a time on Calendly
-            </Button>
+            <Button href="#book">Book a time</Button>
+          </div>
+        </Container>
+      </section>
+
+      {/* Embedded scheduler */}
+      <section id="book" className="scroll-mt-24 border-b border-line">
+        <Container className="py-16">
+          <h2 className="text-3xl font-extrabold tracking-tight">
+            Pick a time
+          </h2>
+          <p className="mt-3 max-w-2xl text-muted">
+            Grab a slot that works for you, right here. A free 30-minute call,
+            no obligation.
+          </p>
+          <div className="mt-8">
+            <CalendlyInline url={CALENDLY_URL} />
           </div>
         </Container>
       </section>

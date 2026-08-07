@@ -3,6 +3,7 @@ import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { PageHeader } from "@/components/PageHeader";
 import { FAQ, type FaqItem } from "@/components/FAQ";
+import { CalendlyInline } from "@/components/CalendlyInline";
 import { pageMetadata } from "@/lib/meta";
 import { CALENDLY_URL } from "@/lib/site";
 
@@ -10,8 +11,16 @@ export const metadata = pageMetadata("call-lt");
 
 const topics = [
   {
-    title: "AI agentai ir MCP",
-    body: "Ką AI agentas realiai gali automatizuoti jūsų versle, nuo ko pradėti ir kaip MCP integracijos sujungia jį su turimais įrankiais.",
+    title: "Autonomiški AI darbuotojai",
+    body: "Įdiegiu visiškai autonomiškus AI agentus, kurie jūsų įmonėje atlieka tikrą darbą: atsiliepia, kvalifikuoja klientus, tvarko užduotis ir procesus. Ne demonstracija, o darbuotojas.",
+  },
+  {
+    title: "Pritraukimo funelių automatizavimas",
+    body: "Automatizuoju visą klientų pritraukimo funelį nuo pirmo prisilietimo iki pardavimo, kad sistema dirbtų pati, be rankinio darbo.",
+  },
+  {
+    title: "AI rinkodaros vadovas (AI CMO)",
+    body: "Sukuriu AI CMO, kuris valdo jūsų skaitmeninę mediją: media pirkimą, kūrybos gamybą ir turinį. Rinkodara, kuri sukasi pati.",
   },
   {
     title: "El. prekybos automatizavimas",
@@ -71,9 +80,7 @@ export default function CallLt() {
                 klausimu, išeikite su aiškiu planu.
               </p>
               <div className="mt-6">
-                <Button href={CALENDLY_URL} external>
-                  Pasirinkti laiką per Calendly
-                </Button>
+                <Button href="#rezervacija">Rezervuoti laiką</Button>
               </div>
             </div>
           </div>
@@ -82,10 +89,19 @@ export default function CallLt() {
 
       <section className="border-b border-line">
         <Container className="py-16">
-          <div className="grid gap-6 sm:grid-cols-3">
+          <h2 className="text-3xl font-extrabold tracking-tight">
+            Ką galiu padaryti jūsų versle
+          </h2>
+          <p className="mt-3 max-w-2xl text-muted">
+            Nuo atskiro AI agento iki visos rinkodaros, kurią valdo dirbtinis
+            intelektas. Štai kur dažniausiai padedu.
+          </p>
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {topics.map((t) => (
               <div key={t.title} className="avb bg-white p-7">
-                <h2 className="text-xl font-extrabold tracking-tight">{t.title}</h2>
+                <h3 className="text-xl font-extrabold tracking-tight">
+                  {t.title}
+                </h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted">
                   {t.body}
                 </p>
@@ -93,9 +109,23 @@ export default function CallLt() {
             ))}
           </div>
           <div className="mt-10">
-            <Button href={CALENDLY_URL} external>
-              Pasirinkti laiką per Calendly
-            </Button>
+            <Button href="#rezervacija">Rezervuoti laiką</Button>
+          </div>
+        </Container>
+      </section>
+
+      {/* Embedded scheduler */}
+      <section id="rezervacija" className="scroll-mt-24 border-b border-line">
+        <Container className="py-16">
+          <h2 className="text-3xl font-extrabold tracking-tight">
+            Rezervuokite laiką
+          </h2>
+          <p className="mt-3 max-w-2xl text-muted">
+            Pasirinkite jums tinkamą laiką tiesiog čia. Nemokamas 30 minučių
+            pokalbis, be įsipareigojimų.
+          </p>
+          <div className="mt-8">
+            <CalendlyInline url={CALENDLY_URL} />
           </div>
         </Container>
       </section>
