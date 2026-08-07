@@ -5,20 +5,24 @@ export function PageHeader({
   title,
   lede,
   tightBottom = false,
+  flush = false,
 }: {
   eyebrow: string;
   title: string;
   lede?: string;
   /** Trims the bottom padding when a section sits right below the header. */
   tightBottom?: boolean;
+  /** Drops the divider border and hugs the next section tight (no gap). */
+  flush?: boolean;
 }) {
+  const pad = flush
+    ? "pt-14 pb-5 sm:pt-16 sm:pb-6"
+    : tightBottom
+      ? "pt-16 pb-8 sm:pt-20 sm:pb-10"
+      : "py-16 sm:py-20";
   return (
-    <section className="border-b-[3px] border-ink">
-      <Container
-        className={
-          tightBottom ? "pt-16 pb-8 sm:pt-20 sm:pb-10" : "py-16 sm:py-20"
-        }
-      >
+    <section className={flush ? "" : "border-b-[3px] border-ink"}>
+      <Container className={pad}>
         <p className="avtag inline-block rounded-lg bg-ink px-3 py-1.5 text-yellow">
           {eyebrow}
         </p>
