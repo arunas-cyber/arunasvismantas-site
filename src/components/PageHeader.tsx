@@ -4,14 +4,21 @@ export function PageHeader({
   eyebrow,
   title,
   lede,
+  tightBottom = false,
 }: {
   eyebrow: string;
   title: string;
   lede?: string;
+  /** Trims the bottom padding when a section sits right below the header. */
+  tightBottom?: boolean;
 }) {
   return (
     <section className="border-b-[3px] border-ink">
-      <Container className="py-16 sm:py-20">
+      <Container
+        className={
+          tightBottom ? "pt-16 pb-8 sm:pt-20 sm:pb-10" : "py-16 sm:py-20"
+        }
+      >
         <p className="avtag inline-block rounded-lg bg-ink px-3 py-1.5 text-yellow">
           {eyebrow}
         </p>

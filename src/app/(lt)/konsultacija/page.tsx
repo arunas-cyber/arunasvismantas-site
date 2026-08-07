@@ -58,6 +58,7 @@ export default function CallLt() {
         eyebrow="Konsultacija"
         title="Rezervuokite pokalbį"
         lede="Vienas pokalbis, viena konkreti problema, vienas aiškus planas. Jokio pardavinėjimo, jokių įsipareigojimų."
+        tightBottom
       />
 
       <Container className="pb-4">
@@ -73,11 +74,15 @@ export default function CallLt() {
               />
             </div>
             <div className="flex flex-col justify-center px-8 py-12 md:px-12">
-              <p className="avtag text-ink/70">Su kuo kalbėsitės</p>
+              <p className="avtag text-ink/70">Kur padeda dirbtinis intelektas</p>
               <p className="mt-3 text-xl font-bold leading-snug text-ink sm:text-2xl">
-                Kalbėsitės tiesiogiai su manimi, Arunu. Penkios įmonės, 500
-                Global akseleratorius ir pasirodymas Rykliuose. Ateikite su vienu
-                klausimu, išeikite su aiškiu planu.
+                Prarandate pardavimus, nes niekas nespėja atsiliepti? Tie patys
+                darbai kartojasi kiekvieną dieną? Per pokalbį pažiūrėsim, ką
+                jūsų versle gali perimti dirbtinis intelektas, ir išeisite su
+                konkrečiu planu.
+              </p>
+              <p className="mt-4 text-sm font-semibold text-ink/70">
+                Tiesiogiai su manimi. Be pardavinėjimo, be įsipareigojimų.
               </p>
               <div className="mt-6">
                 <Button href="#rezervacija">Rezervuoti laiką</Button>
@@ -107,9 +112,6 @@ export default function CallLt() {
                 </p>
               </div>
             ))}
-          </div>
-          <div className="mt-10">
-            <Button href="#rezervacija">Rezervuoti laiką</Button>
           </div>
         </Container>
       </section>

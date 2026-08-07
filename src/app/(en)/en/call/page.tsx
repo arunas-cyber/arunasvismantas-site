@@ -58,6 +58,7 @@ export default function Call() {
         eyebrow="Advisory"
         title="Book a call"
         lede="One conversation, one specific problem, one concrete plan. No pitch, no retainer required."
+        tightBottom
       />
 
       <Container className="pb-4">
@@ -73,11 +74,15 @@ export default function Call() {
               />
             </div>
             <div className="flex flex-col justify-center px-8 py-12 md:px-12">
-              <p className="avtag text-ink/70">Who you'll talk to</p>
+              <p className="avtag text-ink/70">Where AI helps</p>
               <p className="mt-3 text-xl font-bold leading-snug text-ink sm:text-2xl">
-                You'll talk directly with me, Arunas. Five companies, the 500
-                Global accelerator, and a national TV pitch behind me. Come with
-                one question, leave with a clear plan.
+                Losing sales because nobody answers in time? The same tasks
+                repeating every day? On the call we'll look at exactly what AI
+                can take over in your business, and you'll leave with a concrete
+                plan.
+              </p>
+              <p className="mt-4 text-sm font-semibold text-ink/70">
+                Straight talk, directly with me. No pitch, no obligation.
               </p>
               <div className="mt-6">
                 <Button href="#book">Book a time</Button>
@@ -107,9 +112,6 @@ export default function Call() {
                 </p>
               </div>
             ))}
-          </div>
-          <div className="mt-10">
-            <Button href="#book">Book a time</Button>
           </div>
         </Container>
       </section>
