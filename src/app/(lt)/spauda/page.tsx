@@ -48,6 +48,42 @@ const items = [
   },
 ];
 
+const podcasts = [
+  {
+    name: "Socialhack",
+    role: "Bendravedantysis",
+    body: "Bendravedu Socialhack tinklalaidę su Martynu Rusteika: atviri pokalbiai su Lietuvos startuolių ir verslo žmonėmis, tarp jų ir Bolt komanda.",
+    link: {
+      label: "Žiūrėti",
+      href: "https://www.youtube.com/watch?v=lCx-aHUl5Ts",
+    },
+  },
+  {
+    name: "Founders & Food",
+    role: "Vedantysis",
+    body: "Mano tinklalaidė: atviri Lietuvos founderių pokalbiai prie vakarienės stalo.",
+    link: null,
+  },
+  {
+    name: "Ecommerce Secrets",
+    role: "Vedantysis",
+    body: "Tinklalaidė apie el. prekybą ir augimą kartu su BrandBoosters.",
+    link: {
+      label: "Klausyti",
+      href: "https://brandboosters.io/pages/ecommerce-secrets-podcast",
+    },
+  },
+  {
+    name: "Perception Paradox",
+    role: "Svečias",
+    body: "Svečias tarptautinėje tinklalaidėje. Kalbėjome, kodėl pardavimai svarbiau už produktą ir kokią klaidą daro dauguma pradedančiųjų founderių.",
+    link: {
+      label: "Žiūrėti",
+      href: "https://www.youtube.com/watch?v=EeJtXZZcKIs",
+    },
+  },
+];
+
 export default function PressLt() {
   return (
     <>
@@ -79,6 +115,39 @@ export default function PressLt() {
                     className="mt-3 inline-block text-sm font-bold text-blue transition-colors duration-150 hover:text-coral"
                   >
                     {item.link.label} →
+                  </a>
+                )}
+              </article>
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      <section className="border-b border-line">
+        <Container className="py-16">
+          <h2 className="text-2xl font-extrabold tracking-tight">
+            Tinklalaidės ir pokalbiai
+          </h2>
+          <div className="mt-6 max-w-3xl divide-y divide-line border-y border-line">
+            {podcasts.map((p) => (
+              <article key={p.name} className="py-6">
+                <div className="flex flex-wrap items-baseline justify-between gap-2">
+                  <h3 className="text-xl font-extrabold tracking-tight">
+                    {p.name}
+                  </h3>
+                  <span className="avtag text-coral">{p.role}</span>
+                </div>
+                <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted">
+                  {p.body}
+                </p>
+                {p.link && (
+                  <a
+                    href={p.link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 inline-block text-sm font-bold text-blue transition-colors duration-150 hover:text-coral"
+                  >
+                    {p.link.label} →
                   </a>
                 )}
               </article>

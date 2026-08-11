@@ -48,6 +48,42 @@ const items = [
   },
 ];
 
+const podcasts = [
+  {
+    name: "Socialhack",
+    role: "Co-host",
+    body: "I co-host the Socialhack podcast with Martynas Rusteika: candid conversations with Lithuanian startup and business people, including the team from Bolt.",
+    link: {
+      label: "Watch",
+      href: "https://www.youtube.com/watch?v=lCx-aHUl5Ts",
+    },
+  },
+  {
+    name: "Founders & Food",
+    role: "Host",
+    body: "My own show: honest conversations with Lithuanian founders over dinner.",
+    link: null,
+  },
+  {
+    name: "Ecommerce Secrets",
+    role: "Host",
+    body: "A podcast on ecommerce and growth, together with BrandBoosters.",
+    link: {
+      label: "Listen",
+      href: "https://brandboosters.io/pages/ecommerce-secrets-podcast",
+    },
+  },
+  {
+    name: "Perception Paradox",
+    role: "Guest",
+    body: "Guest on the international Perception Paradox podcast, on why sales beat product and the biggest mistake early founders make: building too much before selling.",
+    link: {
+      label: "Watch",
+      href: "https://www.youtube.com/watch?v=EeJtXZZcKIs",
+    },
+  },
+];
+
 export default function Press() {
   return (
     <>
@@ -79,6 +115,39 @@ export default function Press() {
                     className="mt-3 inline-block text-sm font-bold text-blue transition-colors duration-150 hover:text-coral"
                   >
                     {item.link.label} →
+                  </a>
+                )}
+              </article>
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      <section className="border-b border-line">
+        <Container className="py-16">
+          <h2 className="text-2xl font-extrabold tracking-tight">
+            Podcasts and conversations
+          </h2>
+          <div className="mt-6 max-w-3xl divide-y divide-line border-y border-line">
+            {podcasts.map((p) => (
+              <article key={p.name} className="py-6">
+                <div className="flex flex-wrap items-baseline justify-between gap-2">
+                  <h3 className="text-xl font-extrabold tracking-tight">
+                    {p.name}
+                  </h3>
+                  <span className="avtag text-coral">{p.role}</span>
+                </div>
+                <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted">
+                  {p.body}
+                </p>
+                {p.link && (
+                  <a
+                    href={p.link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 inline-block text-sm font-bold text-blue transition-colors duration-150 hover:text-coral"
+                  >
+                    {p.link.label} →
                   </a>
                 )}
               </article>
