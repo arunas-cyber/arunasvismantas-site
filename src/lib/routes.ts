@@ -153,7 +153,7 @@ export const routes: SiteRoute[] = [
     key: "home-lt",
     locale: "lt",
     path: "/",
-    title: "Arunas Vismantas | Startuolio founderis, AI praktikas",
+    title: "Arunas Vismantas | Startuolių founderis, AI praktikas",
     description:
       "Callsy founderis. Kuriu AI agentus, mokau susikurti savo AI asistentą, vedu renginius apie startuolius ir dirbtinį intelektą.",
     keywords: ["arunas vismantas"],

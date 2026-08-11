@@ -5,7 +5,7 @@ import { SITE_URL } from "@/lib/routes";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Arunas Vismantas | Startuolio founderis, AI praktikas",
+    default: "Arunas Vismantas | Startuolių founderis, AI praktikas",
     template: "%s | Arunas Vismantas",
   },
   description:
