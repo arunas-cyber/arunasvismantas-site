@@ -27,18 +27,15 @@ export function EmbedFrame({
   const [height, setHeight] = useState(minHeight);
 
   useEffect(() => {
-    let origin = "";
-    try {
-      origin = new URL(src).origin;
-    } catch {
-      return;
-    }
+    // The embedded tool can post from its published or preview subdomain, so we
+    // don't hard-restrict the origin. Instead we validate the payload and clamp
+    // to a sane pixel range (a stray/rogue resize is at worst cosmetic).
     function onMessage(e: MessageEvent) {
-      if (e.origin !== origin) return;
+      const d = e.data;
       const raw =
-        e.data && typeof e.data === "object" ? e.data.height : e.data;
+        d && typeof d === "object" ? (d.height ?? d.value ?? d.h) : d;
       const n = Number(raw);
-      if (Number.isFinite(n) && n > 200) setHeight(Math.ceil(n));
+      if (Number.isFinite(n) && n >= 200 && n <= 6000) setHeight(Math.ceil(n));
     }
     window.addEventListener("message", onMessage);
     return () => window.removeEventListener("message", onMessage);
