@@ -3,11 +3,17 @@ import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { PageHeader } from "@/components/PageHeader";
 import { EmbedFrame } from "@/components/EmbedFrame";
+import { EmbedCode } from "@/components/EmbedCode";
 import { pageMetadata } from "@/lib/meta";
 
 export const metadata = pageMetadata("lt-linkedin-vertejas");
 
 const TOOL_URL = "https://linkedin-cringe-translator.lovable.app";
+
+const EMBED_CODE = `<iframe src="https://arunasvismantas.eu/embed/linkedin"
+  style="width:100%;height:760px;border:0" loading="lazy"
+  title="LinkedIn Cringe Translator"></iframe>
+<p><a href="https://arunasvismantas.eu">LinkedIn Cringe Translator by Arunas Vismantas</a></p>`;
 
 export default function LinkedinVertejas() {
   return (
@@ -23,6 +29,15 @@ export default function LinkedinVertejas() {
         <div className="avb overflow-hidden bg-white">
           <EmbedFrame src={TOOL_URL} title="LinkedIn cringe vertėjas" />
         </div>
+      </Container>
+
+      <Container className="pb-8">
+        <EmbedCode
+          code={EMBED_CODE}
+          heading="Įterpk į savo svetainę"
+          copyLabel="Kopijuoti kodą"
+          copiedLabel="Nukopijuota ✓"
+        />
       </Container>
 
       <Container className="py-16">
