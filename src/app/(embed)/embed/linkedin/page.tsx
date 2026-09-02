@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "LinkedIn Cringe Translator",
 };
 
-const TOOL_URL = "https://linkedin-cringe-translator.lovable.app";
+const TOOL_URL = "https://linkedin.arunasvismantas.eu";
 
 /**
  * Bare embeddable version of the tool: just the app, full-bleed, so other sites

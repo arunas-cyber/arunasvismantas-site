@@ -8,11 +8,12 @@ import { pageMetadata } from "@/lib/meta";
 
 export const metadata = pageMetadata("en-linkedin-translator");
 
-const TOOL_URL = "https://linkedin-cringe-translator.lovable.app";
+const TOOL_URL = "https://linkedin.arunasvismantas.eu";
 
-const EMBED_CODE = `<iframe src="https://arunasvismantas.eu/embed/linkedin"
-  style="width:100%;height:760px;border:0" loading="lazy"
-  title="LinkedIn Cringe Translator"></iframe>
+const EMBED_CODE = `<iframe id="lct" src="https://linkedin.arunasvismantas.eu"
+  style="width:100%;height:760px;border:0;border-radius:12px"
+  loading="lazy" allow="clipboard-write" title="LinkedIn Cringe Translator"></iframe>
+<script>addEventListener("message",function(e){if(e.data&&e.data.type==="resize"){var f=document.getElementById("lct");if(f)f.style.height=e.data.height+"px";}});</script>
 <p><a href="https://arunasvismantas.eu">LinkedIn Cringe Translator by Arunas Vismantas</a></p>`;
 
 export default function LinkedinTranslator() {
