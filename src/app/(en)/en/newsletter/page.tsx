@@ -1,6 +1,6 @@
 import { Container } from "@/components/Container";
-import { Button } from "@/components/Button";
 import { PageHeader } from "@/components/PageHeader";
+import { SubscribeForm } from "@/components/SubscribeForm";
 import { pageMetadata } from "@/lib/meta";
 import { LINKEDIN_URL, SUBSTACK_URL } from "@/lib/site";
 
@@ -33,25 +33,50 @@ export default function Newsletter() {
               </li>
             ))}
           </ul>
+
           <div className="mt-10">
-            {SUBSTACK_URL ? (
-              <Button href={SUBSTACK_URL} external>
-                Subscribe on Substack
-              </Button>
-            ) : (
-              <div className="max-w-md avb bg-white p-7">
-                <p className="text-sm leading-relaxed text-muted">
-                  The newsletter launches soon. Until then, I post the same
-                  notes on LinkedIn.
-                </p>
-                <div className="mt-4">
-                  <Button href={LINKEDIN_URL} external variant="secondary">
-                    Follow on LinkedIn
-                  </Button>
-                </div>
-              </div>
-            )}
+            <SubscribeForm
+              source="newsletter-en"
+              placeholder="Your email"
+              cta="Subscribe"
+              loadingLabel="Subscribing..."
+              success="Thanks! You're on the list."
+              error="Something went wrong. Try again."
+              note="No spam. Unsubscribe anytime."
+            />
           </div>
+
+          {(SUBSTACK_URL || LINKEDIN_URL) && (
+            <p className="mt-6 text-sm text-muted">
+              {SUBSTACK_URL ? (
+                <>
+                  Read past issues on{" "}
+                  <a
+                    href={SUBSTACK_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-blue underline underline-offset-4 hover:text-coral"
+                  >
+                    Substack
+                  </a>
+                  .
+                </>
+              ) : (
+                <>
+                  Until the newsletter launches, I post the same notes on{" "}
+                  <a
+                    href={LINKEDIN_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-blue underline underline-offset-4 hover:text-coral"
+                  >
+                    LinkedIn
+                  </a>
+                  .
+                </>
+              )}
+            </p>
+          )}
         </Container>
       </section>
     </>
