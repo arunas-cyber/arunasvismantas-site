@@ -34,7 +34,9 @@ export default function LinkedinVertejas() {
       <Container className="pb-8">
         <EmbedCode
           code={EMBED_CODE}
+          triggerLabel="Nori šito įrankio savo svetainėje?"
           heading="Įterpk į savo svetainę"
+          instruction="Nukopijuok šį kodą ir įklijuok ten, kur nori, kad atsirastų įrankis."
           copyLabel="Kopijuoti kodą"
           copiedLabel="Nukopijuota ✓"
         />

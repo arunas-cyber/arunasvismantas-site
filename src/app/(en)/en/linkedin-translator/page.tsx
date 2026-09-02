@@ -34,7 +34,9 @@ export default function LinkedinTranslator() {
       <Container className="pb-8">
         <EmbedCode
           code={EMBED_CODE}
+          triggerLabel="Want this tool on your site?"
           heading="Embed on your site"
+          instruction="Copy the code and paste it wherever you want the tool to appear."
           copyLabel="Copy code"
           copiedLabel="Copied ✓"
         />
