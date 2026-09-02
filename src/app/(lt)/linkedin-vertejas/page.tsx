@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { PageHeader } from "@/components/PageHeader";
+import { EmbedFrame } from "@/components/EmbedFrame";
 import { pageMetadata } from "@/lib/meta";
 
 export const metadata = pageMetadata("lt-linkedin-vertejas");
@@ -20,14 +21,7 @@ export default function LinkedinVertejas() {
 
       <Container className="pt-12 pb-8 sm:pt-16">
         <div className="avb overflow-hidden bg-white">
-          <iframe
-            src={TOOL_URL}
-            title="LinkedIn cringe vertėjas"
-            className="block w-full"
-            style={{ height: "1500px", border: 0 }}
-            loading="lazy"
-            allow="clipboard-write"
-          />
+          <EmbedFrame src={TOOL_URL} title="LinkedIn cringe vertėjas" />
         </div>
       </Container>
 
@@ -45,8 +39,9 @@ export default function LinkedinVertejas() {
             </div>
             <div className="flex flex-col justify-center px-8 py-14 md:px-12">
               <p className="max-w-md text-2xl font-extrabold tracking-tight">
-                Šitą susikūriau juokais, per vieną vakarą. Tą patį AI kasdien
-                naudoju rimtiems dalykams. Nori tokių įrankių savo versle?
+                Šitą susikūriau juokais, sporto salėje tarp pratimų 😃. Tą patį
+                AI kasdien naudoju rimtiems dalykams. Nori tokių įrankių savo
+                versle?
               </p>
               <div className="mt-6">
                 <Button href="/konsultacija">Nemokama konsultacija</Button>

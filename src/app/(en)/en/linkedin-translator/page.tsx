@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Container } from "@/components/Container";
 import { Button } from "@/components/Button";
 import { PageHeader } from "@/components/PageHeader";
+import { EmbedFrame } from "@/components/EmbedFrame";
 import { pageMetadata } from "@/lib/meta";
 
 export const metadata = pageMetadata("en-linkedin-translator");
@@ -20,14 +21,7 @@ export default function LinkedinTranslator() {
 
       <Container className="pt-12 pb-8 sm:pt-16">
         <div className="avb overflow-hidden bg-white">
-          <iframe
-            src={TOOL_URL}
-            title="LinkedIn Cringe Translator"
-            className="block w-full"
-            style={{ height: "1500px", border: 0 }}
-            loading="lazy"
-            allow="clipboard-write"
-          />
+          <EmbedFrame src={TOOL_URL} title="LinkedIn Cringe Translator" />
         </div>
       </Container>
 
@@ -45,9 +39,9 @@ export default function LinkedinTranslator() {
             </div>
             <div className="flex flex-col justify-center px-8 py-14 md:px-12">
               <p className="max-w-md text-2xl font-extrabold tracking-tight">
-                I built this one as a joke, in a single evening. I use the same
-                AI every day for the serious stuff. Want tools like this in your
-                business?
+                I built this one for fun at the gym, between sets 😃. I use the
+                same AI every day for the serious stuff. Want tools like this in
+                your business?
               </p>
               <div className="mt-6">
                 <Button href="/en/call">Book a free call</Button>
