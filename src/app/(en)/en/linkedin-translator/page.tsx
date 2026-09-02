@@ -4,17 +4,17 @@ import { Button } from "@/components/Button";
 import { PageHeader } from "@/components/PageHeader";
 import { pageMetadata } from "@/lib/meta";
 
-export const metadata = pageMetadata("lt-linkedin-vertejas");
+export const metadata = pageMetadata("en-linkedin-translator");
 
 const TOOL_URL = "https://linkedin-cringe-translator.lovable.app";
 
-export default function LinkedinVertejas() {
+export default function LinkedinTranslator() {
   return (
     <>
       <PageHeader
-        eyebrow="Tik dėl juoko"
-        title="LinkedIn cringe vertėjas"
-        lede="Kiekvienas LinkedIn įrašas skamba kaip TED kalba? Šis įrankis bet kokią normalią mintį paverčia tikru LinkedIn cringe. Susikūriau su AI per vieną vakarą, tiesiog dėl juoko. Išbandyk."
+        eyebrow="Just for fun"
+        title="LinkedIn Cringe Translator"
+        lede="Every LinkedIn post reads like a TED talk? This tool turns any normal thought into peak LinkedIn cringe. I built it with AI in one evening, purely for fun. Give it a go."
         tightBottom
       />
 
@@ -22,7 +22,7 @@ export default function LinkedinVertejas() {
         <div className="avb overflow-hidden bg-white">
           <iframe
             src={TOOL_URL}
-            title="LinkedIn cringe vertėjas"
+            title="LinkedIn Cringe Translator"
             className="block w-full"
             style={{ height: "1500px", border: 0 }}
             loading="lazy"
@@ -45,11 +45,12 @@ export default function LinkedinVertejas() {
             </div>
             <div className="flex flex-col justify-center px-8 py-14 md:px-12">
               <p className="max-w-md text-2xl font-extrabold tracking-tight">
-                Šitą susikūriau juokais, per vieną vakarą. Tą patį AI kasdien
-                naudoju rimtiems dalykams. Nori tokių įrankių savo versle?
+                I built this one as a joke, in a single evening. I use the same
+                AI every day for the serious stuff. Want tools like this in your
+                business?
               </p>
               <div className="mt-6">
-                <Button href="/konsultacija">Nemokama konsultacija</Button>
+                <Button href="/en/call">Book a free call</Button>
               </div>
             </div>
           </div>

@@ -89,6 +89,18 @@ export const routes: SiteRoute[] = [
     counterpart: "call-lt",
   },
   {
+    key: "en-linkedin-translator",
+    locale: "en",
+    path: "/en/linkedin-translator",
+    title: "LinkedIn Cringe Translator: a free tool",
+    description:
+      "A free tool that turns any normal thought into peak LinkedIn cringe. I built it with AI, just for fun. Arunas Vismantas.",
+    keywords: ["linkedin cringe translator", "linkedin cringe generator"],
+    tier: 3,
+    status: "live",
+    counterpart: "lt-linkedin-vertejas",
+  },
+  {
     key: "newsletter",
     locale: "en",
     path: "/en/newsletter",
@@ -209,6 +221,7 @@ export const routes: SiteRoute[] = [
     keywords: ["linkedin cringe", "linkedin vertėjas"],
     tier: 3,
     status: "live",
+    counterpart: "en-linkedin-translator",
   },
   {
     key: "newsletter-lt",
