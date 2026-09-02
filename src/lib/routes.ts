@@ -200,6 +200,17 @@ export const routes: SiteRoute[] = [
     counterpart: "call",
   },
   {
+    key: "lt-linkedin-vertejas",
+    locale: "lt",
+    path: "/linkedin-vertejas",
+    title: "LinkedIn cringe vertėjas: nemokamas įrankis",
+    description:
+      "Nemokamas įrankis, paverčiantis normalią mintį tikru LinkedIn cringe. Susikūriau su AI, tiesiog dėl juoko. Arunas Vismantas.",
+    keywords: ["linkedin cringe", "linkedin vertėjas"],
+    tier: 3,
+    status: "live",
+  },
+  {
     key: "newsletter-lt",
     locale: "lt",
     path: "/naujienlaiskis",
