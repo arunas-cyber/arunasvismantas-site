@@ -66,10 +66,10 @@ export const routes: SiteRoute[] = [
   {
     key: "work",
     locale: "en",
-    path: "/en/work",
-    title: "Work",
+    path: "/en/use-cases",
+    title: "Use cases",
     description:
-      "Client work by Arunas Vismantas: AI-powered acquisition engines, inbound lead automation, and custom agents that help businesses scale. First client: Zabulis Legal.",
+      "Real client work by Arunas Vismantas: AI-powered acquisition engines, inbound lead automation, and custom agents that help businesses grow. See how it plays out, case by case.",
     keywords: [
       "ai agency",
       "ai automation for business",
@@ -79,6 +79,22 @@ export const routes: SiteRoute[] = [
     status: "live",
     counterpart: "work-lt",
     nav: 2,
+  },
+  {
+    key: "case-zabulis",
+    locale: "en",
+    path: "/en/use-cases/zabulis-legal",
+    title: "Zabulis Legal",
+    description:
+      "How Arunas Vismantas rebuilt Zabulis Legal's digital presence: a trilingual site, a lead-capture funnel, and AI agents for inbound and onboarding. A live case study.",
+    keywords: [
+      "zabulis legal",
+      "ai for law firms",
+      "law firm website case study",
+    ],
+    tier: 2,
+    status: "live",
+    counterpart: "case-zabulis-lt",
   },
   {
     key: "insights",
@@ -207,9 +223,9 @@ export const routes: SiteRoute[] = [
     key: "work-lt",
     locale: "lt",
     path: "/darbai",
-    title: "Darbai",
+    title: "Atvejai",
     description:
-      "Arunas Vismantas ir darbai su klientais: AI pagrįsti klientų pritraukimo varikliai, užklausų automatizavimas ir individualūs agentai, padedantys verslui augti. Pirmasis klientas: Zabulis Legal.",
+      "Arunas Vismantas ir darbai su klientais: AI pagrįsti klientų pritraukimo varikliai, užklausų automatizavimas ir individualūs agentai, padedantys verslui augti. Kaip tai atrodo iš tikrųjų, atvejis po atvejo.",
     keywords: [
       "ai agentura",
       "verslo automatizavimas su ai",
@@ -219,6 +235,22 @@ export const routes: SiteRoute[] = [
     status: "live",
     counterpart: "work",
     nav: 2,
+  },
+  {
+    key: "case-zabulis-lt",
+    locale: "lt",
+    path: "/darbai/zabulis-legal",
+    title: "Zabulis Legal",
+    description:
+      "Kaip Arunas Vismantas perstatė Zabulis Legal skaitmeninį veidą: trikalbis tinklalapis, potencialių klientų surinkimo funelis ir AI agentai užklausoms bei klientų priėmimui. Gyvas klientų atvejis.",
+    keywords: [
+      "zabulis legal",
+      "ai teisininkams",
+      "advokato tinklalapis",
+    ],
+    tier: 2,
+    status: "live",
+    counterpart: "case-zabulis",
   },
   {
     key: "insights-lt",

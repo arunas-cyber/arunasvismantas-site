@@ -6,49 +6,49 @@ import { PageHeader } from "@/components/PageHeader";
 import { JsonLd, personJsonLd } from "@/lib/schema";
 import { pageMetadata } from "@/lib/meta";
 
-export const metadata = pageMetadata("work-lt");
+export const metadata = pageMetadata("work");
 
 /** What I do for clients — the three pillars of the offer. */
 const capabilities = [
   {
     n: "01",
-    h: "Skaitmeninis pamatas ir klientų variklis",
-    body: "Greita ir randama svetainė, SEO bei GEO optimizacija ir funeliai, kurie lankytoją paverčia užklausa.",
+    h: "Digital foundation and a client engine",
+    body: "A fast, findable website, SEO and GEO optimisation, and funnels that turn a visitor into an enquiry.",
   },
   {
     n: "02",
-    h: "Užklausų automatizavimas su AI",
-    body: "AI balso, SMS ir el. pašto agentai priima, kvalifikuoja ir nukreipia užklausas visą parą. Nė vienas klientas nelieka be atsako.",
+    h: "Inbound lead automation with AI",
+    body: "AI voice, SMS and email agents take, qualify and route enquiries around the clock. No lead is left without a reply.",
   },
   {
     n: "03",
-    h: "AI sistemos, kurios plečia verslą",
-    body: "Individualūs agentai perima pasikartojantį darbą: klientų priėmimą, procesus ir aptarnavimą. Verslas auga be etatų augimo.",
+    h: "AI systems that let a business scale",
+    body: "Custom agents take over the repetitive work: onboarding, process automation and support. The business grows without headcount growing with it.",
   },
 ];
 
 /** Case studies. Each links to its own page. */
 const cases = [
   {
-    href: "/darbai/zabulis-legal",
+    href: "/en/use-cases/zabulis-legal",
     img: "/images/work/zabulis-legal.jpg",
     client: "Zabulis Legal",
-    sector: "Teisė · UK ir Lietuva",
-    headline: "Trikalbis skaitmeninis veidas ir klientų variklis advokatui",
+    sector: "Law · UK and Lithuania",
+    headline: "A trilingual digital presence and client engine for a solicitor",
     summary:
-      "Du pasenę Wix tinklalapiai virsta vienu greitu, trikalbiu (EN/LT/RU) tinklalapiu su potencialių klientų surinkimo funeliu ir AI agentais užklausoms.",
-    tags: ["Svetainės perstatymas", "SEO ir GEO", "Klientų funelis", "AI agentai"],
+      "Two ageing Wix sites become one fast, trilingual site (EN/LT/RU) with a lead-capture funnel and AI agents for inbound enquiries.",
+    tags: ["Website rebuild", "SEO and GEO", "Lead funnel", "AI agents"],
   },
 ];
 
-export default function DarbaiLt() {
+export default function UseCasesEn() {
   return (
     <>
       <JsonLd data={personJsonLd} />
       <PageHeader
-        eyebrow="Atvejai"
-        title="Kaip tai atrodo iš tikrųjų"
-        lede="Kuriu verslams augimo variklius su AI: sutvarkau buvimą internete, automatizuoju gaunamas užklausas ir su agentais padedu augti greičiau, nei leidžia etatai. Štai realūs klientų atvejai."
+        eyebrow="Use cases"
+        title="How it actually plays out"
+        lede="I build growth engines for businesses with AI: I fix how they show up online, automate their inbound leads, and use agents to grow faster than headcount allows. Here is the real client work, case by case."
       />
 
       {/* Case studies */}
@@ -65,7 +65,7 @@ export default function DarbaiLt() {
                   <div className="relative aspect-[16/10] border-b-[3px] border-ink md:border-b-0 md:border-r-[3px]">
                     <Image
                       src={c.img}
-                      alt={`${c.client} tinklalapis`}
+                      alt={`${c.client} website`}
                       fill
                       sizes="(min-width: 768px) 50vw, 100vw"
                       className="object-cover object-top"
@@ -93,7 +93,7 @@ export default function DarbaiLt() {
                       ))}
                     </ul>
                     <span className="mt-6 inline-flex items-center gap-2 text-[15px] font-bold text-blue transition-colors duration-150 group-hover:text-coral">
-                      Skaityti atvejį
+                      Read the case study
                       <span aria-hidden>→</span>
                     </span>
                   </div>
@@ -107,9 +107,9 @@ export default function DarbaiLt() {
       {/* What I do */}
       <section className="border-b-[3px] border-ink">
         <Container className="py-16">
-          <p className="avtag text-muted">Ką darau</p>
+          <p className="avtag text-muted">What I do</p>
           <h2 className="mt-3 max-w-2xl text-3xl font-extrabold tracking-tight">
-            Nuo pirmo lankytojo iki priimto kliento
+            From first visitor to onboarded client
           </h2>
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             {capabilities.map((c) => (
@@ -131,10 +131,10 @@ export default function DarbaiLt() {
       <Container className="py-16">
         <section className="avb flex flex-wrap items-center justify-between gap-6 bg-yellow px-8 py-10">
           <p className="max-w-md text-2xl font-extrabold tracking-tight">
-            Norite tokio variklio savo verslui?
+            Want an engine like this for your business?
           </p>
-          <Button href="/konsultacija" variant="dark">
-            Rezervuoti pokalbį
+          <Button href="/en/call" variant="dark">
+            Book a call
           </Button>
         </section>
       </Container>
