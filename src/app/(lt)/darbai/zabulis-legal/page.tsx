@@ -106,7 +106,7 @@ export default function ZabulisLegalLt() {
             <div>
               <p className="avtag text-coral">Iššūkis</p>
               <h2 className="mt-3 text-3xl font-extrabold tracking-tight">
-                Firma buvo geresnė už savo tinklalapį
+                Stipri firma, prastas tinklalapis
               </h2>
             </div>
             <ul className="space-y-4">

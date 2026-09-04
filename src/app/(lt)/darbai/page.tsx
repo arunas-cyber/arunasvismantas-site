@@ -12,7 +12,7 @@ export const metadata = pageMetadata("work-lt");
 const capabilities = [
   {
     n: "01",
-    h: "Skaitmeninis pamatas ir klientų variklis",
+    h: "Skaitmeninis pamatas ir klientų srautas",
     body: "Greita ir randama svetainė, SEO bei GEO optimizacija ir funeliai, kurie lankytoją paverčia užklausa.",
   },
   {
@@ -34,7 +34,7 @@ const cases = [
     img: "/images/work/zabulis-legal.jpg",
     client: "Zabulis Legal",
     sector: "Teisė · UK ir Lietuva",
-    headline: "Trikalbis skaitmeninis veidas ir klientų variklis advokatui",
+    headline: "Trikalbis tinklalapis, pritraukiantis advokatui klientų",
     summary:
       "Du pasenę Wix tinklalapiai virsta vienu greitu, trikalbiu (EN/LT/RU) tinklalapiu su potencialių klientų surinkimo funeliu ir AI agentais užklausoms.",
     tags: ["Svetainės perstatymas", "SEO ir GEO", "Klientų funelis", "AI agentai"],
@@ -48,7 +48,7 @@ export default function DarbaiLt() {
       <PageHeader
         eyebrow="Atvejai"
         title="Kaip tai atrodo iš tikrųjų"
-        lede="Kuriu verslams augimo variklius su AI: sutvarkau buvimą internete, automatizuoju gaunamas užklausas ir su agentais padedu augti greičiau, nei leidžia etatai. Štai realūs klientų atvejai."
+        lede="Padedu verslams su AI pritraukti daugiau klientų: sutvarkau, kaip įmonė atrodo internete, automatizuoju gaunamas užklausas ir agentais padedu augti greičiau, nei leidžia etatai. Štai keli realūs klientų atvejai."
       />
 
       {/* Case studies */}
@@ -131,7 +131,7 @@ export default function DarbaiLt() {
       <Container className="py-16">
         <section className="avb flex flex-wrap items-center justify-between gap-6 bg-yellow px-8 py-10">
           <p className="max-w-md text-2xl font-extrabold tracking-tight">
-            Norite tokio variklio savo verslui?
+            Norite tokių pat rezultatų savo versle?
           </p>
           <Button href="/konsultacija" variant="dark">
             Rezervuoti pokalbį
