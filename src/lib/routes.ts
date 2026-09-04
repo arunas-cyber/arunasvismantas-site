@@ -61,6 +61,23 @@ export const routes: SiteRoute[] = [
     tier: 1,
     status: "live",
     counterpart: "about-lt",
+    nav: 3,
+  },
+  {
+    key: "work",
+    locale: "en",
+    path: "/en/work",
+    title: "Work",
+    description:
+      "Client work by Arunas Vismantas: AI-powered acquisition engines, inbound lead automation, and custom agents that help businesses scale. First client: Zabulis Legal.",
+    keywords: [
+      "ai agency",
+      "ai automation for business",
+      "arunas vismantas",
+    ],
+    tier: 1,
+    status: "live",
+    counterpart: "work-lt",
     nav: 2,
   },
   {
@@ -111,7 +128,7 @@ export const routes: SiteRoute[] = [
     tier: 1,
     status: "live",
     counterpart: "newsletter-lt",
-    nav: 4,
+    nav: 5,
   },
   {
     key: "press",
@@ -124,7 +141,7 @@ export const routes: SiteRoute[] = [
     tier: 1,
     status: "live",
     counterpart: "press-lt",
-    nav: 3,
+    nav: 4,
   },
   {
     key: "privacy",
@@ -184,6 +201,23 @@ export const routes: SiteRoute[] = [
     tier: 1,
     status: "live",
     counterpart: "about",
+    nav: 3,
+  },
+  {
+    key: "work-lt",
+    locale: "lt",
+    path: "/darbai",
+    title: "Darbai",
+    description:
+      "Arunas Vismantas ir darbai su klientais: AI pagrįsti klientų pritraukimo varikliai, užklausų automatizavimas ir individualūs agentai, padedantys verslui augti. Pirmasis klientas: Zabulis Legal.",
+    keywords: [
+      "ai agentura",
+      "verslo automatizavimas su ai",
+      "arunas vismantas",
+    ],
+    tier: 1,
+    status: "live",
+    counterpart: "work",
     nav: 2,
   },
   {
@@ -234,7 +268,7 @@ export const routes: SiteRoute[] = [
     tier: 1,
     status: "live",
     counterpart: "newsletter",
-    nav: 4,
+    nav: 5,
   },
   {
     key: "press-lt",
@@ -247,7 +281,7 @@ export const routes: SiteRoute[] = [
     tier: 1,
     status: "live",
     counterpart: "press",
-    nav: 3,
+    nav: 4,
   },
   {
     key: "privacy-lt",
